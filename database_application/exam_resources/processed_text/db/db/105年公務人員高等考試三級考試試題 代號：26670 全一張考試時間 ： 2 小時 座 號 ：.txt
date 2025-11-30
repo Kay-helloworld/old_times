@@ -1,0 +1,84 @@
+105年公務人員高等考試三級考試試題 代號：26670 全一張
+（正面）
+類科 ：  資訊處理
+科目 ：  資料庫應用
+考試時間 ： 2 小時 座 號 ：         
+※注意： 禁止使用電子計算器。 
+不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。 
+ 
+（請接背面） 
+ 
+ 
+一、某市政府希望透過網路來處理市民的反映問題，經過訪談和分析後，獲得以下需求： 
+1.陳情案（Case）：必須記載陳情人的電子郵件信箱（email）和姓名（name）、陳情
+時間（dateTime）、主旨（title）、內容（content）和附檔（files）。其中陳情人的電
+子郵件信箱、姓名和陳情時間合起來為唯一，附檔可有多個。 
+2.局處（Division）：必須記載局處名稱（dName）和首長姓名（director）。其中局處
+名稱為唯一，且每一陳情案可能會分配給數個相關局處來處理。 
+3.員工（Employee）：必須記載員工編號（eId）、姓名（eName）和身分證字號（pId）。
+其中員工編號和身分證字號均為唯一，且一位員工剛好屬於一個局處。員工一定是
+以下兩種身分中的一種：行政員工（Admin）和技術員工（Tech），行政員工要記
+載其職級（level），技術員工則要記載其技術能力（expertise）。此外，一個陳情案
+會由一位行政員工來總負責（Handles）。 
+請依以上需求敘述，畫出其實體關係圖（Entity Relationship Diagram ），員工的分
+類請使用繼承（Inheritance）來表示。（20 分） 
+請將的實體關係圖轉成關聯綱目並指出主鍵、外鍵，以及外鍵的參考關係。（10 分） 
+二、考慮以下記載討論版文章的關聯： 
+R(發表人 id, 發表人姓名, 發表時間, 主旨, 內容, 字數, 回應發表人 id, 回應發表時
+間) 
+函數相依（functional dependency）以→表示，包含於（is the subset of）以⊆表示： 
+發表人 id→發表人姓名 
+{發表人id, 發表時間}→{主旨, 內容, 回應發表人id, 回應發表時間} 
+內容→字數 
+{(回應發表人 id, 回應發表時間)}⊆{(發表人id, 發表時間)} 
+請推論出以上關聯R 的主鍵和外鍵，推導過程必須列出。（6 分） 
+請將關聯分解成第二正規式（ Second Normal Form, 2NF ）但不滿足第三正規式
+（Third Normal Form, 3NF），請指明主鍵、外鍵和其參考關係。（7 分） 
+請將關聯分解成第三正規式，請指明主鍵、外鍵和其參考關係。（7 分） 
+三、考慮以下記載討論版文章的關聯： 
+Member(mId, mName, email) 
+// 會員(編號, 姓名, 電子郵件信箱) 
+Post(pId, mId, dateTime, title, pContent) 
+// 文章(文章 id, 作者編號, 日期時間, 主旨, 內容) 
+105年公務人員高等考試三級考試試題 代號：26670 全一張
+（背面）
+類 科：資訊處理
+科 目：資料庫應用
+ 
+ 
+ 
+Reply(pId, rId, rmId, dateTime, rContent) 
+// 回文(文章 id, 回文 id, 回文作者編號, 日期時間, 內容) 
+ 
+其中主鍵以底線表示，外鍵如下： 
+Post(mId)參考到Member(mId) 
+Reply(pId)參考到 Post(pId) 
+Reply(rmId)參考到Member(mId) 
+ 
+請用一個 SQL 查詢句(Queries)回答以下每一個查詢： 
+列出2016 年有PO 過文章（即出現在Post 關聯裡）的會員之會員編號和姓名。（5 分） 
+對於每一篇PO 文，列出其 pId, PO 文時間，PO 文作者姓名，以及在2016 年被回
+應的次數。（8 分） 
+列出有原作者回應的PO 文之 pId, title 和作者姓名。（7 分） 
+找出 PO 文中（即出現在Post 關聯裡）的內容有疑似西元日期的文章之pId, title, PO
+文作者姓名。所謂疑似西元日期是指出現連續四個數字，且第一個數字為1 或 2，
+或是（連續）數字前有西元或公元的字眼。（10 分） 
+四、MongoDB 是目前使用愈來愈普遍的NoSQL 資料庫管理系統，NoSQL 的主要特色包
+括 Schemaless, eventual consistency 和 horizontal scaling 
+請說明 Schemaless, eventual consistency 和 horizontal scaling 的意義。（10 分） 
+假設你有一個order(訂單)的collection，包含四個欄位：cust_id(顧客id), product(產
+品), amount( 金額), type( 產品型態)，以下 Mongo 查詢句可用來找出衣服(clothing)
+類產品總購買金額超過10,000 元的顧客之顧客id 和衣服類產品購買總金額： 
+db.orders.aggregate( [ 
+ { $match: {type: “clothing”}} 
+ { 
+  $group: { 
+   _id: “cust_id”, 
+   total: { $sum:
+ “amount”} 
+  } 
+ } 
+ { $match: {total: { $gt: 10000}}} 
+]) 
+請仿以上MongoDB 語法，找出購買金額超過1,000 元的訂單中，各類產品的總購買
+金額。（10 分） 

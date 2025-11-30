@@ -1,0 +1,44 @@
+114年公務人員特種考試關務人員、身心障礙人員考試及
+114年國軍上校以上軍官轉任公務人員考試試題
+考 試 別：身心障礙人員考試
+等 別：三等考試
+類 科：資訊處理
+科 目：資料庫應用
+考試時間：2 小時 座號：
+※注意： 禁止使用電子計算器。
+不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本
+試題上作答者，不予計分。
+本科目除專門名詞或數理公式外，應使用本國文字作答。
+代號：31040
+頁次：2－1
+一、在關聯式資料庫的實作中，外鍵（FK）參考主鍵（PK）是很重要的設計概
+念。但若主鍵所在的紀錄被刪除時，勢必影響到外鍵紀錄的參照。比較常使
+用來處理外鍵紀錄的選項有CASCADE、SET NULL及RESTRICT（或稱為
+NO ACTION），請說明三種方式的差異與造成的影響。（25 分）
+二、在 MySQL 中，常見的日誌（Log）類型有交易日誌（Transaction Log）、
+錯誤日誌（Error Log）、查詢日誌（Query Log）、慢查詢日誌（Slow Query
+Log）、複寫日誌（Replication Log）、稽核日誌（Audit Log）及事件日誌
+（Event Log），請說明這些日誌（Log）的用途。（25 分）
+三、在 SQL 中 GROUP BY 和 PARTITION BY 子句都是用來將資料分組並可
+利用聚合函數計算值。請就下列例子及 SQL 語法，說明兩者的輸出結果
+以及二者之間的功能差異。（25 分）
+SELECT depname, avg(salary) as avg_salary FROM empsalary GROUP BY
+depname;
+SELECT depname, empno, avg(salary) as avg_salary OVER (PARTITION BY
+depname) FROM empsalary;
+depname empno salary
+develop 102008 52000
+develop 099002 76000
+develop 111002 45000
+hr 100003 52000
+develop 103007 49000
+sales 111024 45000
+hr 107043 47000
+develop 098009 90000
+sales 112021 38000
+sales 109037 46000
+代號：31040
+頁次：2－2
+四、請說明 SQL Server 常見的三種資料庫備份方式，完整備份、差異備份以
+及交易紀錄備份，應如何搭配使用（可就系統規模、重要性等考量因素進
+行規劃）？（25 分）

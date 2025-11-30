@@ -1,0 +1,60 @@
+111年公務人員特種考試警察人員、一般警察人員、國家安全局國家
+安全情報人員考試及111年特種考試交通事業鐵路人員考試試題
+考 試 別：一般警察人員考試
+等 別：三等考試
+類科組別：警察資訊管理人員
+科 目：資料庫應用
+考試時間：2 小時 座號：
+※注意：禁止使用電子計算器。
+不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。
+本科目除專門名詞或數理公式外，應使用本國文字作答。
+代號：30440
+頁次：2－1
+一、政府在推動兩稅合一以抑制房價的高漲，今有一家房屋仲介公司擬建置
+一資料庫，經過系統分析後，有如下的需求：
+⑴每一間房屋（House）：有一房屋編號（house-id）、街道名稱（house-str）、
+房屋種類（house-type）與價格（price），房屋編號唯一識別所有房屋。
+⑵每一屋主（Solder）：有一屋主編號（solder-id）、屋主姓名（solder-name）、
+屋主地址（solder-addr）與屋主電話（solder-tel），每一屋主有數個電
+話，屋主編號唯一識別所有屋主。
+⑶每一買主（Buyer）：有一買主編號（buyer-id）、買主姓名（buyer-name）、
+買主地址（buyer-addr）與買主電話（buyer-tel），每一買主有數個電話，
+買主編號唯一識別所有買主。
+⑷房屋與屋主的關係為一個屋主可同時提供數間房屋委賣（Sold-By），
+一間房屋可由多位屋主所擁有，每一委賣皆記錄其委賣時間（sold-
+time）、契約書編號（contr-id）與佣金成數（sold-comm）。
+⑸房屋與買主的關係為一個買主可同時購買（Purch-By）數間房屋，但
+每一房屋僅為一買主所購買，每一購買皆記錄其購屋日期（buy-time）、
+契約書編號（contr-id）、成交價（buy-price）與佣金成數（buy-comm）。
+⑹每一屋主（Solder）會有多個繼承人（Inher-Dep），每一繼承人（Inheritor）
+有繼承人編號（inher-id）與繼承人姓名（inher-name），繼承人編號唯
+一識別繼承人，繼承人依附於屋主存在。
+請繪出此房屋仲介公司資料庫的實體關係圖（ER Diagram），此實體關係
+圖裡應包括有強實體型態（Strong Entity Types ）與弱實體型態（Weak
+Entity Types）的設計，並請標示各項限制（Constraints）。（25 分）
+代號：30440
+頁次：2－2
+二、給予一關聯綱要（Relation Schema）GROUND（property-id, county-name,
+lot-id, area, price, tax-rate ），此關聯綱要記錄土地資料，包括財產編號
+（property-id）、鄉鎮名稱（county-name）、地號（lot-id）、土地面積（area）、
+價格（price）與稅率（tax-rate），主鍵為財產編號（property-id），並給予
+一組功能依附性（Functional Dependencies ）{{property-id}→{county-
+name, lot-id, area, price, tax-rate}，{county-name, lot-id}→{property-id, area,
+price, tax-rate}，{county-name}→{tax-rate}，{area}→{price}}，關聯綱要
+GROUND 是否為 2NF？如不是，會有何問題？請將 GROUND 正規化至
+2NF，然後至 3NF。（25 分）
+三、給予如下兩個關聯綱要（Relation Schemas），EMPLOYEE 關聯綱要記錄
+員工編號（ssn）、年齡（age）及所在部門（dno），主鍵為 ssn，DEPARTMENT
+關聯綱要記錄部門編號（dnum）及名稱（dname），主鍵為 dnum，其中
+EMPLOYEE 的外來鍵（Foreign Key）“dno”參考到DEPARTMENT的主
+鍵（Primary Key）“dnum”，請用 SQL GROUP BY 寫出查詢「至少兩個
+人的部門，取出部門名稱及年齡大於 25 歲的人數（For each department
+that has more than two employees, retrieve the department name and the
+number of its employees who each is more than twenty-five years old ）」。
+（25 分）
+四、一資料庫管理系統（DBMS）基本上包括一資料庫安全與授權子系統
+（Database Security and Authorization Subsystem ），負責確保對沒有授權
+資料庫內容存取的安全，請論述一資料庫安全與授權子系統兩類型的資
+料庫安全機制（Two Types of Database Security Mechanisms），其中對資
+料庫內容的存取，在 SQL 語言中可使用何指令來設定權限，並寫出一獲
+得授權存取表格的例子。（25 分）

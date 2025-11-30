@@ -1,0 +1,41 @@
+106年特種考試地方政府公務人員考試試題 代號：33630 全一頁
+等別 ：  三等考試 
+類科 ：  資訊處理 
+科目 ：  資料庫應用 
+考試時間 ： 2 小時 座 號 ：         
+※注意： 禁止使用電子計算器。 
+不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。 
+本科目除專門名詞或數理公式外，應使用本國文字作答。 
+ 
+（請接背面） 
+ 
+ 
+一、請試述下列名詞之意涵：（每小題5 分，共 20 分） 
+Entity Integrity Rule 
+Location independence in a distributed database 
+SSA: Segment Search Arguments in the Hierarchical Database Model 
+Two Phase Locking Protocol 
+二、一個大學課程關聯資料庫包含下列關係：（每小題5 分，共20 分） 
+STUDENT(S#, Sname, Saddress, D#), TEACHER(T#, Tname, Taddress, D#), 
+COURSE(C#, Cname, CreditHour), TAKE_COURSE(S#, C#, Score),  
+OFFER(T#, C#, Classroom) 
+寫出下列查詢的SQL 描述： 
+找出學生姓名與其曾經修過某位老師剛好兩門課的老師姓名 
+找出從來沒有被當過（所有課程Score ≧60）的學生姓名 
+找出修過名稱為‘John’開設所有課程並且都被當掉的學生 
+列出所有學生的姓名與總學分數（CreditHour）與修過課程的平均分數 
+三、一家醫院欲設計電子病歷系統，但對應窗口並無相關資訊技術，僅開出如下規格： 
+[醫生資料]: 姓名, 科別, 年資, [ 門診資料]: 診別, 時間, 主治醫生, [ 病患]: 姓名, 個
+人資料, 另外也須紀錄[就診記錄]。 
+請根據想像設計一更完整的簡易醫院就診記錄查詢系統關聯資料庫，需能夠回答
+的查詢，並繪出相關ER diagram。（10 分） 
+請根據你設計的資料庫寫出下列相對應的SQL 查詢字串：（10 分） 
+ 在日期D 來看內科且有拿藥的六十歲女性。 
+ 同一科看過兩次的病患姓名與對應醫生年資。 
+四、如果scheme R = (A, B, C, D, E)，並滿足以下所有的functional dependencies  
+A→BC, CD→E, B→D, E→A 
+假設我們分解（decomposition）R 成為(A, B, C), (A, D, E)。證明這是一個lossless-join
+分解。（10 分） 
+寫出一個lossless-join 分解使得R 分解後滿足BCNF。（10 分） 
+寫出一個lossless-join 分解使得R 分解後滿足3NF。（10 分） 
+五、請解釋叢集索引與非叢集索引的意義與差別。（10 分） 

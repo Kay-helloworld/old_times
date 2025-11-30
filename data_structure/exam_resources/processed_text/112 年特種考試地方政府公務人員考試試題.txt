@@ -1,0 +1,57 @@
+代號：34680 112 年特種考試地方政府公務人員考試試題
+頁次：2－1
+等 別：三等考試
+類 科：資訊處理
+科 目：資料結構
+考試時間： 2 小時 座號：
+※注意：禁止使用電子計算器。
+不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。
+本科目除專門名詞或數理公式外，應使用本國文字作答。
+一、請以 C, C++, C#, Java 或 Python 撰寫 2 個方法，一個以迴圈方式，一個
+以遞迴方式，對存在 singularlinked list 的資料進行 linearlysearch。假設
+Node 的結構如下：（12 分）
+二、請為數列 0, 10, 30, 20, 50, 80, 40, 90, 70, 60 建立 AVL tree, Min/Max heap,
+2−4tree，並依它們的性質以 yesorno 完成下表。註：所建立的 treeorheap
+請以圖示，如果是 Searching Tree，請以左小右大的方式建立。（24 分）
+Balance Searching Tree
+AVL tree
+Min heap
+Max heap
+2−4 tree
+三、請以如下的 Huffman Tree 所做的數字編碼，解讀 01010111110100100011
+編碼對應的數字。（10 分）
+代號：34680
+頁次：2－2
+四、針對如下的有向圖（節點為走訪對象，連線上的數字為走訪的 cost），依
+如下 BFS（配合 queue）與 DFS（配合 stack）演算法，進行所有節點的
+走訪，多個節點可以走訪時，以連線上 cost 較低者優先，結果請以迴圈
+內部的顯示要求，依下表形式填入（stack 垂直表示，開口在上方，queue
+水平表示，出口在左，入口在右）。註：假設節點 S 為起始點。（24 分）
+BFS 演算法 Loop1 … DFS 演算法 Loop1 …
+print node print node
+queue Stack
+processSet processSet
+BFS/DFS 演算法（/前為 BFS 使用 queue, /後為 DFS 使用 stack）
+Step1: set queue/stack to empty
+set processSet to empty
+Step2: enqueue/push S and add S into processSet
+Step3: while queue/stack is not empty
+Step31: dequeue/pop and print it
+Step32: enqueue/push all one step neighbors which are not in processSet
+according to the cost of edges and add them into processSet
+Step33: display content of queue/stack and processSet
+五、請完成下列表格有關排序演算法的 time complexity（假設排序資料有 n
+個，資料位數有 d 個）、是否為 In Space 演算法、是否為 Stable 演算法
+−
+及範例數列 50, 46, 37, 28, 19 進行降冪排列時所需的比較次數。（30 分）
+Time Complexity In−Space Stable 降冪比較次數
+排序演算法
+Best Worst （Yes/No） （Yes/No） 50, 46, 37, 28, 19
+Bubble
+Insertion
+Merge（奇數時，
+後半段多 1）
+Quick（第一個當
+pivot）
+Radix（base 10）
+Selection

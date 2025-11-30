@@ -1,0 +1,190 @@
+109年公務人員特種考試外交領事人員及外交行政人員、
+國際經濟商務人員、民航人員及原住民族考試試題
+考 試 別：外交人員考試
+等 別：四等考試
+類科組別：外交行政人員類科資訊組
+科 目：系統分析及設計與資料庫應用概要
+考試時間：1 小時30 分 座號：
+※注意：禁止使用電子計算器。
+代號：20260
+頁次：4－1
+甲、申論題部分：（50 分）
+不必抄題，作答時請將試題題號及答案依照順序寫在申論試卷上，於本試題上作答者，不予計分。
+請以藍、黑色鋼筆或原子筆在申論試卷上作答。
+本科目除專門名詞或數理公式外，應使用本國文字作答。
+一、NoSQL 資料庫系統最近在大量資料儲存領域逐漸受到重視：
+請解釋什麼是NoSQL 資料庫管理系統？（10 分）
+在眾多 NoSQL 資料庫格式中，json 是常被使用的。請您將下列的關
+聯式資料集改以 json 格式儲存。（12 分）
+id author announcement Create_time
+238 'Bill' '國際環保遵行規定' 2020/08/15
+256 'Jane' '文化資產保存' 2020/08/18
+二、近來在很多國家裡興起一種微型創業貸款，利用資訊技術媒合出資者與
+貸款者。我們利用以下簡化的延伸 E-R 模型來描述這個經濟活動，它必
+須支援以下需求：
+每位貸款者（Borrower）可以註冊其身分證字號 ID（唯一的）、姓名
+（name）及地址（address）。假設貸款者的 ID 維繫整個模型，且一個
+貸款者一天最多只能提出一個貸款請求。
+初始經濟活動由貸款者創建（creates）貸款請求（Loan Request）開始，
+其屬性包括貸款者 ID、貸款請求日期（Date）、貸款目的（purpose）
+及大於 0 的貸款請求金額（RAmount）。
+貸款成立後，經濟活動中心成為貸款（Loan）。貸款的屬性包括貸款編
+號（LID）、大於0 的貸款金額（LAmount）、期數（period）、貸款核准
+日期（LDate）和截止日期（deadline）。
+一筆貸款將分由多期繳款（Repayment）來償還。繳款的屬性還應加上
+貸款編號、繳款日期（PDate）、第幾期（N-th-payment；未還款前期數
+為 0）和大於 0 的繳款金額（PAmount）。
+
+代號：20260
+頁次：4－2
+請以您熟悉的 SQL DDL （資料描述語言）設計關聯綱要（Relational
+Schema），完成上述微型貸款的關聯模型。具體的作業如下：
+產生 Borrower 資料表，以 ID 為主鍵。（提示：以 SQL 完成 CREATE
+TABLE Borrower（……））（7 分）
+產生Loan Request資料表。（注意：Loan Request與Borrower的關聯需用
+外來鍵建立，設定複合主鍵（Composite Key）、限制條件RAmount > 0、
+貸款請求日期（RDate）不可缺）（7 分）
+產生Loan資料表，但貸款成立日期（LDate）不一定是貸款請求日期（Date）。
+（注意：Loan與Loan Request的關係、設定主鍵、限制條件加上貸款金額
+LAmount不得超過請求金額RAmount，且LAmount > 0）。（7 分）
+產生Repayment資料表。（注意：設定複合主鍵、限制條件PAmount > 0）
+（7 分）
+乙、測驗題部分：（50 分） 代號：6202
+本測驗試題為單一選擇題，請選出一個正確或最適當的答案，複選作答者，該題不予計分。
+共25題，每題2 分，須用2B鉛筆在試卡上依題號清楚劃記，於本試題或申論試卷上作答者，不予計分。
+1 下列那一項通常不屬於專案管理中之專案利害關係人（Project Stakeholders）？
+供應商（Suppliers） 一般公眾（General Public）
+專案對手（Project Opponents） 專案經理（Project Manager）
+2 當進行軟體大小評估（Size Estimation）時，專案經理通常可依據過去開發完成軟體專案的歷史資
+料，找出影響開發工作量（Effort）的因素，再以統計迴歸方法得以導出軟體工作量估算方程式。
+以上敘述為下列何者？
+碼行數（Lines of Code） 參數式模型（Parametric Models）
+類比法（Analogy） 德菲法（Delphi Method）
+3 當我們進行軟體測試時可把自上而下整合測試方法（Top-Down Integration Testing）和自下而上整
+合測試方法（Bottom Up Integration Testing）組合起來以克服這兩種方法的缺點並擷取這兩種方法
+的優點。以上敘述為下列何者？
+效能測試（Performance Testing） 迴歸測試（Regression Testing）
+三明治測試（Sandwich Testing） 驗收測試（Acceptance Testing）
+4 下列那一項非敏捷開發方法（Agile Methods）的優點？
+能與客戶進行面對面溝通為最有效的資訊傳遞方法
+能夠快速、持續開發和交付有用的軟體
+與其他開發方法相比，敏捷方法的實施成本低
+遵循漸進式的開發與交付
+5 就管理的範疇（Management Spectrum）而言，有效的軟體專案管理通常聚焦於所謂的四個Ｐ，除
+了人員（People）外，下列何者非屬四個Ｐ的項目？
+專案（Project） 優先順序（Priority）產品（Product） 過程（Process）
+6 在一個理想的需求工程（Requirement Engineering）中，起始（Inception）、導出（Elicitation）和細
+緻化（Elaboration）等工作能確保開發人員得到足夠詳細的客戶需求以便展開後續的軟體工程步
+驟，但在實務上這些似乎不太可能發生。基本上實務人員（Practitioner）可定義每個軟體過程反覆
+（Iteration）啟動時的一系列協商活動。而這非定義單一的客戶交流活動，他們會去辨識出系統或
+子系統主要的利害關係人（Stakeholders），之後確認利害關係人獲利的條件，接著再就這些條件
+進行協商，使其與軟體專案所有關係人的互惠條件一致，透過這些步驟的成功實施便可達到雙方
+皆滿意與獲利的結果，這是展開後續軟體工程開發活動的關鍵。以上敘述為下列何者？
+演進流程模型（Evolutionary Process Models）
+敏捷方法（Agile Method）
+雙贏螺旋模型（WinWin Spiral Model）
+統一流程（The Unified Process）
+代號：20260
+頁次：4－3
+7 關聯式資料庫（Relational Database）之整體邏輯結構（logical structure）可用圖形來表示，請問下
+列何種圖形代表實體類型（Entity Type）與實體類型間的關係（Relationship）？
+圓形 矩形 橢圓形 菱形
+8 決策表（Decision Table）技術可適用於系統分析與測試階段，當決策表應用於軟體測試（Software
+Testing）時，請問它被歸類於下列何種測試？
+白箱測試（White-Box Testing ） 迴歸測試（Regression Testing）
+煙霧測試（Smoke Testing） 黑箱測試（Black-Box Testing）
+9 軟體組態管理（Software Configuration Management）是一組用於在電腦軟體的整個生命週期內管
+理變更（Change）的活動，當開發一個組態管理系統（Configuration Management System）時我們
+應該確定四個重要元素（Elements）。除了元件元素（Component Elements）外，下列何者並不屬
+於組態管理系統元素？
+過程元素（Process Elements） 資訊元素（Information Elements）
+建構元素（Construction Elements） 人員元素（Human Elements）
+10 風險管理策略（Risk Management Strategy）可以包含在軟體專案計畫中，我們亦可將風險管理步
+驟（Steps）組織成一個獨立的 RMMM 計畫，RMMM 計畫記錄了所有風險分析工作，專案經理
+（Project Manager）還可將 RMMM 計畫作為整個專案計畫的一部分。RMMM 計畫中第一個字Ｒ
+代表風險（Risk），請問下列何者非屬RMMM 計畫中之其他三個 M 的原意？
+減輕（Mitigation） 監測（Monitoring） 建模（Modeling） 管理（Management）
+11 能力成熟度模型整合（Capability Maturity Model Integration，簡稱為 CMMI）是一種流程與行為模
+型（Process and Behavioral Model），為美國卡內基美隆大學軟體工程學院（CMU-SEI）所制定。
+CMMI 提供了一個組織該如何做方能提升績效（Performance）之明確定義，請問下列何者非屬
+CMMI 第二級（Level 2）關鍵流程領域（Key Process Areas）？
+需求管理（Requirements Management）
+需求發展（Requirements Development）
+組態管理（Configuration Management）
+流程與產品品質保證（Process and Product Quality Assurance）
+12 請問程式碼（Code）的審查（Review）與檢查（Inspection）箇中最主要差異為下列何者？
+主持人（Moderator）不同
+審查是一個人做，檢查是一個團隊（Team）來執行
+目標（Objective）不同
+程式碼的涵蓋範圍（Coverage）不同
+13 針對以下的 ER 圖（Entity Relationship Diagram）：
+下列的描述何者錯誤？
+每一位學生至少要選一門課程 每一位學生可以選多門課程
+每一門課程至少要有一位學生選 每一門課程的選修人數不限
+14 有一 order 資料表有以下的欄位及部分資料紀錄：
+訂單編號 書號 業務員編號 負責業務員 客戶名稱 書籍名稱 數量
+0100 F5301 1011 周偉 九如書店 Linux實務應用 15
+0100 F5120 1011 周偉 九如書店 XOOPS架站王 80
+0100 F5662 1011 周偉 九如書店 威力導演 40
+0102 F5662 1012 李洋 天下量販店 威力導演 60
+運用第二正規化原則進行資料表拆解，請問可以拆成幾個表格？
+1  2  3  4
+15 要從選課表中查詢出選修 2 科及 2 科以上的學生學號之 SQL 敘述，下列何者正確？
+SELECT 學號，count（*）FROM 選課表 Having COUNT（*）>=2
+SELECT 學號，count（*）FROM 選課表 GROUP BY 學號 Where COUNT（*）>=2
+SELECT 學號，count（*）FROM 選課表 GROUP BY 學號 Having COUNT（*）>=2
+SELECT 學號，count（*）FROM 選課表 Where COUNT（*）>=2
+學生 課程
+代號：20260
+頁次：4－4
+16 我們會將常用且固定的資料表異動操作或查詢動作撰寫成預存程序（Stored Procedure ）。下列敘
+述，何者不是預存程序的優點？
+提高執行效率 增加資料的安全性
+模組化方便重複使用 達成資料的機密性
+17 在開發軟體系統時，模組的設計原則是下列何者？
+高內聚力（cohesion）及高耦合力（coupling）
+低內聚力及高耦合力
+高內聚力及低耦合力
+低內聚力及低耦合力
+18 在物件導向塑模中，類別之間有 4 種關係，其中有一種關係用來表示一個類別會使用到其他類別，
+且被使用類別的改變可能會影響到使用它的類別。請問此種關係為下列何者？
+相依（Dependency） 一般化（Generalization）
+聯結（Association） 實現化（Implementation）
+19 UML（Unified Modeling Language）的各種圖（diagram）在系統設計時是很有用的工具，下列那
+兩種圖可用來表示物件間的互動（interaction）？
+順序圖與狀態圖 合作圖與狀態圖 順序圖與部署圖 合作圖與順序圖
+20 為了效率，必須允許多個使用者可以同時並行存取資料庫，但同時存取資料庫可能導致 3 個問題
+的發生，分別是⑴遺失更新（lost update），⑵未交付相依（uncommitted dependency），⑶非一致性
+回取，包括不正確總結（incorrect summary ）、幽靈讀取（phantom read ）及無法重覆讀取
+（nonrepeatable read）。不乾淨讀取（Dirty read）是下列的那一種問題？
+未交付相依 遺失更新 不正確總結 幽靈讀取
+21 三層式架構（3-tier architecture）是目前系統的主要架構，下列所列出的資訊3-tier 名稱，何者正確？
+Client Tier、Application Tier、Data Tier
+Client Tier、Business Logic Tier、Data Processing Tier
+Presentation Tier、Business Logic Tier、Data Tier
+Presentation Tier、Application Tier、Data Processing Tier
+22 下列有關資料倉儲的描述，何者正確？
+線上交易處理（On-Line Transaction Processing）是資料倉儲的應用之一
+線上分析處理（On-Line Analytical Processing）能即時的、快速的提供整合性的決策資訊
+資料倉儲是資料市集的子集合
+資料倉儲通常需要進行正規化
+23 有一個專案共有 A、B、C、D、E 等 5 個工作項目，它們的工作天數如下表：
+工作項目 工作天數
+A 3
+B 7
+C 7
+D 5
+E 6
+C 必須在 A 完成之後才能開始，E 必須在 B 完成之後才能開始，請問此專案最少需要幾個工作天
+數才能完成？
+10  13  15  12
+24 軟體開發是專案管理的過程，專案幾乎都會遇到風險。針對發生機會小，但衝擊大的風險項目，
+我們應該採取下列那一種風險因應策略？
+防災（Hazard Prevention） 減險（Likelihood Reduction）
+避險（Risk Avoidance） 風險轉移（Risk Transfer）
+25 V-Model 開發模型強調在系統建置與發展的各個時期都應該有其對應的測試來給予適時回饋，請
+問下列有關 V-Model 的描述，何者正確？
+V-Model 是瀑布式的開發模型的延伸
+驗證（Verification）強調「我們是否正確建構產品（Are we building the product right？）」
+確認（Validation）強調「我們是否建構對的產品（Are we building the right product？）」
+系統設計對應允收測試（Acceptance Testing）

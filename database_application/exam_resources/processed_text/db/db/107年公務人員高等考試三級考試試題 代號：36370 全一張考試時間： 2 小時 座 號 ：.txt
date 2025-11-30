@@ -1,0 +1,72 @@
+107年公務人員高等考試三級考試試題 代號：36370 全一張
+（正面）
+類科 ：  資訊處理 
+科目 ：  資料庫應用
+考試時間： 2 小時 座 號 ：         
+※注意： 禁止使用電子計算器。 
+不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。 
+本科目得以本國文字或英文作答。 
+ 
+（請接背面） 
+ 
+ 
+一、請為如下的醫療院所設計符合BCNF 且考量OO 的 EER data model，model 中請註明
+合適的 primary/foreign/candidate keys ，資料表間的關聯亦請適當地說明彼此間的
+maximum/minimum cardinality。註：不需要用到的資料不必列入。（30 分） 
+• 假設一位醫師或護理人員只會屬於一個科別，但可以支援其它科別的門診 
+• 假設某一診間同一看診時段，只會安排一位醫師跟護理人員 
+• 醫師跟護理人員同屬於醫療單位的工作人員，除了工作人員的基本資料外，醫師
+會記錄「主治項目」、「學歷」、「經歷」、「現職」，護理人員會記錄「專長」 
+• 系統可依科系（如「內科系」）、科別（如「消化內科」）查詢科別的醫療項目 
+• 系統可依醫師查詢醫師的主治項目、學歷、經歷、現職、性別、門診時刻表（包
+括：日期、時段、醫師姓名、診間代號及掛號現況） 
+• 系統可依科系、科別查詢門診時刻表 
+• 系統可依病患查詢該病患的預約掛號資料，包括：病患身分代號/病歷號碼/病患、
+科系、科別、醫師代號/姓名、日期、時段、掛號號碼 
+• 系統可列印各日期時段的診間掛號資料，包括：科系、科別、日期、時段、醫師
+代號/姓名、護理人員代號/姓名、病患身分代號/姓名/性別/年齡（可藉由出生年月
+日計算） 
+二、假設現有如下推拿就醫資訊的關連式資料庫，請使用SQL 回答相關的子問題。 
+Naprapathist(nID
+, name, speciality) 
+Patient(pID, name, gender, birthday) 
+MedicalItem(mID, subject, description, charge) 
+MedicalRecord(mID, nID, pID, dateTime, extraCharge, totalCharge) 
+FKs: mID ref. MedicalItem(mID), nID ref. Naprapathist(nID), pID ref. Patient(pID) 
+其中 nID, mID, pID 是由 1000 開始每次增加1 的自動編號整數 ， 所有資料欄位不允空
+白，totalCharge 是由 MedicalRecord 的 charge 跟 extraCharge 加總而來。 
+定義資料表MedicalRecord（定義中應適當表示primary and foreign key） （10 分） 
+請依推拿師代號（nID）為分群依據，找出日期為"2018-06-06"，且該日期相對應
+推拿師所經手的醫療次數大於零時，個別推拿師在該日期所經手的相關醫療總收
+費金額及醫療次數（結果資料表應包含推拿師的名字、別名為"收費總金額"的醫療
+總收費金額、及別名為"醫療次數"的醫療次數，結果並依醫療次數作降冪排列顯
+示） 。 （10分） 
+ 
+  
+107年公務人員高等考試三級考試試題 代號：36370 全一張
+（背面）
+類科 ：  資訊處理 
+科目 ：  資料庫應用
+ 
+ 
+ 
+三、請將如下的投票物件陣列Key-Value資料，以符合BCNF 的RDB 資料表來表示。（15 分） 
+假設：一個ID 只能投一票 
+[{’CandidateID’: ’C01’, ’CandidateName’: ’Mary Wang’,  
+  ’Introduction’: ’Rock’, ’Birthday’: ’2000/01/01’, ’Score’: ’2’, 
+  ’V oteID’:[ {’ID’: ’A11’, ’Name’: ’A1’}, {’ID’: ’B11’, ’Name’: ’BB’} ] }, 
+ {’CandidateID’: ’C02’, ’CandidateName’: ’Jack Lee’,  
+  ’Introduction’: ’Blues’, ’Birthday’: ’1999/12/31’, ’Score’: ’2’, 
+  ’V oteID’:[ {’ID’: ’A22’, ’Name’: ’A2’}, {’ID’: ’B22’, ’Name’: ’BB’} ] }, 
+ {’CandidateID’: ’C03’, ’CandidateName’: ’Lily Su’,  
+  ’Introduction’: ’Lyric’, ’Birthday’: ’2001/06/01’, ’Score’: ’3’, 
+  ’V oteID’:[ {’ID’: ’A33’, ’Name’: ’A3’}, {’ID’: ’B33’, ’Name’: ’BB’},  
+             { ’ I D ’ :  ’C33’, ’Name’: ’C3’} ] }  ]  
+四、假設現有如圖三個transactions 同步存取資料A, B, C，請使用conflict equivalent 說明
+圖中同步執行的非序列排程（ non-serial schedule ），是否具有排程循序性
+（serializability）；如果具備排程循序性，執行結果可以等同於三個Transactions 的那
+種序列排程；如果不具排程循序性，衝突的cycle 為何？（15 分） 
+ 
+五、以跨國電商年度銷售資料（國別、日期、銷售金額…）為例，圖解說明 Map-Reduce
+的運算架構，並說明Map, Shuffle, 跟 Reduce 是如何分工而得到年度區域（如亞洲、
+歐洲、非洲、美洲、大洋洲）的總銷售金額？（20 分） 

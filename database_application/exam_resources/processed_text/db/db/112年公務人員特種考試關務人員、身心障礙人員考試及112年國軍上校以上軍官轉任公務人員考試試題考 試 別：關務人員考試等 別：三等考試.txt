@@ -1,0 +1,22 @@
+112年公務人員特種考試關務人員、身心障礙人員考試及
+112年國軍上校以上軍官轉任公務人員考試試題
+考 試 別：關務人員考試
+等 別：三等考試
+類 科：資訊處理
+科 目：資料庫應用
+考試時間：2 小時 座號：
+※注意：禁止使用電子計算器。
+不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。
+本科目除專門名詞或數理公式外，應使用本國文字作答。
+代號：10440
+頁次：1－1
+一、請定義資訊（Information）與詮釋資料（Metadata），並說明它們和資料
+（Data）的差別。（20 分）
+二、在擴充實體關係模型（Extended Entity-Relationship Model, EER Model）中，
+必須在父子型態關係（Supertype/Subtype Relationship ）上描述兩種限制
+（Constraints），請說明這兩種限制。（20 分）
+三、在關聯式資料庫（Relational Database ）的正規化理論（Normalization
+Theory）中，決定者（Determinant）與候選鍵（Candidate Key）的定義分
+別為何？決定者與候選鍵之間的關係為何？（30 分）
+四、資料倉儲（Data Warehouse）的設計是採用維度模式（Dimension Model），
+請列出維度模式的三種綱要（Schema），並說明這三種綱要的架構。（30 分）

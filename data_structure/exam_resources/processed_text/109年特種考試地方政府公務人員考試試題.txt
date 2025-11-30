@@ -1,0 +1,48 @@
+代號：34580 109年特種考試地方政府公務人員考試試題
+頁次：2－1
+等 別：三等考試
+類 科：資訊處理
+科 目：資料結構
+考試時間： 2小時 座號：
+※注意：禁止使用電子計算器。
+不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。
+本科目得以本國文字或英文作答。
+一、請設計演算法複製一棵二元樹（copy a binary tree）。（10分）
+二、請描述 order 為 m 的 B-tree 之特性。（6分）
+請問 order 為 m 高度為 h 的 B-tree：⑴最多有幾個節點？最多有幾個
+Key？（6分）⑵最少有幾個節點？最少有幾個 Key？（8分）
+三、請利用 Double Hashing 將下列 key 值放入 hash table of size 13中（如表
+1）：（14分）
+{24, 53, 17, 46, 14, 32, 37, 92}
+h (k)=k mod 13，h (k)=1+(k mod 11)，
+1 2
+h(k,i)=(h (k)+i*h (k)) mod 13 (i=0, 1,…, 12)
+1 2
+表1
+0 1 2 3 4 5 6 7 8 9 10 11 12
+四、在一棵高度為 h(h=0,1,2,…)的 AVL tree 中：⑴高度為6之 AVL tree 最多
+可能有幾個 nodes？最少可能有幾個 nodes？（假設 root 之 h=0）（6分）
+⑵假設此樹共有45個 nodes。請問此 AVL tree 可能最高之高度及最矮
+之高度各為何？（6分）
+請將下列數字{17,60,24,5,7}逐步插入圖1的 AVLtree 中，並平衡之。
+（12分）
+圖1
+代號：34580
+頁次：2－2
+五、請利用堆積排序法（Heap Sort）將圖2逐步建立成 Min Heap，並將數字
+從小到大逐一列舉。（10分）
+圖2
+六、請利用 KMP（Knuth, Morris, Pratt）演算法寫出失敗函數（failure
+function)之定義。（4分）
+找出 pattern “abcdabcabcdabcdabc”之失敗函數（failure function）值（請
+填入表2 failure value 中）。（14分）
+假設之 pattern 嘗試在 string“abcdabcabcdabcabcda…..”找出 pattern。
+當 pattern 從 index 0開始比對到 index 13都一樣，而在 index 14時發現
+字母不一樣，請問 pattern 如何利用 failure function 所得之結果很快找
+到下一個要對應之位置？也就是 pattern 的那一位置的值要位移到
+string 的那一對應位置。（4分）
+表2
+index 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+string a b c d a b c a b c d a b c a b c d a
+pattern a b c d a b c a b c d a b c d a b c
+failure value ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?

@@ -1,0 +1,47 @@
+代號：10460 109年公務人員特種考試關務人員、身心障礙人員考試及
+頁次：2－1
+109年國 軍 上 校 以 上 軍 官 轉 任 公 務 人 員 考 試 試 題
+考 試 別：關務人員考試
+等 別：三等考試
+類 科：資訊處理
+科 目：資料結構
+考試時間：2 小時 座號：
+※注意：禁止使用電子計算器。
+不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。
+本科目除專門名詞或數理公式外，應使用本國文字作答。
+一、資料庫應用中，需要根據主鍵值（Primary Key）建立索引檔，索引檔的
+建立常使用 B-tree 樹狀結構，今有一串資料，其主鍵值分別為：44, 29, 39,
+64,67,59,69,49，畫出將此串資料建成 order3 的 B-tree，接著，畫出從此串
+資料，新增（Insert）主鍵值 55 後 order 3 的 B-tree，最後，畫出從此串資料
+刪除（Delete）主鍵值 49 後 order 3 的 B-tree。（20 分）
+二、給定一個無向圖（Undirected Graph）G 的鄰接列表（Adjacency List）如圖，
+試依據該列表提供的資訊繪製出對應的無向圖 G，然後由節點（Vertex）H 為
+起始點繪製 Depth First Search（DFS）與 Breadth First Search（BFS）生成樹
+（Spanning Tree），遇有多個節點可被走訪時，字母順序越前面的節點，其
+被走訪的優先順序就越高。（20 分）
+無向圖 G 鄰接列表
+代號：10460
+頁次：2－2
+三、新冠肺炎肆虐全球，目前世界各國生物及醫學實驗室均在尋找新型冠狀病
+毒的基因，假設新型冠狀病毒的基因由 A, T, C, G, H, M 核苷酸所組成，
+今有一新型冠狀病毒的基因為 ATATATCCHCGMCMA，請使用霍夫曼演
+算法（Huffman Algorithm）設計霍夫曼樹（Huffman Trees），並設計出一
+編碼表（Code Words），依序分別寫出 A, T, C, G, H, M 核苷酸的編碼位
+元數，將此新型冠狀病毒基因以最少位元數（MinimumBit Strings）編碼，
+並計算出最少位元數（Minimum Bit Strings）。（20 分）
+四、給予一串資料：45,30,40,65,68,60,70,50，將此串資料依序建成一 max-heap
+樹，並說明如何從此 max-heap 樹進行由小至大的排序（Sorting）。（20 分）
+五、給予兩線性鏈結串列，其節點 C 語言的宣告如下：（20 分）
+#include <stdio.h>
+#include <stdlib.h>
+struct node{
+int data;
+struct node *next;
+};
+typedef struct node *NODEPTR;
+此兩線性鏈結串列，分別由指標 plist1 與 plist2 指在串列首，請完成下列
+程式片段，將 plist2 所指串列接在 plist1 所指串列後面。
+void concate（NODEPTR plist1, NODEPTR plist2）
+{
+NODEPTR p;
+}

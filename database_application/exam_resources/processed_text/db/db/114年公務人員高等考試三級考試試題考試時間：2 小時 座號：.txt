@@ -1,0 +1,29 @@
+114年公務人員高等考試三級考試試題
+類 科：資訊處理
+科 目：資料庫應用
+考試時間：2 小時 座號：
+※注意：禁止使用電子計算器。
+不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。
+本科目除專門名詞或數理公式外，應使用本國文字作答。
+代號：27740
+頁次：1－1
+一、說明下列 EER 模型（Enhanced Entity Relationship ）的四個構成要素，
+並各舉一個具體例子說明其在真實世界中的應用⑴Entity, ⑵Attribute,
+⑶Relationship, ⑷Supertype/Subtype。（20 分）
+二、請說明下列兩種事務隔離級別的差異，並針對每種隔離級別各舉一個可
+能造成資料不一致的實際情境：⑴Read Committed, ⑵Repeatable Read。
+（10 分）此外，請說明為何某些資料庫系統預設使用Read Committed而非
+Serializable。（10 分）
+三、根據下列客戶訂單資料回答相關查詢SQL敘述，資料表格為：Customer(CID,
+Name), Orders(OID, CID, TotalAmount, OrderDate), Payment(PID, OID,
+AmountPaid)。（每小題 10 分，共 30 分）
+在 OrderDate 為“2025.01.01”當天，所有客戶訂單總量排行，依總量由
+高到低列出客戶姓名與總量。
+找出截至 2025.01.01，曾有付款行為且總付款金額超過 10,000 的客戶
+姓名與其總付款金額。
+所有訂單但付款金額（AmountPaid）總和不足訂單金額（TotalAmount）
+的客戶名稱與欠款金額，並以欠款金額由高至低排序。
+四、請說明資料庫交易處理中的ACID意義與其四大性質（Atomicity, Consistency,
+Isolation, Durability）分別意義為何，（15 分）並針對下列交易衝突情境，
+指出可能違反的ACID 性質與造成的後果，情境：T1 在更新帳戶 A 餘額
+後尚未提交（commit），T2 同時讀取帳戶 A 的餘額並執行轉帳。（15 分）

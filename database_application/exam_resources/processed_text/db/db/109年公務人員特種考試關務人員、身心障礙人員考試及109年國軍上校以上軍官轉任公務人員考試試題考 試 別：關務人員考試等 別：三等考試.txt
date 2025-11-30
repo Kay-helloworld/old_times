@@ -1,0 +1,91 @@
+109年公務人員特種考試關務人員、身心障礙人員考試及
+109年國軍上校以上軍官轉任公務人員考試試題
+考 試 別：關務人員考試
+等 別：三等考試
+類 科：資訊處理
+科 目：資料庫應用
+考試時間：2 小時 座號：
+※注意：禁止使用電子計算器。
+不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。
+本科目除專門名詞或數理公式外，應使用本國文字作答。
+代號：10440
+頁次：3－1
+一、請為下列的流行傳染病採檢通報系統設計符合BCNF 且考量OO 的EER
+data model ，model 中請註明合適的 primary/foreign/candidate keys ，資料
+表間的關聯亦請適當地說明彼此間的 maximum/minimum cardinality。
+註：不需要用到的資料不必列入。（30 分）
+ 系統可以查詢各配合醫事機構的地址及開放時段，如星期一上午，星期
+五晚上……。
+ 系統可以查詢某特定縣市某特定時段有開放採檢的醫事機構，包含醫事
+機構名稱、地址、電話。
+ 系統可以查詢某特定日期某特定醫事機構，受檢男性人員的數量。
+ 系統可以查詢某特定縣市、所有確診人員所有的受檢日期時間及採檢的
+醫事單位。
+ 系統可以查詢確診案例的受感染類型（如本土、境外、不明……），感染
+源（如案編號……）、症狀、收治醫事機構、年齡、性別、縣市。
+ 系統可以查詢受檢後未確診需後續追踨相關人員的手機、居住地址（不
+等於戶籍地）及其需追踨事由（如檢疫、隔離、自主健康管理……）。
+ 系統可以查詢各縣市目前居家檢疫的數量。
+代號：10440
+頁次：3－2
+二、假設現有下列個人旅行資料紀錄的關連式資料庫，請使用 SQL 回答相關
+的子問題。註：假設每一航班每天最多只會飛行一次。
+Person（personID, name, nationality, gender） PK： personID
+Flight（flightID, date, flightNation, takeoff, arrival） PK：（flightID, date）
+TravelRecord（personID, flightID, date, seat） PK：（personID, flightID, date）
+FK：personID ref. Person （personID）,
+（flightID, date） ref. Flight （flightID, date）
+使用 DDL 定義所有的資料表，定義中應適當表示 primary and foreign
+key。（10 分）
+請依國籍及性別分類顯示，2020 年 5 月，由 USA New York 出發所有
+班機的搭機人數。註：結果需顯示國籍、性別及人數。（5 分）
+請列出2020 年5 月，搭機人數>=100 的所有航班資訊，包括航班代號、
+所屬國籍、出發地、目的地、日期，結果並依日期由近至遠排序。（5 分）
+新增 TW 籍，從 Taipei 飛往 Los Angles 的航班 BR777，2020/07/01 開
+始開放訂位，首位訂位客人（TW 籍，代號 P000000007 的男性，Mark
+Lee）目前不在系統所記錄的 Person 資料表中，請為此位客人加入訂位
+相關資訊，包括航班、人員及座位 16A。註：加入資料的順序不可以違
+反參加完整性。（5 分）
+三、請將下列專案工作指派表格資料，以符合 BCNF 的RDB 資料表來表示，並
+將經BCNF 正規化後的資料表，分別以json 檔案格式來描述。註：答案需包
+括 BCNF 正規化後的資料表（含內容）及每張資料表對應的 json 檔案格式
+的內容。（25 分）
+ProjectID ProjectName Budget EmployeeID EmployeeName Gener Mobile Email StartDate EndDate
+P001 Health Care 1000000 E001 Jacky Hsu M 0911111111 aa@gmail.com 12/1/2019 1/15/2020
+P001 Health Care 1000000 E002 Lily Wu F 0922222222 bb@gmail.com 1/1/2020 6/30/2020
+P002 Mask Management 200000 E001 Jacky Hsu M 0911111111 aa@gmail.com 1/1/2020 2/15/2020
+P002 Mask Management 200000 E003 Cathy Su F 0933333333 cc@gmail.com 2/1/2020 6/30/2020
+代號：10440
+頁次：3－3
+四、假設現有下列兩個 transactions 同步存取資料 X, Y，請繪製表格說明，
+不同時間標記點，如果讀寫動作被允許進行，系統對資料 X, Y 所記
+錄的 R_TS（讀取的時間標記）及 W_TS（寫入的時間標記）為何？
+如果讀寫動作不被允許進行，請說明原因及系統會作出的回應為何？
+註：系統進行時序如下列左圖，解答表格參考下列右圖。（20 分）
+Time
+1
+2
+3
+4
+5
+6
+7
+8
+9
+T1 T2
+Begin
+Read(Y)
+Read(X)
+Write(X)
+Write(Y)
+Commit
+Begin
+Read(X)
+Write(X)
+Commit
+TS(T1)=？？, TS(T2)=？？
+Time Data R_TS W_TS
+1 X
+Y
+2 X
+Y

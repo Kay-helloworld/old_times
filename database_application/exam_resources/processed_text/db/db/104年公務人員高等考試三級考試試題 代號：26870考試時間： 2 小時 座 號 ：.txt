@@ -1,0 +1,105 @@
+104年公務人員高等考試三級考試試題 代號：26870 
+類  科： 資訊處理
+科  目： 資料庫應用
+考試時間： 2 小時 座 號 ：           
+※注意： 禁止使用電子計算器。 
+不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。 
+ 
+（請接背面） 
+ 
+全一張 
+（正面）
+ 
+一、有一個與租船有關的資料庫，其綱要（Schema）及案例內容（Instance）如下： 
+Sailors(sid:integer,  sname:string,  rating:integer,  age:real) 
+Boats(bid: integer,  bname:string,  color:string) 
+Reserves(sid: integer,  bid :integer,  day:date)  
+sid sname rating age 
+22 Wawrinka 10 30 
+29 Brutus 6 33 
+31 Lubber 8 55 
+32 Lu 9 32 
+58 Rusty 8 35 
+64 Nishikori 10 26 
+71 Dustin 10 30 
+74 Murray 10 28 
+85 Nadal 10 29 
+95 Bob 3 60  
+圖一、Sailors 表格的案例                圖二、 Reserves 表格的案例 
+bid bname color 
+101 Intelake blue 
+102 Clipper red 
+103 Marine green 
+104 Blast red 
+圖三、Boats 表格的案例 
+請回答下列各題：（每小題 5 分，共 40 分）。請注意：答案必須具備一般性，表
+格案例內容只為參考用，案例內容更改後，答案仍須正確。 
+請劃出此資料庫相對應的實體關聯圖（ER Diagram）。 
+請指出那幾個表格中的那幾個欄位，需要滿足參考限制（Referential Integrity）？ 
+寫出一個SQL 的查詢命令，查詢"Wawrinka"所租過的船的船名。 
+寫出一個SQL 的查詢命令，查詢rating 大於或等於9 的船員人數。 
+寫出一個SQL 的查詢命令，查詢曾經租過編號為103 號的船的船員名字。 
+寫出一個SQL 的查詢命令，查詢曾經租過所有顏色為紅色（red）的船的船員名 
+字（即該船員租過所有顏色為紅色的船）。 
+寫出一個 SQL 的查詢命令，查詢同一天之中租超過一艘以上（不包括一艘）的船
+的船員名字。 
+寫出一個關聯代數（Relational Algebra）運算式，以關聯代數運算子（selection: σ、
+projection: Π、join: 
+ 、divide: ÷、union: ∪、intersection: ∩、cartesian product: ×、
+difference: -）表示，查詢租過船名為"Blast"的船的船員名字。 
+sid bid day 
+22 101 6/7/2015 
+22 102 6/5/2015 
+22 103 6/3/2015 
+22 104 6/1/2015 
+32 102 5/28/2015
+32 103 6/1/2015 
+64 104 6/3/2015 
+85 101 5/30/2015
+85 102 6/3/2015 
+85 103 6/3/2015 
+104年公務人員高等考試三級考試試題 代號：26870 
+類  科： 資訊處理
+科  目： 資料庫應用
+ 
+全一張 
+（背面）
+二、請回答下列和資料倉儲相關的問題： 
+請舉一個資料倉儲中的星狀資料綱要（Star Schema）的例子。（10 分） 
+請問資料倉儲架構中的ETL 操作指的是什麼？（5 分） 
+三、在高階語言（如C 語言）中要查詢或異動資料庫時，通常會使用到一種被稱為Cursor
+的結構，請說明Cursor 的功用及其相關的操作。（10 分） 
+四、表格的正規化（Normalization）是透過切割表格（Decomposition）來進行，請回答
+下列各題： 
+定義何謂無損切割（Lossless Decomposition）？（5 分） 
+若有一個表格綱要r(A,B,C,D,E)的函數相依關係集合F 為： 
+               A →BC 
+               C D →E 
+               B →D 
+               E →A 
+請問將 r 切割為 r1(A,B,C)及 r2(A,D,E)的切割是否是無損切割？若是無損切割，則
+請證明之。（10 分） 
+五、線上交易處理（Online Transaction Processing ）是資料庫系統中的一個重要功能，請
+回答下列各題：（每小題5 分，共 20 分） 
+定義什麼是一個交易（Transaction）？它必須滿足那四個特性？  
+何謂並行控制（Concurrency Control ）？資料庫中若無並行控制的機制，則可能
+會產生什麼問題？  
+何謂兩階段鎖定（Two-Phase Locking）？其目的為何？  
+圖四為兩個交易 T1 及 T2 的執行過程（Schedule），假設交易執行的過程中有實
+施兩階段鎖定，請問這個執行過程（ Schedule）的結果是順利執行完畢，或是發
+生死結狀態（Deadlock）？  
+T1 T2 
+Read(A)  
+A:=A-50  
+Write(A)  
+ Read(B) 
+ B:=B-10 
+ Write(B) 
+ Read(A) 
+ A:=A+10 
+ Write(A) 
+Read(B)  
+B:=B+50  
+Write(B)  
+圖四、交易 T1、T2 的執行過程（指令的上下位置表示執行時間的先後，上面的指令比下面的
+指令先發生） 

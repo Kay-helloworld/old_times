@@ -1,0 +1,62 @@
+109年公務人員特種考試司法人員、法務部
+調查局調查人員、國家安全局國家安全情報
+人員、海岸巡防人員及移民行政人員考試試題
+考 試 別：調查人員、國家安全情報人員
+等 別：三等考試
+類 科 組：資訊科學組、資訊組
+科 目：資料庫應用
+考試時間： 2小時 座號：
+※注意：禁止使用電子計算器。
+不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。
+本科目除專門名詞或數理公式外，應使用本國文字作答。
+代號：41450
+60350
+頁次：2－1
+一、已知某單位建置專案管理系統的關聯式資料庫關聯表及外鍵的參考定
+義如下：
+Employee(eID, eName, dID) FKs dID ref. Department(dID)
+Qualified(eID, sID, qDate) FKs eID ref. Employee(eID), sID ref. Skill(sID)
+Skill(sID, sName)
+Department(dID, dName)
+Project (pID, pOwner) FKs pOwner ref. Employee(eID)
+Participation(pID, eID) FKs pID ref. Project(pID), eID ref. Employee(eID)
+請使用單一 SQL 查詢指令找出具備技能代號（sID）為’001’，但不具
+備有技能代號’002’技能的所有員工工號（eID）與員工姓名（eName）。
+（15分）
+請使用單一 SQL 查詢指令列出部門代碼（dID）為’D01’的所有員工的
+資料，包含其員工工號（eID）與姓名（eName）及其曾參與專案的總
+次數，結果並依參與次數的多寡降冪排序。（10分）
+二、在資料庫的交易（Transaction）管理中何謂序列排程（Serial Schedule）？
+符合序列排程對資料庫有何影響？又何謂可循序列排程（Serializable
+Schedule）？兩者關係為何？（10分）
+在同步控制中結果等價（Result Equivalent ）與衝突等價（Conflict
+Equivalent）意義上有何差異？並請說明下列二個排程是否具備衝突等
+價及說明原因，其中 T1與 T2代表不同的兩個交易，read()代表讀取資
+料，write()代表寫入資料，→代表事件執行先後順序。（15分）
+Schedule A: T1:read(x) → T1:read(y) → T2:read(x) → T1:write(x) →
+T1:write(y) → T2:write(x) → T1:commit → T2:read(y) →
+T2:write(y) →T2:commit
+Schedule B: T1:read(x) → T1:read(y) → T1:write(x) → T2:read(x) →
+T1:write(y) → T2:read(y) → T1:commit → T2:write(x) →
+T2:write(y) →T2:commit
+代號：41450
+60350
+頁次：2－2
+三、請依據下圖所繪製之延伸型實體關係模型（Extended Entity-Relationship
+model, EER model）回答相關問題。
+實體 Employee 為超類型（Superclass）實體，我們要在此實體中加入
+一個屬性作為子類型（Subclass）識別子，其值會決定所屬的子類型。
+請設計一個恰當的子類型識別子並說明子類型識別子的資料類型為
+何？（10分）
+請將以上 EER 圖包含自行加入的子類型識別子屬性轉成關聯表，所有
+關聯表應標示主鍵與外鍵及其關聯，並確保所有關聯表均符合第三正
+規化形式。（15分）
+四、NoSQL 一般用來代表分散式非關聯式資料庫的統稱，其為現代半結構和
+非結構式資料的理想資料庫。已知關聯式資料庫採用的交易
+（Transaction）設計，讓資料存取或異動過程中不會受到干擾，為確保交
+易是正確可靠的，所以 SQL 執行必須具備⑴確保交易作為最小運作單位
+（Atomicity）、⑵異動過程確保整體資料庫的一致性（Consistency）、⑶執
+行多筆交易時能隔離交易中的資料不受其他交易影響（Isolation），以及
+⑷交易過程不會變動原始資料的持久性（Durability）。請問 NoSQL 是否
+適用相同的設計特性？其在資料庫完整性的概念為何？（25分）
+

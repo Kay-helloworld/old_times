@@ -1,0 +1,5 @@
+#!/bin/bash
+# 资料库练习管理工具 - 简化版
+
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+python3 "$SCRIPT_DIR/db_practice_manager.py" "$@"

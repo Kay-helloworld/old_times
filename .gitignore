@@ -1,0 +1,19 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# IDE settings (optional, but good practice)
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+tmp/

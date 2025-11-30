@@ -1,0 +1,83 @@
+112年公務人員高等考試三級考試試題
+類 科：資訊處理
+科 目：資料庫應用
+考試時間： 2 小時 座號：
+※注意：禁止使用電子計算器。
+不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。
+本科目除專門名詞或數理公式外，應使用本國文字作答。
+代號：37670
+頁次：2－1
+一、國立ABC大學的校務行政電腦化，其中有關教務資料，擬採用資料庫系
+統，經系統分析後，得到如下需求（Requirements）：
+ABC大學由許多學系（DEPARTMENT）組成，每一學系有系代碼
+（DeptId）與系名稱（DeptName），系代碼可區別不同學系。
+各學系會開許多課程（COURSE），每一課程有課程代碼（CrsId）、課程
+名稱（CrsName）、課程說明（CrsDescrip）與課程學分數（CrsCredit），
+課程代碼可區別不同課程。
+每一學系有許多學生（STUDENT），每個學生有學生代碼（StudId）、學
+生姓名（StudName）與學生電子信箱（StudEmail），有學生會有多個電
+子信箱，學生代碼可區別不同學生。
+每一學系由許多教授（PROFESSOR）組成，每一教授有教職員工代碼
+（Prof Id）、姓名（Prof Name）與職稱（Prof Rank），教職員工代碼可區
+別不同教授。
+每個學系會開授許多課程，每一課程僅由一學系開授。
+每個學系會有許多學生，每一學生僅隸屬於一學系。
+每個學系會有許多教授，每一教授僅隸屬於一學系。
+每一教授可以開授許多門課程，每一門課程僅由一個教授開授。
+每一學生可以修習許多課程，每一課程也可由許多學生來修習，每一學
+生修習的課程有一成績（Grade）。
+請設計此教務關聯式資料庫綱要（Relational Database Schema），並標示出
+此資料庫關聯（Relations）的主鍵（Primary Key）與外來鍵（Foreign Key）。
+（25分）
+二、給予一關聯綱要EMP-DEPT（EmpId, EmpName, EmpBdate, EmpAddr,
+DeptNum, DeptName, DmgrId），主鍵（Primary Key）為{EmpId}，此關聯
+綱要記錄員工參與部門的相關資料，員工有員工編號（EmpId）、員工姓
+名（EmpName）、員工生日（EmpBdate）與員工地址（EmpAddr），部門
+有部門編號（DeptNum）、部門名稱（DeptName）與部門經理編號（DmgrId），
+而且給予一組功能依附性（Functional Dependencies ）{{EmpId} →
+{EmpName, EmpBdate, EmpAddr}，{DeptNum}→{DeptName, DmgrId}}，
+關聯綱要EMP-DEPT是否為2NF？如不是，請將EMP-DEPT正規化至2NF，
+然後正規化至3NF，並論述分割（Decompose）的理論基礎。（25分）
+代號：37670
+頁次：2－2
+三、給予下列二個行程（Schedules）A與B，請用一圖形演算法，利用行程中
+的讀（Read）與寫（Write）動作（Operations）構成圖形，圖形邊（Edge）
+上標示讀寫的資料項目（Data Items），以此演算法論述A與B兩行程是否
+具序列性（Serializability）？如具序列性，請寫出對等序列行程（Equivalent
+Serial Schedule）。（25分）
+(a) transaction T1 transaction T2 transaction T3
+Time
+read(X);
+write(X);
+read(Y);
+write(Y);
+read(Z);
+read(Y);
+write(Y);
+read(X);
+write(X);
+read(Y);
+read(Z);
+write(Y);
+write(Z);
+Schedule A
+(b) transaction T1 transaction T2 transaction T3
+Time
+read(X);
+write(X);
+read(Y);
+write(Y);
+read(Z);
+read(Y);
+write(Y);
+read(X);
+write(X);
+read(Y);
+read(Z);
+write(Y);
+write(Z);
+Schedule B
+四、分散式資料庫為一個分散在電腦網路的許多在邏輯上相關資料庫的集
+合，請畫出分散式資料庫系統三層主從伺服器架構（Three-tier Client-server
+Architecture），並論述其運作原理，分散資料的管理具有不同層次（Levels）
+的透明度（Transparency），請論述三種透明度及相關技術。（25分）

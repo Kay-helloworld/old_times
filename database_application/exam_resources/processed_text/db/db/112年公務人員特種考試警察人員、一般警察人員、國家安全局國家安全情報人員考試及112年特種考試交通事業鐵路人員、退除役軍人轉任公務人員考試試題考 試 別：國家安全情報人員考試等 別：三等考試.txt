@@ -1,0 +1,26 @@
+112年公務人員特種考試警察人員、一般警察人員、國家安全局國家安全情報
+人員考試及112年特種考試交通事業鐵路人員、退除役軍人轉任公務人員考試試題
+考 試 別：國家安全情報人員考試
+等 別：三等考試
+類科組別：資訊組（選試英文）
+科 目：資料庫應用
+考試時間：2 小時 座號：
+※注意：禁止使用電子計算器。
+不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。
+本科目除專門名詞或數理公式外，應使用本國文字作答。
+代號：35630
+頁次：1－1
+一、請先說明資料庫管理系統為什麼需要做「並行控制」（Concurrency
+Control），並請定義並行控制所使用的「兩階段鎖定協定」（Two-Phase
+Locking Protocol）。（20 分）
+二、延伸個體關係模型（Enhanced Entity-Relationship Model ，簡稱 EER
+Model）比傳統的個體關係模型（Entity-Relationship Model ，簡稱 ER
+Model）多了父子型態關係（Supertype/Subtype Relationship），有那兩種
+方式可以用來發展父子型態關係？請分別說明之。（20 分）
+三、在關聯式資料庫（Relational Database ）的正規化理論（Normalization
+Theory）中，請分別說明將資料表（Table）轉換為第一正規型式（First
+Normal Form）、第二正規型式（Second Normal Form ）與第三正規型式
+（Third Normal Form）的過程。（30 分）
+四、資料倉儲的概念（Data Warehousing）是由資料倉儲之父 Bill Inmon 所提
+出的，他對資料倉儲（Data Warehouse）的定義為何？在此定義中，資料
+倉儲具有那四個特徵？請分別說明這四個特徵。（30 分）

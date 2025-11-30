@@ -1,0 +1,44 @@
+104 年公務人員特種考試關務人員考試、
+104年公務人員特種考試身心障礙人員考試及
+104年國軍上校以上軍官轉任公務人員考試試題 
+代號：10440 全一頁 
+考 試 別： 關務人員考試 
+等   別 ： 三等考試 
+類   科 ： 資訊處理 
+科   目 ： 資料庫應用 
+考試時間： 2 小時 座 號 ：         
+※注意： 禁止使用電子計算器。 
+不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。
+ 
+ 
+ 
+一、請舉例說明在實體關係圖（ ER diagram ）中，為何一個三元關係（ ternary 
+relationship）不等於三個二元關係（binary relationship ）的結合？並畫出其實體關係
+圖。（15 分） 
+二、在關聯式代數運算子中（relational algebra's operators ），自然合併（natural join）和
+交集（intersection）都不是原始（primitive）運算子，請問如何用其他的原始關聯式
+代數運算子達到相同的運算結果？（10 分） 
+三、基於關聯式模式（relational model ）的理論，請列出關聯表（relation）的四大特性
+（property），並說明之。（20 分） 
+四、請說明何謂邏輯資料庫設計（logical database design ）和實體資料庫設計（physical 
+database design）？（15 分） 
+五、關聯表R{A,B,C,D,E,F,G}其所有功能相依性（functional dependence）如下所示： 
+A → B,  BC → DE,  AEF → G 
+以上述三條功能相依性，請算出集合{A,C}的封閉性（即closure {A,C}+）。（10 分） 
+功能相依性 ACF → DG 可否由上述三條功能相依性推導出來？如果可以，請列
+出推導過程。（10 分） 
+六、在下列表格，針對各種正規化判定其是否具有各項特性，將其填滿"Y"（有）或"N"
+（沒有）。（20 分） 
+ 
+特性（property） 第三正規化型式
+（3NF） 
+Boyce-Codd 正規
+化型式（BCNF） 
+第四正規化型式
+（4NF） 
+消除因功能相依性的冗餘 
+（FD redundancy）   Y 
+消除因多重值相依性的冗餘
+（MVD redundancy）    
+保存功能相依性    
+保存多重值相依性 N   

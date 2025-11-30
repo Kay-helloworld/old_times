@@ -1,0 +1,90 @@
+107年特種考試地方政府公務人員考試試題  
+等 別：三等考試  
+類 科：資訊處理 
+科 目：資料庫應用 
+考試時間： 2 小時 座號：      
+※注意： 可以使用電子計算器。 
+不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。 
+本科目除專門名詞或數理公式外，應使用本國文字作答。
+ 
+ 
+代號：33730 
+頁次：3－1 
+一、目前人工智慧廣泛應用於如製造業、醫療、食衣住行及賦稅等領域，
+其中需要很大量資料來當作訓練及測試資料，以訓練出好的學習模型
+（Learning Model），如你／妳被委以建立資料庫來儲存這些大量資料
+的工作，請寫出資料庫設計的階段（Phases of Database Design），並說
+明之。（12 分） 
+如果資料庫設計階段決定採用關聯式資料庫模型（Relational Database 
+Model），請寫出四項‟好”的關聯式資料庫設計的關聯式綱要（Relation 
+Schemas）設計原則（Principles or Guidelines） 。 （8 分） 
+二、給予如下與實體關係（Entity-Relationship, ER）圖，其中‟works-for”
+關係型態（Relationship Types ）描述一個部門有許多員工，但一個員工
+只能屬於某一部門，一個部門可位於多個地方； ‟works-on”關係型態
+（Relationship Types ）描述一個員工可以參與多個計畫，一個計畫也可
+以由多個員工參與，並記錄每一員工參與每一計畫的時間；請將之轉換
+成關聯式資料庫綱要（Relational Database Schemas） 。 
+ （7 分） 
+ （7 分） 
+在 ER 概念模型有參與限制（Participation Constraints ），請問選擇性
+（Optional）與必須（Mandatory）限制，在關聯式資料庫模型如何表
+示上述限制。（6 分） 
+
+代號：33730
+頁次：3－2 
+ 
+三、給予如下兩個關聯綱要（Relation Schemas ）及其內容，EMPLOYEE 關
+聯記錄員工編號、薪水及所在部門，DEPARTMENT 關聯記錄部門編號
+及名稱，其中 EMPLOYEE 的外來鍵（ Foreign Key ）‟dno”參考到
+DEPARTMENT的主鍵（Primary Key）‟dnum”，執行下列⑴與⑵的 SQL
+查詢後的結果分別為何？其意義分別為何？（20 分） 
+EMPLOYEE 
+ssn salary dno 
+1 30000 5 
+2 40000 5 
+3 38000 5 
+4 25000 5 
+5 25000 4 
+6 43000 4 
+7 25000 4 
+8 55000 1 
+9 45000 1 
+10 30000 1 
+11 50000 2 
+12 25000 2 
+13 30000 3 
+ 
+DEPARTMENT 
+dnum dname 
+1 R&D 
+2 Administration 
+3 Accounting 
+4 Finances 
+5 Personnel 
+ 
+⑴SELECT dno, COUNT(*) 
+FROM DEPARTMENT, EMPLOYEE 
+WHERE dnum = dno AND salary > 25000 
+GROUP BY dno 
+HA VING COUNT(*) > 2 
+⑵SELECT dno, COUNT(*) 
+FROM DEPARTMENT, EMPLOYEE 
+WHERE dnum = dno AND salary > 25000 AND  
+dno IN (SELECT dno 
+FROM EMPLOYEE 
+GROUP BY dno 
+HA VING COUNT(*) > 2) 
+GROUP BY dno 
+  
+代號：33730 
+頁次：3－3  
+ 
+四、給予一關聯綱要 R(A, B, C, D, E, F) 及一組功能依附性（Functional 
+Dependencies）F = {{A}→{B, C, D, E, F}, {B, C}→{A, D, E, F}, {B}→{F}, 
+{D}→{E}}，請將R 分別分割（Decompose） 成2NF 及 3NF 的關聯綱要。
+（20 分） 
+五、分散式資料庫系統的優點是擁有透明度（Transparency），請寫出三種
+分散式資料庫的透明度並說明之。（8 分） 
+為確保資料庫交易（ Transactions）能正確被執行，資料庫管理系統
+（DBMS）的並行控制（Concurrency Control）與回復方式（Recovery 
+Methods）應具備那四項特性（Properties）？請說明之。（12 分） 

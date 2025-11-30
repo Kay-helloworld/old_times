@@ -1,0 +1,42 @@
+112 年特種考試地方政府公務人員考試試題
+等 別：三等考試
+類 科：資訊處理
+科 目：資通網路與安全
+考試時間：2 小時 座號：
+※注意：禁止使用電子計算器。
+不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。
+本科目除專門名詞或數理公式外，應使用本國文字作答。
+代號：34630
+頁次：2－1
+一、對於 TCP/IP 網路的各項運營管理工作，IP 表頭（IP Header）內各項欄
+位的識別是很重要的基礎知識，請詳細說明下列 IP Header 欄位的用途：
+（每小題 4 分，共 20 分）
+ Total length
+ Identification number
+ Fragmentation offset
+ Time-to-live
+ Protocol
+二、5G 行動網路日益普及，且除了 5G 公共服務外還提供 5G 企業專用網路。
+請問：（每小題 10 分，共 20 分）
+相較於4G，5G 行動網路的特點有那些？請詳細說明之。
+企業採用 5G 行動專網帶來的安全風險有那些？請條列並說明之。
+三、DNS（Domain Name Service）是重要的網路服務，請回答下列有關DNS
+問題：
+何謂 Zone file？請說明其用途及內容。（5 分）
+請說明迭代式 DNS 查詢（iterative DNS query）的工作原理。（10 分）
+當SOC（Security Operation Center）對受管理組織下某台主機發出「DNS
+Open Resolver 弱點」的告警訊息時，代表後者可能存在的資安危害為
+何？請說明之。（5 分）
+四、零信任架構（Zero Trust Architecture, ZTA）是目前政府大力推動的資訊
+安全架構：（每小題 10 分，共20 分）
+請詳細說明 ZTA 的概念和推動ZTA 的動機。
+實現 ZTA 的核心機制有那些？請條列並說明之。
+代號：34630
+頁次：2－2
+五、防火牆（Firewall）是當今企業常見的安全防護設備，請問：
+企業常用防火牆隔離出一個網段，稱為 DMZ（Demilitarized Zone ），
+請詳細說明其用意為何。（5 分）
+ WAF（Web Application Firewall）和傳統的封包過濾式防火牆（Packet
+filtered Firewall）有何不同？請詳細說明。（10 分）
+防火牆常根據從外部收到的 IOC（Indicator of Compromise）來做規則
+調整，請問 IOC 的意義為何？（5 分）

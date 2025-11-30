@@ -1,0 +1,90 @@
+111年特種考試地方政府公務人員考試試題
+等 別：三等考試
+類 科：資訊處理
+科 目：資料庫應用
+考試時間：2 小時 座號：
+※注意：禁止使用電子計算器。
+不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。
+本科目除專門名詞或數理公式外，應使用本國文字作答。
+代號：34830
+頁次：3－1
+一、假設有關博物館的部分實體關係圖（Entity-Relationship Diagram）如下，
+其中每一實體（矩形）或弱實體（雙矩形）鄰近某關係（菱形）間均有
+一對（min,max）的限制，代表該實體參與該關係之 min（至少）、max（至
+多）次數限制，*代表沒有限制。屬性劃實底線者（如 MID、LID、
+C_Number）為 Primary Key（主鍵）、劃虛底線者（如BID）為 Partial Key。
+請將此圖轉化為對應的關聯（Relation）式資料庫綱要，以「關聯（屬
+性 1,屬性2,……）」方式寫出應有的所有關聯表格；同時，必須標示出
+每個關聯的主鍵。（15 分）
+進一步，若對實體關係圖中「館藏物」應有的關聯表格，以 SQL 語法
+的 CREATE 命令去創建它，其中應有的參考完整性限制（Referential
+Integrity Constraints）語句應為何？（5 分）
+
+代號：34830
+頁次：3－2
+二、假設有個資料庫的 Employee 表格，其屬性包含：編號 SID、姓名 Name、
+性別 Sex、居住街道地址 Street、居住城市 City、薪水 Salary、所屬部門
+編號 Dnumber。其目前的資料存於電腦中如下表，假設：身為程式設計
+師，你還不知電腦中有多少筆，及其詳細內容，但知道其綱要、欄位型
+態，並見到編號SID 為 3001、4001 兩筆資料例子。
+SID Name Sex Street City Salary Dnumber
+1001 Alisa F 中山一路30 號 Palmer 8000 50
+2001 Beatrice F 信義南路7 號 Lecanto 12000 30
+3001 Abraham M 中山二路60 號 Warrendale 7000 30
+4001 Dana F 北中山一路96 號 Enumclaw 6000 40
+4044 Ferdinand M 忠孝北路66 號 Alameda 9000 40
+5055 Grace F 忠孝北路99 號 Lecanto 25000 30
+6004 John M 南中山一路30 號 Waterloo 36000 40
+6006 Philemen M 中山路67 號 Smithville 16000 60
+6008 Vince M 仁愛西路80 號 Wautoma 15000 50
+請寫出 SQL 查詢，來列出：不管住那個城市，居住街道有「中山」二
+字者之員工編號、姓名。（10 分）
+若你寫下列 SQL 查詢，請說明電腦會給你什麼結果（假設查詢時，資
+料庫目前只有上述 9 筆資料）。（10 分）
+SELECT Dnumber, COUNT（*）AS High_Sal_Count
+FROM Employee
+WHERE Salary > 10000
+Group By Dnumber
+HA VING COUNT（*）> = 2;
+若你寫下列 SQL 查詢，請說明電腦又會給你什麼結果（假設查詢時，
+資料庫目前只有上述 9 筆資料）。（10 分）
+SELECT Dnumber, COUNT（*）AS High_Sal_Count
+FROM Employee
+WHERE Salary > 10000 AND Dnumber IN
+（SELECT Dnumber
+FROM Employee
+Group By Dnumber
+HA VING COUNT（*）> = 2）
+Group By Dnumber;
+代號：34830
+頁次：3－3
+三、關聯式資料庫的設計中，需要關注資料間的功能相依（Functional Dependency），
+資料間為何有功能相依？如何找到企業中的資料間之功能相依？（5 分）
+假設有下列表格 R，已知有五筆資料 t1,t2,t3,t4,t5，由目前已觀察到的
+資料值，請檢視各個功能相依，來一一回答「已可確認不存在」或「還
+有可能存在」？為什麼？（15 分）
+⑴A1→A2
+⑵A1→A3
+⑶{A1,A5}→A3
+⑷{A3,A5}→A4
+⑸{A3,A4}→A2
+A1 A2 A3 A4 A5
+1 2 3 40 60
+2 2 4 50 78
+1 3 3 40 60
+1 11 3 66 70
+8 11 33 77 70
+四、假設某關聯式資料庫，五個屬性值均是 atomic、不可再分割。設計師發
+現有下列 2 條功能相依，設計出一個資料表 R（A1,A2,A3,A4,A5）
+FD1：{A1,A3}→A5 
+FD2：A1→A2 
+請問此表格 R 之候選鍵（Candidate Key）有那些？為什麼？（3 分）
+上述設計違反了正規化（Normalization）理論，為什麼？（3 分）
+若資料表改為下列2 個表格R1（A1,A4,A5）、R2（A2,A3,A4,A5）（12 分）
+請你先判定新表格 R1、R2 的候選鍵。
+這樣的切割，是否滿足 Lossless Join？
+這樣的切割，是否會喪失任何功能相依？
+這樣設計最高是滿足第幾正規化，為什麼？
+若你不同意上述設計，你建議應如何修改原設計師所提出資料表 R
+（A1,A2,A3,A4,A5）？你必須同樣地依上述、、、四方面來說
+明你建議的設計。（12 分）

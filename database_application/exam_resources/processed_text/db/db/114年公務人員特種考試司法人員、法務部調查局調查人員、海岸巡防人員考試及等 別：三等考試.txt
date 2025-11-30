@@ -1,0 +1,101 @@
+114年公務人員特種考試司法人員、法務部調查局調查人員、海岸巡防人員考試及
+1 1 4 年 未 具 擬 任 職 務 任 用 資 格 者 取 得 法 官 遴 選 資 格 考 試 試 題
+考 試 別：調查人員
+等 別：三等考試
+類 科 組：資訊科學組
+科 目：資料庫應用
+考試時間：2 小時 座號：
+※注意：禁止使用電子計算器。
+不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。
+本科目除專門名詞或數理公式外，應使用本國文字作答。
+代號：41550
+頁次：3－1
+一、為設計某調查局資料庫，其簡化情境如下：各調查團隊（Team）有其編
+號（TID）、名稱（Name），他們均會向供應商（Supplier）購買裝備
+（Equipment）；供應商有其代號（SID），裝備有其編號（Eno）。每次的
+購買會記錄其時間（Time），每次購買只有一個供應商，亦即不會由多個
+供應商聯合提供；每次最多買 20 種裝備，每種裝備可能買若干數量
+（Quantity）。下圖為實體關係圖（Entity-Relationship Diagram）。對所用
+符號約略說明如下：每一實體鄰近某關係間均有一個對應比率（min, max），
+代表該實體參與該關係之 min（至少）、max（至多）次數，*代表沒有限
+制。屬性劃實底線者為 Primary Key（主鍵）的一部份。
+請說明該圖是否能忠實地反映上述資訊需求，那些資訊是無法由該圖
+得知。（6 分）
+請以新增弱實體（Weak Entity）的方式，重新繪製實體關係圖，以真
+正完整反映上述的資訊需求。此圖只可用二元（binary）關係，可新增
+必要的關係，但除了弱實體外，不得再考慮其他實體。（19 分）
+
+代號：41550
+頁次：3－2
+二、假設資料庫對交易（Transaction）採用基本的兩階段鎖（basic two-phrase
+locking）的機制，在這種機制下有可能產生死鎖（deadlock）。假設
+read_item(X) 代表交易對資料項目 X 讀取，write_item(X) 代表交易對資
+料項目 X 寫入新值，read_lock(X) 代表交易對 X 下 read_lock，
+write_lock(X) 代表交易對 X 下 write_lock，其餘類推。T1、T2 兩個交
+易原先期待進行的內容如下表左右兩欄。實際上系統不是序列化（Serial）
+排程，而是將交易交織進行。假設在兩個交易交織進行的α排程
+（Schedule），T2 在時戳（Timestamp）為1000 時開始，T1 在時戳為1010
+時開始。在這個α排程下，系統偵測到有死鎖產生的可能。
+請繪出其可能導致死鎖的等待圖（wait-for graph），其中必須標註等待
+的資源。（5 分）
+在上述α排程下，資料庫管理系統有死鎖預防機制（deadlock prevention
+scheme）以避免死鎖，下列各種不同機制，請說明每個交易分別會發
+生的情況。
+⑴採 Wait-die。（5 分）
+⑵採 Wound-wait。（5 分）
+⑶採 No waiting。（5 分）
+⑷採 Cautious waiting。（5 分）
+T1 T2
+read_lock(A); read_lock(C);
+read_item(A); read_item(C);
+read_lock(B);
+read_item(B);
+B:=5A*20000;
+write_lock(C);
+read_item(C);
+write_lock(A);
+A:=A+C;
+write_item(A);
+unlock(C);
+unlock(B);
+C:=B-5000*C;
+write_item(C);
+unlock(A);
+unlock(B);
+unlock(C);
+代號：41550
+頁次：3－3
+三、為設計一個調查局的關聯式資料庫，假設有 R(A, B, C, D, E, F, G)，各屬
+性均無多值（Multi-Value）現象，其功能相依如下：
+FD1：G→D 
+FD2：{E, F}→G 
+FD3：F→B 
+FD4：D→{C, F} 
+FD5：G→A 
+請以功能相依的推導，找出{G, F}的封閉（Closure），即{G, F}+。（4 分）
+請以功能相依的推導與找屬性封閉的方法，找出 R 所有的候選鍵
+（Candidate Key），並列出全部的 Prime attributes、non-Prime attributes。
+（10 分）
+請說明上述relation schema符合第三正規化（3NF）與否的原因。（6 分）
+若 R 分解為 R1(A, D, E, F, G) R2(C, D) R3(B, F)，請說明此分解是否保
+持 lossless join 的原因。（5 分）
+四、某機構使用安全機制設計資料庫，採用相較傳統作法更為嚴格的強制存
+取控制（Mandatory Access Control ）機制。使用者的安全許可與資料物
+件安全等級均分為四級，由高至低為 Top Secret（TS）、Secret（S）、
+Confidential（C）、Unclassified（U），並採行常用的Bell-LaPadula 模式。
+請分別舉例說明此模式下的「簡單安全屬性特性」（Simple Security
+Property）與「星號安全屬性特性」（Star Security Property）。（10 分）
+假設該資料庫Employee（Name, Salary, Job_Performance）的表格只有
+四筆紀錄，其值如下表。在強制存取控制下，會自動新增一個屬性 TC
+（Tuple Classification），以註記每筆紀錄整筆的安全等級。以下表為
+例，第一筆紀錄之 Name、Salary、Job_Performance 屬性的安全等級分
+別為 C、S、C，因此第一筆整筆紀錄的安全等級，取三者最高者是S。
+第二筆紀錄之 Name、Salary、Job_Performance 屬性的安全等級分別為
+U、TS、U，因此第二筆整筆紀錄的安全等級是 TS。假設某使用者的
+安全許可為 C，請說明其執行 SELECT * FROM EMPLOYEE 產生的
+結果。（15 分）
+Name Salary Job_Performance TC
+A001 C 10000 S Excellent C S
+A002 U 20000 TS Good U TS
+A003 U 30000 C Bad C C
+A004 TS 40000 TS Excellent S TS

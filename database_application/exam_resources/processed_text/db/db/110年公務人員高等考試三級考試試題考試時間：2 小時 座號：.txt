@@ -1,0 +1,77 @@
+110年公務人員高等考試三級考試試題
+類 科：資訊處理
+科 目：資料庫應用
+考試時間：2 小時 座號：
+※注意：禁止使用電子計算器。
+不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。
+本科目除專門名詞或數理公式外，應使用本國文字作答。
+代號：37970
+頁次：2－1
+一、假設在某關聯式資料庫（Relational database）中，資料庫管理者（Database
+Administrator, DBA ）執行如下之 SQL 指令以定義 CUSTOMER 和
+PURCHASE 兩個表格：
+create table CUSTOMER
+(cid char(2), name varchar(10), city varchar(10), primary key(cid));
+create table PURCHASE
+(cid char(2), mid char(2), amount integer,
+primary key (cid, mid), foreign key(cid) references CUSTOMER);
+若使用者依序執行下列六個 SQL 指令，
+ 指令一：insert into CUSTOMER values (‘C1’, ‘John’, ‘Taipei’);
+ 指令二：insert into PURCHASE values (‘C1’, ‘M1’, 10);
+ 指令三：insert intoCUSTOMERvalues(‘C1’, ‘Mary’, ‘Taichung’);
+ 指令四：insert into PURCHASE values (‘C1’, ‘M2’, 1);
+ 指令五：update CUSTOMER set cid = ‘C2’where cid = ‘C1’;
+ 指令六：delete from PURCHASE where cid = ‘C1’;
+請針對指令三至指令六此四個指令，分別說明其執行之後所產生的效
+果，並加以解釋之。舉例來說，若某指令可順利執行，請說明是那些表
+格受到影響，並詳述更新後的表格內容。反之，則請說明是表格定義中
+的那項限制，導致該指令無法順利更新表格內容。（20 分）
+二、假設關聯式資料庫中定義三個表格，其中 CUSTOMER 表格記錄顧客基
+本資料，包含顧客編號（Cid）、姓名（Name）和所居住的城市（City）；
+MERCHANDISE 表格記錄貨品基本資料，包含貨品編號（Mid）和價格
+（Price）；PURCHASE 表格則為購買資料，記錄了某位顧客（Cid）於某
+日（Date）購買某個貨品（Mid）的數量（Amount）。在這些表格的欄位
+中，除了價格和數量二者為數值型態的屬性，其餘皆為字串型態。此三
+個表格的綱要簡列如下，且每個表格的主鍵以底線標註：
+CUSTOMER(Cid, Name, City)
+MERCHANDISE(Mid, Price)
+PURCHASE(Cid, Mid, Date, Amount)
+請根據以下兩個資訊需求分別寫出對應的 SQL 查詢指令，注意每個小題
+皆各自對應到單一的 SQL 查詢句，但是可以使用子查詢句（Subquery）
+或類似功能的寫法。
+請問所有住在臺北市的顧客，總共花了多少錢在購買物品上？（10 分）
+試找出那些顧客購買貨品編號“M1”的總數量，超過編號“C2”顧客購買
+貨品編號“M1”的總數量，並輸出那些顧客的編號。（10 分）
+代號：37970
+頁次：2－2
+三、假設某公司欲建立一個關聯式資料庫系統，以管理內部員工使用公務車
+輛的狀況，該公司並限制一個員工在一天之內最多只能借用一部車輛。
+假設表格定義為UNIVERSAL（Tag, Year, ID, Title, Date），其內每一筆資
+料列（Tuple）記錄了某部車輛的車牌（Tag）和購買年份（Year），使用
+該台車輛的員工編號（ID）和職稱（Title），以及使用的日期（Date）。請
+針對此表格的 5 個屬性，列出三個合理且有意義（Non-Trivial）的函數
+相依式（Functional Dependency），並針對所列出的每一項式子，解釋其
+合理性或詳述其所代表的限制。接著根據你所列出的函數相依式，分析
+此 UNIVERSAL 表格，是否符合 BCNF 正規化格式（Boyce-Codd Normal
+Form）。（20 分）
+四、資料庫系統中，經常使用「鎖」（Lock）的機制來進行交易處理（Transaction
+Processing）中的併行控制（Concurrency Control），而該機制允許某個資
+料項目（Data Item）被「共享鎖」（Shared Lock）或「排他鎖」（Exclusive
+Lock）鎖定。請問這兩種不同鎖定的模式，對一個資料項目的使用方式
+所造成的限制各自為何？另外，資料項目可以小到一筆資料列（Tuple）
+或紀錄（Record），也可以大到涵蓋一整個表格或資料庫。請分析資料項
+目的大小對系統的效能影響為何？（20 分）
+五、假設在某個 MongoDB 的資料庫中，有個 Collection 叫做“student”，其中
+每個物件表示學生的編號（_id）、姓名（name）包含名（first）和姓（last）
+以及就讀的學系名稱（department）。一個範例物件以 JSON 格式表示如
+下所列：
+{"_id": "1",
+"name": {
+"first": "Ted",
+"last": "Codd"
+},
+"department": "CS"
+}
+請以 Mongo 語法，依序寫出符合下述要求的指令：
+找出姓為“Codd”的學生，並限定只輸出第一位。（10 分）
+刪除所有就讀“CS”系的學生資料。（10 分）

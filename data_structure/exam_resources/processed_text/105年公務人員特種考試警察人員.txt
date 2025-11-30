@@ -1,0 +1,88 @@
+105年公務人員特種考試警察人員、一般警察人員 全三頁
+代號：71070
+考試及105年特種考試交通事業鐵路人員考試試題 第一頁
+考 試 別： 鐵路人員考試
+等 別： 高員三級考試
+類 科 別： 資訊處理
+科 目： 資料結構
+考試時間 ： 2 小時 座號：
+※注意： 禁止使用電子計算器。
+不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。
+一、給定一個可儲存 7 筆資料的雜湊表（hash table）及下列雜湊函式（hash functions）
+H (key)的定義。
+ash
+First(key)=key 的第一個字母在英文 26 個字母的順序，即：'a'=0, 'b'= 1, 'c'=2,
+'d'=3。
+Length(key)= key 的長度，例如 Length('apple') =5, Length('cat') =3 等。
+H (key)= First(key)+ i* Length(key),
+ash
+i 的起始值為 0，遇有碰撞時 i= i+1 後再重新計算 H (key)
+ash
+請將 apricot, cat, angel, bath, boy, dog, cub, done 依序儲存進該雜湊表。（15 分）
+請說明 apricot, cat, angel, bath, boy, dog, cub, done 依序儲存進該雜湊表過程中
+H (key)被計算的總次數。（5 分）
+ash
+二、給定如下含有 9 個頂點（vertex）及 19 個邊（edge）的圖，每個邊的權重（weight）
+都不同。（每小題 5 分，共 15 分）
+若以 Kruskal’s 演算法產生最小生成樹（minimum spanning tree），請列出產生該生
+成樹的過程中各個邊加入的順序（請以邊的權重列舉）。
+若以 Prim’s 演算法產生最小生成樹（minimum spanning tree），請列出產生該生成
+樹的過程中各個邊加入的順序（請以邊的權重列舉）。
+請畫出不同於 Kruskal 或 Prim 演算法所能產生的任一生成樹（spanning tree）。
+（請接第二頁）
+105年公務人員特種考試警察人員、一般警察人員 全三頁
+代號：71070
+考試及105年特種考試交通事業鐵路人員考試試題 第二頁
+考 試 別： 鐵路人員考試
+等 別： 高員三級考試
+類 科 別： 資訊處理
+科 目： 資料結構
+三、兩單位間有大量的訊息互傳需求，為了使訊息傳遞能更有效率，兩單位把可能傳遞訊
+息所用到的重要字詞進行頻率分析，並據以建立了如下的霍夫曼碼樹。假設A, B, C, D, E
+分別代表不同的字詞，請說明下列各小題敘述的正確性。
+（每小題 5 分，共 25 分）
+請說明在所有訊息中 A 出現的頻率是否一定低於 B 出現的頻率。
+請說明在所有訊息中 C 出現的頻率是否一定大於或等於 A 出現的頻率。
+請說明在所有訊息中 D 出現的頻率是否一定大於 A 出現的頻率。
+請說明在所有訊息中 D 出現的頻率是否一定大於或等於 A, B, C 出現頻率的總和。
+請說明在所有訊息中 E 出現的頻率是否一定低於 A, B, C 出現頻率的總和。
+四、給定下列依字母先後順序為依據的最大堆積樹（max heap）。（每小題 5 分，共 15 分）
+請畫出將 T 加入該最大堆積樹後的結果。
+請畫出從所給定最大堆積樹捨去最大數（W）後的結果。
+請列出以後序走訪（post-order traversal）方式走訪所給定最大堆積樹的順序。
+（請接第三頁）
+105年公務人員特種考試警察人員、一般警察人員 全三頁
+代號：71070
+考試及105年特種考試交通事業鐵路人員考試試題 第三頁
+考 試 別： 鐵路人員考試
+等 別： 高員三級考試
+類 科 別： 資訊處理
+科 目： 資料結構
+五、下表第一行給定 16 個需要被排序的英文字，第七行是將第一行 16 個英文字被正確
+排序後的順序。請分析第二行至第六行的排序順序是採用快速排序法（quick
+sort），希爾排序法（13-4-1 Shell sort），堆積排序法（heap sort），選擇排序法
+（selection sort），或插入排序法（insertion sort），所排序第一行 16 個英文字過程
+的暫時結果。（每小題 5 分，共 25 分）
+第一行 第二行 第三行 第四行 第五行 第六行 第七行
+that bye bye fruit fruit zoo bye
+work that fruit heaven good work fruit
+heaven good good manner heaven wish good
+thought heaven heaven that that thought heaven
+that fruit manner that bye think manner
+wish that that that that winner that
+wish manner that think manner wish that
+zoo that that thought that that that
+fruit that that wish zoo fruit that
+think think think wish think that think
+manner wish thought work wish manner thought
+that thought winner zoo wish that winner
+winner winner wish winner winner heaven wish
+bye wish zoo bye that bye wish
+that work work that thought that work
+good zoo wish good work good zoo
+請說明第二行是採取那一種排序法之排序過程的暫時結果？
+請說明第三行是採取那一種排序法之排序過程的暫時結果？
+請說明第四行是採取那一種排序法之排序過程的暫時結果？
+請說明第五行是採取那一種排序法之排序過程的暫時結果？
+請說明第六行是採取那一種排序法之排序過程的暫時結果？
+（請接背面）

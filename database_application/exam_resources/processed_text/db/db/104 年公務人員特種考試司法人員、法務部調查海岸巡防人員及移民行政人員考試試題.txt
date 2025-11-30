@@ -1,0 +1,31 @@
+104 年公務人員特種考試司法人員、法務部調查
+局調查人員、國家安全局國家安全情報人員、
+海岸巡防人員及移民行政人員考試試題  
+代號： 21350 
+30650 全一頁
+考 試 別：調查人員、國家安全情報人員 
+等  別：三等考試 
+類 科 組：調查人員資訊科學組、國家安全情報人員資訊組 
+科  目：資料庫應用 
+考試時間：2 小時 座 號 ：        
+※注意： 禁止使用電子計算器。 
+不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。 
+ 
+ 
+ 
+一、對於下列實體－關係圖（ Entity-Relationship Diagram ），borrower 代表兩個實
+體 customer 與 loan 之間的關係。這個關係可以是多 對多、多對一或一對一對
+映（mapping）。請分別就這三種對映，決定如何將 borrower、customer 與 loan 轉
+成關聯式綱目（Relational Schema）並標示其主鍵（Primary Key）。（30 分） 
+ 
+二、何謂參考完整性限制（ Referential-Integrity Constraint ）？這個限制的作用為何？
+請舉例說明之。（20 分） 
+三、何謂兩階段交付協定（ Two-Phase Commit Protocol ）？請說明它要達到的目的，
+並詳細說明它的運作。（25 分） 
+四、在分散式資料庫裡，半合併運算（ Semi-join）被用來降低合併運算（ Join）之處理
+時間。請說明半合併運算之運算模式，並說明為何它能降低合併運算之處理時間。
+（25 分） 
+customer-name customer-street 
+customer-id customer-city 
+customer borrower loan 
+loan-number amount 

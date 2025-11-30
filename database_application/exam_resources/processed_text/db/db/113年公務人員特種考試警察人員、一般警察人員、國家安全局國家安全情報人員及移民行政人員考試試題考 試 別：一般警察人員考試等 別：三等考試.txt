@@ -1,0 +1,61 @@
+113年公務人員特種考試警察人員、一般警察人員、
+國家安全局國家安全情報人員及移民行政人員考試試題
+考 試 別：一般警察人員考試
+等 別：三等考試
+類科組別：警察資訊管理人員
+科 目：資料庫應用
+考試時間：2 小時 座號：
+※注意：禁止使用電子計算器。
+不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。
+本科目得以本國文字或英文作答。
+代號：30540
+頁次：2－1
+一、闡述資料庫管理系統（Database Management System）的功能，另外舉出
+三種常用的資料庫管理系統。（15 分）
+二、請闡述分散式資料庫與集中式資料庫的特點與各自的優缺點。（15 分）
+三、請解釋下列資料庫領域之專有名詞：
+複合屬性（Composite Attribute）（5 分）
+髒讀（Dirty Read）（5 分）
+幻讀（Phantom Read）（5 分）
+四、闡述何謂預存程序（Store Procedure）與觸發程序（Trigger），以及敘述
+它們各自的優點？（15 分）
+五、請闡述界視表（VIEW）的用途與優缺點。（15 分）
+代號：30540
+頁次：2－2
+六、資料庫內有三個表格，分別是 Product、Sales_table、Supplier。這三個表
+的欄位名稱與資料紀錄如下：
+Product Table
+ID name SupplyID
+P001 玄天花 S001
+P002 仙草 S003
+P003 吉梗 S002
+P006 辣椒 S001
+P007 富士蘋果 S003
+P008 岡山羊 S002
+P009 台南牛肉 S003
+Sales_table
+Seq ProdID amount
+ord001 P001 12000
+ord002 P009 20000
+ord003 P007 16000
+ord004 P006 25500
+ord005 P002 5000
+ord006 P001 17000
+Supplier Table
+ID name
+S001 大發
+S002 大紫
+S003 大展
+S004 大途
+請回答下列問題：
+請寫出建立 Sales_table 表格的 SQL 陳述句（SQL statement）。（5 分）
+請寫出以下的SQL 陳述句的結果集（Result Set）。（10 分）
+SELECT Product.name as customerName, Supplier.name as EmployerName
+FROM Product, Supplier, Sales_table WHERE Sales_table.amount >=
+15000 AND Sales_table.ProdID = Product.ID AND Product.SupplyID =
+Supplier.ID;
+請寫出以下的SQL 陳述句的結果集。（10 分）
+SELECT Supplier.ID as SuplID, Supplier.name as SuplName, (SELECT
+SUM (Sales_table.amount) FROM Sales_table WHERE Sales_table.ProdID
+IN (SELECT Product.ID FROM Product WHERE Product.SupplyID =
+Supplier.ID)）AS total_amount FROM Supplier;

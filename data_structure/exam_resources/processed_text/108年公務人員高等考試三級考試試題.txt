@@ -1,0 +1,64 @@
+代號：26950 108年公務人員高等考試三級考試試題
+頁次：2－1
+類 科：資訊處理
+科 目：資料結構
+考試時間：2 小時 座號：
+※注意： 禁止使用電子計算器。
+不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。
+本科目除專門名詞或數理公式外，應使用本國文字作答。
+一、給予如下二元樹節點的宣告，分別寫出 C 的遞迴程式計算二元樹節點個
+數及計算二元樹葉節點（leaves）個數（Count the number of nodes in a
+binary tree and count the number of leaf nodes in a binary tree,
+respectively）。（25 分）
+struct node{
+int info;
+struct node *left;
+struct node *right;
+}
+typedef struct node *NODEPTR;
+void countTree(NODEPTR tree){
+}
+void countLeaves(NODEPTR tree){
+}
+二、給予如下二元樹節點的宣告，寫一 C 的遞迴程式 swapTree（NODEPTR
+tree）將每一節點的左、右節點互換（Swap the left and right children of
+every node of a binary tree）。（25 分）
+struct node{
+int info;
+struct node *left;
+struct node *right;
+}
+typedef struct node *NODEPTR;
+void swapTree(NODEPTR tree){
+}
+代號：26950
+頁次：2－2
+三、給予如下程式，假設 x[] = [30, 75, 53, 47, 21, 94, 88, 39]，lb = 0，ub = 7，
+請問執行完下列程式後，x[]的內容為何？（25 分）
+void divide&conquer(int x[], int lb, int ub, int *pj)
+{
+int a, down, temp, up;
+a = x[lb];
+up = ub;
+down = lb;
+while(down < up){
+while(x[down] <= a && down < ub)
+down++;
+while(x[up] > a)
+up--;
+if(down < up){
+temp = x[down];
+x[down] = x[up];
+x[up] = temp;
+}
+}
+x[lb] = x[up];
+x[up] = a;
+*pj = up;
+}
+四、用 G = (V, E)表示一個無方向性圖形，其中 V 是點的集合，E 是一組節
+點（Vertices）形成一個邊及對應權重（Weights）所組成的集合，例如：
+(0, 1, 28)表示節點 0 至節點 1 有一個邊，而且權重為 28。今有一圖形 G =
+(V, E)，V = {0, 1, 2, 3, 4, 5, 6}，E = {(0, 1, 27), (1, 2, 15), (2, 3, 11), (0, 5, 9),
+(1, 6, 13), (4, 5, 24), (4, 6, 23), (3, 4, 21), (3, 6, 17)}。請利用 Kruskal 演算法
+計算最小擴張樹（Minimum spanning tree）之最低權重或成本值。（25 分）

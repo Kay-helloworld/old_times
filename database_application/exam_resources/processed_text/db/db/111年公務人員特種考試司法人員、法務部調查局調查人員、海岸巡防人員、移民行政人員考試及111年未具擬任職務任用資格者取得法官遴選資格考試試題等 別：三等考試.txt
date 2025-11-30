@@ -1,0 +1,32 @@
+111年公務人員特種考試司法人員、法務部調查局
+調查人員、海岸巡防人員、移民行政人員考試及111年
+未具擬任職務任用資格者取得法官遴選資格考試試題
+考 試 別：調查人員
+等 別：三等考試
+類 科 組：資訊科學組
+科 目：資料庫應用
+考試時間：2 小時 座號：
+※注意：禁止使用電子計算器。
+不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。
+本科目除專門名詞或數理公式外，應使用本國文字作答。
+代號：41450
+頁次：1－1
+一、陳品山（Dr. Peter Chen ）所提出的個體關係模型（Entity-Relationship
+Model, 簡稱 ER Model ）包含那三個主要的塑模概念（Modeling
+Construct）？請分別定義這三個塑模概念。（20 分）
+二、ANSI/SPARC 發布一個資料庫系統架構，稱之為三層綱要架構（three-
+schema architecture）。
+這個三層綱要架構包含那三層綱要？請分別定義這三層綱要。（20 分）
+資料獨立（data independence）是資料庫系統的優點與目標，可分為邏
+輯資料獨立（logical data independence）與實體資料獨立（physical data
+independence）兩種，請在資料庫系統的三層綱要架構下分別定義這兩
+種資料獨立。（10 分）
+三、請分別定義下列四個關聯式資料庫正規化的概念：
+正規化（normalization）（5 分）
+第一正規型式（first normal form）（5 分）
+第二正規型式（second normal form）（10 分）
+第三正規型式（third normal form）（10 分）
+四、請定義多使用者資料庫系統（multi-user database systems）中所使用的
+並行控制（concurrency control）機制。（10 分）
+鎖定（locking）機制為最常使用的一種並行控制機制，請定義之。
+（10 分）
