@@ -1,6 +1,6 @@
 # 高等樹 - 歷年試題彙整
 
-**關鍵字**：AVL, 平衡, Balance, 旋轉, Rotation, B-Tree, B樹, B+ Tree, B+樹, 2-3 Tree...
+**關鍵字**：AVL, 平衡, Balance, 旋轉, Rotation, B-Tree, B樹, B+ Tree, B+樹, B Plus...
 
 **總題數**：22 題
 
@@ -139,6 +139,7 @@ Key？（6分）⑵最少有幾個節點？最少有幾個 Key？（8分）
 
 四、在一棵高度為 h(h=0,1,2,…)的 AVL tree 中：⑴高度為6之 AVL tree 最多
 可能有幾個 nodes？最少可能有幾個 nodes？（假設 root 之 h=0）（6分）
+
 ⑵假設此樹共有45個 nodes。請問此 AVL tree 可能最高之高度及最矮
 之高度各為何？（6分）
 請將下列數字{17,60,24,5,7}逐步插入圖1的 AVLtree 中，並平衡之。

@@ -32,7 +32,8 @@ CATEGORIES = {
             "追蹤", "Traversal", "Preorder", "Inorder", "Postorder", "Level-order",
             "二元搜尋樹", "Binary Search Tree", "BST",
             "堆積", "Heap", "Max Heap", "Min Heap", "Priority Queue", "優先佇列",
-            "引線", "Threaded", "森林", "Forest"
+            "引線", "Threaded", "森林", "Forest",
+            "霍夫曼", "Huffman", "編碼"
         ]
     },
     "04_advanced_trees": {
@@ -73,12 +74,17 @@ CATEGORIES = {
         ]
     },
     "08_algorithm_analysis": {
-        "title": "演算法分析與複雜度",
+        "title": "演算法分析",
         "keywords": [
-            "複雜度", "Complexity", "Time Complexity", "Space Complexity", "時間複雜度", "空間複雜度",
-            "Big-O", "Big O", "Omega", "Theta", "漸近", "Asymptotic",
+            "複雜度", "Complexity", "Time Complexity", "Space Complexity",
+            "時間複雜度", "空間複雜度",
+            "Big-O", "Big O", "Omega", "Theta",
+            "漸近", "Asymptotic",
             "遞迴關係", "Recurrence", "主定理", "Master Theorem",
-            "Greedy", "貪婪", "Dynamic Programming", "動態規劃", "DP", "Knapsack", "背包", "Matrix Chain", "矩陣相乘", "GCD", "最大公因數", "乘法"
+            "Greedy", "貪婪", "Dynamic Programming", "動態規劃", "DP",
+            "Knapsack", "背包", "Matrix Chain", "矩陣相乘", "矩陣連乘", "連乘", "乘積", "加括號",
+            "Divide", "Conquer", "分治",
+            "GCD", "最大公因數", "模數", "餘數"
         ]
     }
 }
@@ -202,6 +208,12 @@ def classify_question(question):
             if keyword.lower() in content_lower:
                 matched_categories.add(cat_key)
     
+    if not matched_categories and "加括號" in content_lower:
+        print(f"DEBUG: Found '加括號' but no category matched. Categories checked: {len(CATEGORIES)}")
+        for k, v in CATEGORIES.items():
+            if "加括號" in v['keywords']:
+                print(f"DEBUG: '加括號' is in category {k}")
+            
     return list(matched_categories)
 
 def generate_markdown(category_key, questions):

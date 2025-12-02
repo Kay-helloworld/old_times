@@ -15,6 +15,7 @@ CATEGORIES = {
         "陣列", "Array", "列優先", "行優先", "Row Major", "Column Major",
         "位址計算", "Address", "三維陣列", "二維陣列", "多維陣列",
         "矩陣", "Matrix", "稀疏矩陣", "Sparse Matrix", "轉置", "Transpose",
+        "多項式", "Polynomial",
     ],
     "鏈結串列 (Linked Lists)": [
         "鏈結串列", "Linked List", "雙向鏈結", "Double Linked", "Doubly Linked",
@@ -25,6 +26,7 @@ CATEGORIES = {
         "佇列", "Queue", "FIFO", "Enqueue", "Dequeue",
         "環狀佇列", "Circular Queue", "雙向佇列", "Deque",
         "優先佇列", "Priority Queue",
+        "中序", "Infix", "後序", "Postfix", "前序", "Prefix", "運算式", "Expression",
     ],
     "樹 (Trees)": [
         "二元樹", "Binary Tree", "Tree",
@@ -32,6 +34,7 @@ CATEGORIES = {
         "追蹤", "Traversal", "Preorder", "Inorder", "Postorder", "Level-order",
         "二元搜尋樹", "Binary Search Tree", "BST",
         "引線", "Threaded", "森林", "Forest",
+        "霍夫曼", "Huffman", "編碼",
     ],
     "堆積 (Heaps)": [
         "堆積", "Heap", "Max Heap", "Min Heap", "最大堆積", "最小堆積",
@@ -62,6 +65,7 @@ CATEGORIES = {
         "Shell Sort", "希爾排序", "謝耳排序",
         "Radix Sort", "基數排序",
         "穩定", "Stability", "外部排序", "External Sort",
+        "排列", "Permutation",
     ],
     "搜尋與雜湊 (Searching & Hashing)": [
         "搜尋", "Search", "二元搜尋", "Binary Search",
@@ -83,8 +87,9 @@ CATEGORIES = {
         "漸近", "Asymptotic",
         "遞迴關係", "Recurrence", "主定理", "Master Theorem",
         "Greedy", "貪婪", "Dynamic Programming", "動態規劃", "DP",
-        "Knapsack", "背包", "Matrix Chain", "矩陣相乘",
+        "Knapsack", "背包", "Matrix Chain", "矩陣相乘", "矩陣連乘", "連乘", "乘積", "加括號",
         "Divide", "Conquer", "分治",
+        "GCD", "最大公因數", "模數", "餘數",
     ],
 }
 
@@ -264,7 +269,23 @@ def main():
     classified_dir = Path(__file__).parent.parent / 'essay_guides' / 'classified_questions'
     
     all_questions = []
+    # 定義要排除的舊檔案列表
+    excluded_files = {
+        '01_arrays_linked_lists_recursion.md',
+        '02_stacks_queues.md',
+        '03_trees_heaps.md',
+        '04_advanced_trees.md',
+        '05_graphs.md',
+        '06_sorting.md',
+        '07_searching_hashing.md',
+        '08_algorithm_analysis.md'
+    }
+
     for md_file in sorted(classified_dir.glob('*.md')):
+        if md_file.name in excluded_files:
+            print(f"跳過舊檔案: {md_file.name}")
+            continue
+            
         print(f"讀取: {md_file.name}")
         questions = parse_question_file(md_file)
         all_questions.extend(questions)
