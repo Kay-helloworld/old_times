@@ -1,13 +1,13 @@
-# 圖形演算法 - 歷年試題彙整
+# 圖形 - 歷年試題彙整
 
-**關鍵字**：圖形, Graph, 相鄰矩陣, Adjacency Matrix, 相鄰串列, Adjacency List, DFS, 深度優先, BFS, 廣度優先...
+**關鍵字**：圖形, Graph, 相鄰矩陣, Adjacency Matrix, 相鄰串列, Adjacency List, DFS, 深度優先, Depth-First, BFS...
 
 **總題數**：44 題
 
 ---
 
 ## [114] [高等考試] [三級考試] 三、114年公務人員高等考試三級考試試題.txt
-**關鍵字**：Graph
+**關鍵字**：Graph, Sollin
 
 三、假設 G 為一個無方向連通加權圖（Undirected connected weighted graph），
 包含五個節點：A、B、C、D、E。各節點間相連情形如下，邊權（邊的
@@ -26,7 +26,7 @@ C 與 E 相連，邊權為 17；
 ---
 
 ## [114] [關務特考、身心障礙特考、國軍轉任特考] [三等考試] 三、114年公務人員特種考試關務人員.txt
-**關鍵字**：Graph, 深度優先, 廣度優先
+**關鍵字**：Graph, 深度優先, Depth-First, 廣度優先, Breadth-First
 
 三、下列的無向圖（undirected graph）表示點與點之間的關係，如 A 與 B 有關
 係，代表 A 與 B 之間有邊（edge）相連，則可走訪。若以英文字母順序作
@@ -39,7 +39,7 @@ C 與 E 相連，邊權為 17；
 ---
 
 ## [114] [關務特考、身心障礙特考、國軍轉任特考] [三等考試] 三、114年公務人員特種考試關務人員、身心障礙人員考試.txt
-**關鍵字**：Graph, 深度優先, 廣度優先
+**關鍵字**：Graph, 深度優先, Depth-First, 廣度優先, Breadth-First
 
 三、下列的無向圖（undirected graph）表示點與點之間的關係，如 A 與 B 有關
 係，代表 A 與 B 之間有邊（edge）相連，則可走訪。若以英文字母順序作
@@ -70,7 +70,7 @@ g ∞ ∞ ∞ 18 ∞ 6 ∞
 ---
 
 ## [113] [未知考試] [三等考試] 五、1 1 3年 特 種 考 試 地 方 政 府 公 務 人 員.txt
-**關鍵字**：相鄰矩陣, BFS, 廣度優先
+**關鍵字**：相鄰矩陣, BFS, 廣度優先, Breadth-First
 
 五、下面的矩陣 M 是表示一個無向圖 G=(V, E)的相鄰矩陣（Adjacency
 Matrix），V 與 E 分別為節點與邊的集合：
@@ -226,7 +226,9 @@ Tree,MST）。執行過程中，將邊（edge）逐步加入此 MST 之順序為
 請考慮下面的問題：
 圖一、無向圖G = (V, E)
 對於無向圖G = (V, E)：（12分）
+
 ⑴請給出對應的相鄰矩陣M。
+
 ⑵以字母順序為考量進行深度優先搜尋（Depth-First Search, DFS），請
 由節點a開始，描述此深度優先搜尋所產生的深度優先樹（DF-tree）。
 請說明在用相鄰矩陣（Adjacency Matrix）表示的無向圖上，進行深度優
@@ -234,9 +236,11 @@ Tree,MST）。執行過程中，將邊（edge）逐步加入此 MST 之順序為
 若將圖一無向圖G = (V, E)中的邊給予方向成為如圖二中的有向圖
 （Directed Graph）G’：（10分）
 圖二、有向圖G’
+
 ⑴有向圖G’沒有迴圈（Cycle），是一個無迴圈有向圖（Directed Acyclic
 Graph,DAG），所以存在節點的拓樸排序（TopologicalSort），請對G’
 給出一個拓樸排序（Topological Sort）。
+
 ⑵請給一個方法來判斷一個有向圖是否沒有迴圈。
 
 ---
@@ -328,7 +332,7 @@ g h i j
 ---
 
 ## [108] [地方特考、離島特考] [三等考試] 四、108年特種考試地方政府公務人員考試試題.txt
-**關鍵字**：Graph, 深度優先, 廣度優先
+**關鍵字**：Graph, 深度優先, Depth-First, 廣度優先, Breadth-First
 
 四、下面的無向圖（undirected graph）表示四個人的關係，如張三與李四有
 關係，這二人之間有邊（edge）相連，則可走訪。括弧內為人名縮寫，
@@ -374,16 +378,6 @@ g h i j
 
 ---
 
-## [107] [高等考試] [三級考試] 三、107年公務人員高等考試三級考試試題.txt
-**關鍵字**：接合點, Articulation, 雙連通, Biconnected
-
-三、一無向圖 G 之節點集合為 G(V)={0,1,2,3,4,5,6,7,8,9}，邊集合為 G(E)={(0,1), (1,2),
-(1,3), (2,4), (3,4), (3,5), (5,6), (5,7), (6,7), (7,8), (7,9)}；請列出 G 之接合點（articulation
-point）和畫出 G 的所有雙連通元件（biconnected component），雙連通元件須以節點
-和邊構成之子圖方式表示。（20 分）
-
----
-
 ## [107] [地方特考、離島特考] [三等考試] 二、107年特種考試地方政府公務人員考試試題.txt
 **關鍵字**：Graph, Spanning Tree
 
@@ -405,7 +399,7 @@ tree）的演算法。
 ---
 
 ## [107] [特種考試] [高員三級考試] 二、107年公務人員特種考試警察人員.txt
-**關鍵字**：廣度優先
+**關鍵字**：廣度優先, Breadth-First
 
 二、已知一個二元樹（binary tree）的後序追蹤（postorder traversal）為 FEACGHBD，而
 中序追蹤（inorder traversal）為 EFADCBGH，其中字母 A 到 H 分別代表一個節點的
@@ -460,7 +454,7 @@ H 0 0 0 2 3 0 3 0
 ---
 
 ## [106] [特種考試] [高員三級考試] 二、106年公務人員特種考試警察人員.txt
-**關鍵字**：Graph, 深度優先, 廣度優先
+**關鍵字**：Graph, 深度優先, Depth-First, 廣度優先, Breadth-First
 
 二、對下面的圖（graph），請分別使用佇列（queue）及堆疊（stack），從 A 出發，分別
 進行廣度優先走訪（breadth-first traversal）及深度優先走訪（depth-first traversal），
@@ -511,7 +505,7 @@ I 8 3 15 6
 ---
 
 ## [105] [關務特考、身心障礙特考、國軍轉任特考] [三等考試] 三、105年公務人員特種考試關務人員考試.txt
-**關鍵字**：深度優先, 廣度優先
+**關鍵字**：深度優先, Depth-First, 廣度優先, Breadth-First
 
 三、若欲於下列樹狀結構中，搜尋節點 X 之位置，試分析深度優先（depth-first）搜尋與
 廣度優先（breadth-first）搜尋之搜尋時間。請由根節點（root node）開始進行節點值
@@ -553,7 +547,7 @@ N(V,E,C),V={1,2,3,4,5,6},N={(1,2,6),(1,5,19),(1,6,21),(2,3,5),(2,4,16),(2,5,11),
 ---
 
 ## [105] [高等考試] [三級考試] 一、105年公務人員高等考試三級考試試題.txt
-**關鍵字**：Graph, 深度優先, 廣度優先
+**關鍵字**：Graph, 深度優先, Depth-First, 廣度優先, Breadth-First
 
 一、假設一個無向圖（undirected graph）的邊（edges）如下：
 S, T S, Z T, Y T, Z V, Y V, Z Y, Z
@@ -561,6 +555,18 @@ S, T S, Z T, Y T, Z V, Y V, Z Y, Z
 走訪結果。（10 分）
 使用佇列（queue），從 S 開始，進行廣度優先走訪（breadth-first traversal），請寫
 出走訪結果。（10 分）
+
+---
+
+## [105] [高等考試] [三級考試] 三、105年公務人員高等考試三級考試試題.txt
+**關鍵字**：Breadth-First
+
+三、請對下面的樹，分別做前序（preOrder）、中序（inOrder）、後序（postOrder）及廣度
+優先（breadth-first）四種走訪（traversals），請分別寫出結果。（20 分）
+＋
+－ ／
+Ｘ Ｙ Ｚ ＊
+Ａ Ｂ
 
 ---
 
@@ -621,7 +627,7 @@ search）時會使用何種資料結構?為什麼?（10 分）
 ---
 
 ## [104] [地方特考、離島特考] [三等考試] 四、104年特種考試地方政府公務人員考試試題.txt
-**關鍵字**：廣度優先
+**關鍵字**：廣度優先, Breadth-First
 
 四、一運算式（expression）為：–a+(z+f)/y–b*a/c+d，請依運算元優先順序，繪出其
 二元樹（binary tree）。（10 分）
@@ -734,7 +740,7 @@ Step33: display content of queue/stack and processSet
 ---
 
 ## [Unknown] [地方特考、離島特考] [三等考試] 五、111 年特種考試地方政府公務人員考試試題.txt
-**關鍵字**：相鄰矩陣, Adjacency Matrix, BFS, 廣度優先, 最小擴張樹
+**關鍵字**：相鄰矩陣, Adjacency Matrix, BFS, 廣度優先, Breadth-First
 
 五、下圖是一個加權圖 G=(V, E)，其中 V 是點集合而 E 是邊集合。
 請使用相鄰矩陣（Adjacency Matrix）表示法來表示加權圖 G。（5 分）

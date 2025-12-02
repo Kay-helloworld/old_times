@@ -330,9 +330,7 @@ A B C D E A D C B E
 請考慮下面的問題：
 圖一、無向圖G = (V, E)
 對於無向圖G = (V, E)：（12分）
-
 ⑴請給出對應的相鄰矩陣M。
-
 ⑵以字母順序為考量進行深度優先搜尋（Depth-First Search, DFS），請
 由節點a開始，描述此深度優先搜尋所產生的深度優先樹（DF-tree）。
 請說明在用相鄰矩陣（Adjacency Matrix）表示的無向圖上，進行深度優
@@ -340,11 +338,9 @@ A B C D E A D C B E
 若將圖一無向圖G = (V, E)中的邊給予方向成為如圖二中的有向圖
 （Directed Graph）G’：（10分）
 圖二、有向圖G’
-
 ⑴有向圖G’沒有迴圈（Cycle），是一個無迴圈有向圖（Directed Acyclic
 Graph,DAG），所以存在節點的拓樸排序（TopologicalSort），請對G’
 給出一個拓樸排序（Topological Sort）。
-
 ⑵請給一個方法來判斷一個有向圖是否沒有迴圈。
 
 ---

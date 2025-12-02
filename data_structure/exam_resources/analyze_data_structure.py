@@ -11,22 +11,23 @@ from datetime import datetime
 
 # 資料結構分類和關鍵字定義
 CATEGORIES = {
-    "陣列與矩陣 (Arrays & Matrices)": [
-        "陣列", "Array", "列優先", "行優先", "Row Major", "Column Major",
-        "位址計算", "Address", "三維陣列", "二維陣列", "多維陣列",
-        "矩陣", "Matrix", "稀疏矩陣", "Sparse Matrix", "轉置", "Transpose",
-        "多項式", "Polynomial",
-    ],
-    "鏈結串列 (Linked Lists)": [
-        "鏈結串列", "Linked List", "雙向鏈結", "Double Linked", "Doubly Linked",
-        "環狀鏈結", "Circular Linked", "指標", "Pointer", "節點", "Node",
-    ],
     "堆疊與佇列 (Stacks & Queues)": [
         "堆疊", "Stack", "Push", "Pop", "LIFO",
         "佇列", "Queue", "FIFO", "Enqueue", "Dequeue",
         "環狀佇列", "Circular Queue", "雙向佇列", "Deque",
         "優先佇列", "Priority Queue",
         "中序", "Infix", "後序", "Postfix", "前序", "Prefix", "運算式", "Expression",
+    ],
+    "演算法分析 (Algorithm Analysis)": [
+        "複雜度", "Complexity", "Time Complexity", "Space Complexity",
+        "時間複雜度", "空間複雜度",
+        "Big-O", "Big O", "Omega", "Theta",
+        "漸近", "Asymptotic",
+        "遞迴關係", "Recurrence", "主定理", "Master Theorem",
+        "Greedy", "貪婪", "Dynamic Programming", "動態規劃", "DP",
+        "Knapsack", "背包", "Matrix Chain", "矩陣相乘", "矩陣連乘", "連乘", "乘積", "加括號",
+        "Divide", "Conquer", "分治",
+        "GCD", "最大公因數", "模數", "餘數",
     ],
     "樹 (Trees)": [
         "二元樹", "Binary Tree", "Tree",
@@ -36,9 +37,23 @@ CATEGORIES = {
         "引線", "Threaded", "森林", "Forest",
         "霍夫曼", "Huffman", "編碼",
     ],
-    "堆積 (Heaps)": [
-        "堆積", "Heap", "Max Heap", "Min Heap", "最大堆積", "最小堆積",
-        "Heapify", "堆積化",
+    "搜尋與雜湊 (Searching & Hashing)": [
+        "搜尋", "Search", "二元搜尋", "Binary Search",
+        "內插搜尋", "Interpolation",
+        "雜湊", "Hash", "碰撞", "Collision",
+        "探測", "Probing", "鏈結", "Chaining",
+        "溢位", "Overflow", "載入因子", "Load Factor",
+        "KMP", "Pattern", "字串比對",
+    ],
+    "排序 (Sorting)": [
+        "排序", "Sort", "Quick Sort", "快速排序", "Merge Sort", "合併排序",
+        "Heap Sort", "堆積排序",
+        "Insertion Sort", "插入排序", "Selection Sort", "選擇排序",
+        "Bubble Sort", "氣泡排序",
+        "Shell Sort", "希爾排序", "謝耳排序",
+        "Radix Sort", "基數排序",
+        "穩定", "Stability", "外部排序", "External Sort",
+        "排列", "Permutation",
     ],
     "高等樹 (Advanced Trees)": [
         "AVL", "平衡", "Balance", "旋轉", "Rotation",
@@ -57,39 +72,24 @@ CATEGORIES = {
         "拓樸", "Topological", "AOV", "AOE",
         "關鍵路徑", "Critical Path",
     ],
-    "排序 (Sorting)": [
-        "排序", "Sort", "Quick Sort", "快速排序", "Merge Sort", "合併排序",
-        "Heap Sort", "堆積排序",
-        "Insertion Sort", "插入排序", "Selection Sort", "選擇排序",
-        "Bubble Sort", "氣泡排序",
-        "Shell Sort", "希爾排序", "謝耳排序",
-        "Radix Sort", "基數排序",
-        "穩定", "Stability", "外部排序", "External Sort",
-        "排列", "Permutation",
+    "鏈結串列 (Linked Lists)": [
+        "鏈結串列", "Linked List", "雙向鏈結", "Double Linked", "Doubly Linked",
+        "環狀鏈結", "Circular Linked", "指標", "Pointer", "節點", "Node",
     ],
-    "搜尋與雜湊 (Searching & Hashing)": [
-        "搜尋", "Search", "二元搜尋", "Binary Search",
-        "內插搜尋", "Interpolation",
-        "雜湊", "Hash", "碰撞", "Collision",
-        "探測", "Probing", "鏈結", "Chaining",
-        "溢位", "Overflow", "載入因子", "Load Factor",
-        "KMP", "Pattern", "字串比對",
+    "陣列與矩陣 (Arrays & Matrices)": [
+        "陣列", "Array", "列優先", "行優先", "Row Major", "Column Major",
+        "位址計算", "Address", "三維陣列", "二維陣列", "多維陣列",
+        "矩陣", "Matrix", "稀疏矩陣", "Sparse Matrix", "轉置", "Transpose",
+        "多項式", "Polynomial",
     ],
     "遞迴 (Recursion)": [
         "遞迴", "Recursion", "Recursive",
         "河內塔", "Hanoi", "費氏", "Fibonacci",
         "Ackermann", "Binomial", "二項式",
     ],
-    "演算法分析 (Algorithm Analysis)": [
-        "複雜度", "Complexity", "Time Complexity", "Space Complexity",
-        "時間複雜度", "空間複雜度",
-        "Big-O", "Big O", "Omega", "Theta",
-        "漸近", "Asymptotic",
-        "遞迴關係", "Recurrence", "主定理", "Master Theorem",
-        "Greedy", "貪婪", "Dynamic Programming", "動態規劃", "DP",
-        "Knapsack", "背包", "Matrix Chain", "矩陣相乘", "矩陣連乘", "連乘", "乘積", "加括號",
-        "Divide", "Conquer", "分治",
-        "GCD", "最大公因數", "模數", "餘數",
+    "堆積 (Heaps)": [
+        "堆積", "Heap", "Max Heap", "Min Heap", "最大堆積", "最小堆積",
+        "Heapify", "堆積化",
     ],
 }
 
@@ -271,6 +271,7 @@ def main():
     all_questions = []
     # 定義要排除的舊檔案列表
     excluded_files = {
+        # 舊的 8 類檔案
         '01_arrays_linked_lists_recursion.md',
         '02_stacks_queues.md',
         '03_trees_heaps.md',

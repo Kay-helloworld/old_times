@@ -8,72 +8,17 @@ OUTPUT_DIR = "/Users/kaylo/Documents/程式相關/antigravity/data_structure/ess
 
 # Categories and Keywords
 CATEGORIES = {
-    "01_arrays_linked_lists_recursion": {
-        "title": "陣列、鏈結串列與遞迴",
-        "keywords": [
-            "陣列", "Array", "列優先", "行優先", "Row Major", "Column Major", "位址計算", "Address",
-            "鏈結串列", "Linked List", "雙向鏈結", "Double Linked", "環狀鏈結", "Circular Linked", "指標", "Pointer",
-            "稀疏矩陣", "Sparse Matrix", "多項式", "Polynomial",
-            "遞迴", "Recursion", "河內塔", "Hanoi", "費氏", "Fibonacci", "Ackermann", "Binomial", "二項式", "floor", "function"
-        ]
-    },
-    "02_stacks_queues": {
+    "01_stacks_queues": {
         "title": "堆疊與佇列",
         "keywords": [
             "堆疊", "Stack", "Push", "Pop", "LIFO",
-            "佇列", "Queue", "FIFO", "環狀佇列", "Circular Queue", "雙向佇列", "Deque",
-            "中序", "Infix", "後序", "Postfix", "前序", "Prefix", "運算式", "Expression", "排列", "Permutation"
+            "佇列", "Queue", "FIFO", "Enqueue", "Dequeue",
+            "環狀佇列", "Circular Queue", "雙向佇列", "Deque",
+            "優先佇列", "Priority Queue",
+            "中序", "Infix", "後序", "Postfix", "前序", "Prefix", "運算式", "Expression"
         ]
     },
-    "03_trees_heaps": {
-        "title": "樹與堆積",
-        "keywords": [
-            "二元樹", "Binary Tree", "完滿二元樹", "Complete Binary Tree", "樹", "Tree",
-            "追蹤", "Traversal", "Preorder", "Inorder", "Postorder", "Level-order",
-            "二元搜尋樹", "Binary Search Tree", "BST",
-            "堆積", "Heap", "Max Heap", "Min Heap", "Priority Queue", "優先佇列",
-            "引線", "Threaded", "森林", "Forest",
-            "霍夫曼", "Huffman", "編碼"
-        ]
-    },
-    "04_advanced_trees": {
-        "title": "高等樹",
-        "keywords": [
-            "AVL", "平衡", "Balance", "旋轉", "Rotation",
-            "B-Tree", "B樹", "B+ Tree", "B+樹", "2-3 Tree", "2-3樹", "2-3-4",
-            "紅黑樹", "Red-Black", "RB Tree",
-            "伸展樹", "Splay", "字首樹", "Trie", "M-way"
-        ]
-    },
-    "05_graphs": {
-        "title": "圖形演算法",
-        "keywords": [
-            "圖形", "Graph", "相鄰矩陣", "Adjacency Matrix", "相鄰串列", "Adjacency List",
-            "DFS", "深度優先", "BFS", "廣度優先",
-            "最小擴張樹", "MST", "Spanning Tree", "Prim", "Kruskal",
-            "最短路徑", "Shortest Path", "Dijkstra", "Floyd", "Bellman",
-            "拓樸", "Topological", "AOV", "AOE", "關鍵路徑", "Critical Path",
-            "接合點", "Articulation", "雙連通", "Biconnected"
-        ]
-    },
-    "06_sorting": {
-        "title": "排序演算法",
-        "keywords": [
-            "排序", "Sort", "Quick Sort", "快速排序", "Merge Sort", "合併排序", "Heap Sort", "堆積排序",
-            "Insertion Sort", "插入排序", "Selection Sort", "選擇排序", "Bubble Sort", "氣泡排序",
-            "Shell Sort", "希爾排序", "謝耳排序", "Radix Sort", "基數排序",
-            "穩定", "Stability", "外部排序", "External Sort", "Divide", "Conquer"
-        ]
-    },
-    "07_searching_hashing": {
-        "title": "搜尋與雜湊",
-        "keywords": [
-            "搜尋", "Search", "二元搜尋", "Binary Search", "內插搜尋", "Interpolation",
-            "雜湊", "Hash", "碰撞", "Collision", "探測", "Probing", "鏈結", "Chaining",
-            "溢位", "Overflow", "載入因子", "Load Factor", "KMP", "Pattern", "字串比對"
-        ]
-    },
-    "08_algorithm_analysis": {
+    "02_algorithm_analysis": {
         "title": "演算法分析",
         "keywords": [
             "複雜度", "Complexity", "Time Complexity", "Space Complexity",
@@ -85,6 +30,95 @@ CATEGORIES = {
             "Knapsack", "背包", "Matrix Chain", "矩陣相乘", "矩陣連乘", "連乘", "乘積", "加括號",
             "Divide", "Conquer", "分治",
             "GCD", "最大公因數", "模數", "餘數"
+        ]
+    },
+    "03_trees": {
+        "title": "樹",
+        "keywords": [
+            "二元樹", "Binary Tree", "Tree",
+            "完滿二元樹", "Complete Binary Tree", "滿二元樹", "Full Binary Tree",
+            "追蹤", "Traversal", "Preorder", "Inorder", "Postorder", "Level-order",
+            "二元搜尋樹", "Binary Search Tree", "BST",
+            "引線", "Threaded", "森林", "Forest",
+            "霍夫曼", "Huffman", "編碼"
+        ]
+    },
+    "04_searching_hashing": {
+        "title": "搜尋與雜湊",
+        "keywords": [
+            "搜尋", "Search", "二元搜尋", "Binary Search",
+            "內插搜尋", "Interpolation",
+            "雜湊", "Hash", "碰撞", "Collision",
+            "探測", "Probing", "鏈結", "Chaining",
+            "溢位", "Overflow", "載入因子", "Load Factor",
+            "KMP", "Pattern", "字串比對"
+        ]
+    },
+    "05_sorting": {
+        "title": "排序",
+        "keywords": [
+            "排序", "Sort", "Quick Sort", "快速排序", "Merge Sort", "合併排序",
+            "Heap Sort", "堆積排序",
+            "Insertion Sort", "插入排序", "Selection Sort", "選擇排序",
+            "Bubble Sort", "氣泡排序",
+            "Shell Sort", "希爾排序", "謝耳排序",
+            "Radix Sort", "基數排序",
+            "穩定", "Stability", "外部排序", "External Sort",
+            "排列", "Permutation"
+        ]
+    },
+    "06_advanced_trees": {
+        "title": "高等樹",
+        "keywords": [
+            "AVL", "平衡", "Balance", "旋轉", "Rotation",
+            "B-Tree", "B樹", "B+ Tree", "B+樹", "B Plus",
+            "2-3 Tree", "2-3樹", "2-3-4", "2-4",
+            "紅黑樹", "Red-Black", "RB Tree",
+            "伸展樹", "Splay", "字首樹", "Trie", "M-way"
+        ]
+    },
+    "07_graphs": {
+        "title": "圖形",
+        "keywords": [
+            "圖形", "Graph", "相鄰矩陣", "Adjacency Matrix", "相鄰串列", "Adjacency List",
+            "DFS", "深度優先", "Depth-First",
+            "BFS", "廣度優先", "Breadth-First",
+            "最小擴張樹", "MST", "Spanning Tree", "Prim", "Kruskal", "Sollin",
+            "最短路徑", "Shortest Path", "Dijkstra", "Floyd", "Bellman",
+            "拓樸", "Topological", "AOV", "AOE",
+            "關鍵路徑", "Critical Path"
+        ]
+    },
+    "08_linked_lists": {
+        "title": "鏈結串列",
+        "keywords": [
+            "鏈結串列", "Linked List", "雙向鏈結", "Double Linked", "Doubly Linked",
+            "環狀鏈結", "Circular Linked", "指標", "Pointer", "節點", "Node"
+        ]
+    },
+    "09_arrays_matrices": {
+        "title": "陣列與矩陣",
+        "keywords": [
+            "陣列", "Array", "列優先", "行優先", "Row Major", "Column Major", "位址計算", "Address",
+            "三維陣列", "二維陣列", "多維陣列",
+            "矩陣", "Matrix", "稀疏矩陣", "Sparse Matrix", "轉置", "Transpose",
+            "多項式", "Polynomial"
+        ]
+    },
+    "10_recursion": {
+        "title": "遞迴",
+        "keywords": [
+            "遞迴", "Recursion", "Recursive",
+            "河內塔", "Hanoi", "費氏", "Fibonacci",
+            "Ackermann", "Binomial", "二項式",
+            "floor", "function"
+        ]
+    },
+    "11_heaps": {
+        "title": "堆積",
+        "keywords": [
+            "堆積", "Heap", "Max Heap", "Min Heap", "最大堆積", "最小堆積",
+            "Heapify", "堆積化"
         ]
     }
 }
