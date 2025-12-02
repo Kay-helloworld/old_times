@@ -1,0 +1,33 @@
+代號：40840 110年公務人員特種考試關務人員、身心障礙人員考試及
+頁次：1－1
+110年國 軍 上 校 以 上 軍 官 轉 任 公 務 人 員 考 試 試 題
+考 試 別：身心障礙人員考試
+等 別：四等考試
+類 科：資訊處理
+科 目：資訊管理概要
+考試時間：1 小時 30 分 座號：
+※注意： 禁止使用電子計算器。
+不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本
+試題上作答者，不予計分。
+本科目除專門名詞或數理公式外，應使用本國文字作答。
+一、請說明下列成對名詞的涵義以及彼此間的關係。（每小題 5 分，共 25 分）
+虛擬私人網路（VPN）vs.防火牆（Firewall）
+ RFID（RadioFrequencyIdentification）vs.NFC（Near-fieldcommunication）
+ RDB vs. NoSQL
+ ERP（Enterprise resource planning）vs. CRM（Customer Relationship
+Management）
+數位憑證 vs.數位簽章
+二、你負責機關首長信箱系統的維護與管理工作，機關發覺民眾似乎對該系統
+的服務不太滿意，使用率不高。主管要求你提升這個系統的服務品質。所
+謂的資訊系統服務品質包括：有形性（Tangible）、可靠度（Reliability）、
+確信度（Assurance）、回應性（Responsiveness）和同理度（Empathy）。
+請以首長信箱系統為例，說明它們對服務品質所代表的意義。（25 分）
+三、你負責機關網路設施的維運管理，打開所負責的設備清單，都是一堆網路
+集線器（Hub）、交換器（Switch）、交換集線器（Switching Hub）、路由
+器（Router）、閘道器（Gateway），請說明這些網路設備在機關的網路架
+構中所扮演的角色。（25 分）
+四、你被指示要對機關新建置完成的線上交易平台系統評估其資訊安全性，依
+據 ISO/IEC 7498-2 的定義，資訊安全的五大需求為：隱密性（Privacy）；
+驗證性（Authentication）；完整性（Integrity）；不可否認性（Non-
+repudiation）；存取控制（Access Control）。請說明就一套線上交易系
+統而言，這五個需求可以如何加以滿足？（25 分）

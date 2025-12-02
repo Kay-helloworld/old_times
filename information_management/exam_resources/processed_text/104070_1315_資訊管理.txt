@@ -1,0 +1,25 @@
+104年公務人員特種考試警察人員、一般警察人員考試及104年
+代號：71080 全一頁
+特種考試交通事業鐵路人員、退除役軍人轉任公務人員考試試題
+等 別： 高員三級鐵路人員考試
+類 科 別： 資訊處理
+科 目： 資訊管理
+考試時間： 2 小時 座號：
+※注意： 禁止使用電子計算器。
+不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。
+一、企業內部存著不同類型的系統以支援各個階層的業務，請從系統的特性、適用的對象
+與決策類型說明下列 3 種系統：管理資訊系統（Management Information Systems）、
+決策資訊系統（Decision Support Systems）及高階主管支援系統（Executive Support
+Systems）。（25 分）
+二、何謂顧客關係管理（Customer Relationship Management, CRM）系統？請說明下列 2
+種 CRM 的類型：作業型顧客關係管理（Operational CRM）與分析型顧客關係管理
+（Analytical CRM），並解釋 CRM 中常用的 2 種技術：線上交易處理（On-line
+Transaction Processing, OLTP）及線上分析處理（On-line Analytical Processing, OLAP）。
+（25 分）
+三、請說明資訊系統開發的系統開發生命週期法（System Development Life Cycle, SDLC）
+及雛型開發法（Prototyping）主要的特性，並說明軟體測試常用的黑箱測試及白箱測
+試。（25 分）
+四、隨著網際網路的應用多元化，愈來愈多的創新商業模式興起，請解釋並說明何謂群
+眾外包（Crowdsourcing）、社群商務（或稱為社會化電子商務）（Social Commerce
+or Social e-commerce）、社會網路行銷（Social Network Marketing）、免費增值
+（Freemium）。（25 分）
