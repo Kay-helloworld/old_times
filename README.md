@@ -36,7 +36,7 @@ antigravity/
 
 #### 📊 考題資源
 
-- [統計分析報告](database_application/exam_resources/analysis_reports/)
+- **關鍵字分析**：[完整分析報告](database_application/exam_resources/analysis_reports/db_knowledge_analysis_v2.md)
 - [題目列表](database_application/exam_resources/topic_lists/)
 - [原始考題PDF](database_application/exam_resources/original_pdfs/db/)
 - [處理後文字檔](database_application/exam_resources/processed_text/db/)
@@ -54,21 +54,24 @@ antigravity/
 
 #### 資料結構（Data Structure）
 
-- 申論題解析：`data_structure/essay_guides/`
-- 考題資源：`data_structure/exam_resources/`
-- 練習工具：`data_structure/practice_tools/`
+- 📊 **關鍵字分析**：[完整分析報告](data_structure/exam_resources/analysis_reports/data_structure_comprehensive_analysis.md)
+- 📝 **原始考題**：[考題文字檔資料夾](data_structure/exam_resources/processed_text/)
+- 📖 申論題解析：[essay_guides/](data_structure/essay_guides/)
+- 🛠️ 練習工具：[practice_tools/](data_structure/practice_tools/)
 
 #### 資通安全（Information Security）
 
-- 申論題解析：`information_security/essay_guides/`
-- 考題資源：`information_security/exam_resources/`
-- 練習工具：`information_security/practice_tools/`
+- 📊 **關鍵字分析**：[完整分析報告](information_security/exam_resources/analysis_reports/infosec_comprehensive_analysis.md)
+- 📝 **原始考題**：[考題文字檔資料夾](information_security/exam_resources/processed_text/)
+- 📖 申論題解析：[essay_guides/](information_security/essay_guides/)
+- 🛠️ 練習工具：[practice_tools/](information_security/practice_tools/)
 
 #### 資訊管理（Information Management）
 
-- 申論題解析：`information_management/essay_guides/`
-- 考題資源：`information_management/exam_resources/`
-- 練習工具：`information_management/practice_tools/`
+- 📊 **關鍵字分析**：[完整分析報告](information_management/exam_resources/analysis_reports/information_management_comprehensive_analysis.md)
+- 📝 **原始考題**：[考題文字檔資料夾](information_management/exam_resources/processed_text/)
+- 📖 申論題解析：[essay_guides/](information_management/essay_guides/)
+- 🛠️ 練習工具：[practice_tools/](information_management/practice_tools/)
 
 ---
 
