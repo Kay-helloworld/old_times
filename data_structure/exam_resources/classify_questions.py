@@ -99,14 +99,47 @@ def parse_questions(file_path):
     # Try to extract from the first line (Title)
     if lines:
         first_line = lines[0].strip()
+        
+        # 移除開頭的「代號：XXXXX」部分
+        # 使用更精確的匹配：「代號：」後跟非連續的數字（可能有空格），然後遇到「XXX年」
+        # 我們要移除「代號：XXXXX 」但保留「XXX年...」
+        if '代號' in first_line:
+            # 找到「代號：」後第一個「X年」的模式
+            match = re.search(r'代號[：:][^年]*?(\d+年)', first_line)
+            if match:
+                # 從年份開始保留
+                first_line_clean = first_line[first_line.index(match.group(1)):]
+            else:
+                first_line_clean = first_line
+        else:
+            first_line_clean = first_line
+        
         # Handle spaces in year like "1 1 3" or "110 "
         # Regex: Start with digits (with optional spaces), followed by '年'
-        year_match = re.match(r'^(\d[\d\s]*)\s*年', first_line)
+        year_match = re.match(r'^(\d[\d\s]*)\s*年', first_line_clean)
         if year_match:
             year_str = year_match.group(1).replace(" ", "")
             year = year_str
             # Exam name is the rest of the line
-            exam_name = first_line[len(year_match.group(0)):].strip()
+            exam_name = first_line_clean[len(year_match.group(0)):].strip()
+            
+            # 從標題中提取等別（如「三級考試」「二級考試」等）
+            rank_patterns = [
+                r'(二級考試)',
+                r'(三級考試)',
+                r'(四級考試)',
+                r'(五級考試)',
+                r'(二等考試)',
+                r'(三等考試)',
+                r'(四等考試)',
+                r'(五等考試)',
+                r'(普通考試)',
+            ]
+            for pattern in rank_patterns:
+                rank_in_title = re.search(pattern, exam_name)
+                if rank_in_title:
+                    rank = rank_in_title.group(1)
+                    break
         else:
             # Fallback to filename if first line doesn't match
             year_match_fn = re.search(r'(\d{3})年', filename)
@@ -114,6 +147,7 @@ def parse_questions(file_path):
                 year = year_match_fn.group(1)
 
     # Try to extract Rank and Subject from subsequent lines
+    # (這裡會覆寫從標題提取的 rank，如果「等 別：」欄位存在的話)
     for line in lines[:10]: # Check first 10 lines
         line = line.strip()
         if "等" in line and "別" in line and "：" in line:
