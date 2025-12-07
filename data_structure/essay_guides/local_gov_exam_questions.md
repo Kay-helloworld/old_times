@@ -23,26 +23,26 @@
 ### 1.2 題型分類表
 | 題型 | 占比 | 題數 | 代表性題目 | 難度 |
 |------|------|------|-----------|------|
-| **樹狀結構** | 35% | 22 題 | 二元樹走訪、AVL Tree、B-Tree、Heap、Huffman Tree | ⭐⭐⭐⭐ |
-| **圖論演算法** | 20% | 13 題 | BFS/DFS 走訪、最短路徑、最小生成樹 (Prim, Kruskal) | ⭐⭐⭐⭐⭐ |
-| **排序演算法** | 15% | 10 題 | 各種排序法比較、時間複雜度、穩定性分析 | ⭐⭐⭐⭐ |
-| **時間複雜度分析** | 12% | 8 題 | Big-O 分析、遞迴複雜度、演算法效能評估 | ⭐⭐⭐⭐⭐ |
-| **雜湊表** | 8% | 5 題 | Hash Function、衝突處理 (Linear Probing, Double Hashing) | ⭐⭐⭐ |
-| **鏈結串列與陣列** | 10% | 6 題 | Linked List 操作、陣列儲存結構、稀疏矩陣 | ⭐⭐⭐ |
+| **樹狀結構** | 35% | 22 題 | 二元樹走訪、AVL Tree、<br>B-Tree、Heap、Huffman Tree | ⭐⭐⭐⭐ |
+| **圖論演算法** | 20% | 13 題 | BFS/DFS 走訪、最短路徑、<br>最小生成樹 (Prim, Kruskal) | ⭐⭐⭐⭐⭐ |
+| **排序演算法** | 15% | 10 題 | 各種排序法比較、<br>時間複雜度、穩定性分析 | ⭐⭐⭐⭐ |
+| **時間複雜度分析** | 12% | 8 題 | Big-O 分析、遞迴複雜度、<br>演算法效能評估 | ⭐⭐⭐⭐⭐ |
+| **雜湊表** | 8% | 5 題 | Hash Function、衝突處理<br>(Linear Probing, Double Hashing) | ⭐⭐⭐ |
+| **鏈結串列與陣列** | 10% | 6 題 | Linked List 操作、<br>陣列儲存結構、稀疏矩陣 | ⭐⭐⭐ |
 
 ### 1.3 年度趨勢分析
 | 年份 | 題數 | 主要考點變化 |
 |------|------|-------------|
-| **113年** | 5 題 | Linear Search (迴圈/遞迴)、AVL/Heap/2-4 Tree、Huffman Tree、BFS/DFS、排序演算法比較 |
-| **112年** | 5 題 | Linked List Search、AVL/Heap/2-4 Tree、Huffman 編碼、BFS/DFS 圖走訪、排序複雜度 |
-| **111年** | 5 題 | Big-O 分析、Expression Tree、m-ary Tree、Binary Heap、Prim 演算法 |
-| **110年** | 4 題 | 二元樹走訪 (遞迴 vs 非遞迴)、稀疏矩陣儲存、Adjacency List、Interval Heap |
-| **109年** | 5 題 | 複製二元樹、B-Tree 特性、Double Hashing、AVL Tree、Heap Sort + KMP |
-| **108年** | 5 題 | Big-O 估計、Priority Queue 實作 (Linked List/Red-Black Tree/Min Heap)、2-3-4 Tree、BFS/DFS、雜湊表 |
-| **107年** | 5 題 | GCD 演算法證明、MST 演算法設計、Counting/Radix Sort、Heap 建構演算法、Fibonacci 遞迴分析 |
-| **106年** | 4 題 | 二元樹陣列表示、資料結構複雜度比較、環狀 Linked List、排序法辨識 |
-| **105年** | 5 題 | AVL Tree 中序排列、矩陣鏈乘法、最小成本生成樹、三維陣列位址計算、Binomial Coefficient |
-| **104年** | 5 題 | 組合遞迴演算法、IF 指令二元樹優化、佇列演算法、Euler 圖論問題、二元搜尋樹高度 |
+| **113年** | 5 題 | Linear Search (迴圈/遞迴)、AVL/Heap/2-4 Tree、<br>Huffman Tree、BFS/DFS、排序演算法比較 |
+| **112年** | 5 題 | Linked List Search、AVL/Heap/2-4 Tree、<br>Huffman 編碼、BFS/DFS 圖走訪、排序複雜度 |
+| **111年** | 5 題 | Big-O 分析、Expression Tree、m-ary Tree、<br>Binary Heap、Prim 演算法 |
+| **110年** | 4 題 | 二元樹走訪 (遞迴 vs 非遞迴)、稀疏矩陣儲存、<br>Adjacency List、Interval Heap |
+| **109年** | 5 題 | 複製二元樹、B-Tree 特性、Double Hashing、<br>AVL Tree、Heap Sort + KMP |
+| **108年** | 5 題 | Big-O 估計、Priority Queue 實作<br>(Linked List/Red-Black Tree/Min Heap)、<br>2-3-4 Tree、BFS/DFS、雜湊表 |
+| **107年** | 5 題 | GCD 演算法證明、MST 演算法設計、<br>Counting/Radix Sort、Heap 建構演算法、Fibonacci 遞迴分析 |
+| **106年** | 4 題 | 二元樹陣列表示、資料結構複雜度比較、<br>環狀 Linked List、排序法辨識 |
+| **105年** | 5 題 | AVL Tree 中序排列、矩陣鏈乘法、<br>最小成本生成樹、三維陣列位址計算、Binomial Coefficient |
+| **104年** | 5 題 | 組合遞迴演算法、IF 指令二元樹優化、<br>佇列演算法、Euler 圖論問題、二元搜尋樹高度 |
 
 ### 1.4 高頻考點統計
 | 考點類別 | 出現次數 | 占比 | 重點細節 |
