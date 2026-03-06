@@ -1,0 +1,3594 @@
+[
+  {
+    "year": "113",
+    "num": 1,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "本試題共4頁(A3紙1張)。"
+  },
+  {
+    "year": "113",
+    "num": 2,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "禁止使用電子計算器。"
+  },
+  {
+    "year": "113",
+    "num": 3,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "本試題為單選題共 50題，每題 2分，共 100分，須用 2B鉛筆在答案卡畫記作答，於本 注 試題或其他紙張作答者不予計分。 意 4.請就各題選項中選出最適當者為答案，答錯不倒扣；畫記多於 1 個選項或未作答者，該 事 題不予計分。 項 5.本試題採雙面印刷，請注意正、背面試題。"
+  },
+  {
+    "year": "113",
+    "num": 4,
+    "domain": "系統軟硬體",
+    "sub": "系統軟體/OS",
+    "difficulty": 2,
+    "content": "若硬體無法滿足每個時脈週期在管路(Pipeline)中同時被執行的指令，會發生下列何種問題？ (A)排程危障 (B)控制危障 (C)資料危障 (D)結構危障"
+  },
+  {
+    "year": "113",
+    "num": 5,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列何種磁碟陣列的成本最高？ (A) RAID 0 (B) RAID 1 (C) RAID 3 (D) RAID 4"
+  },
+  {
+    "year": "113",
+    "num": 6,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "考試結束前離場者，試題須隨答案卡繳回，俟本節考試結束後，始得至原試場或適當處 所索取。"
+  },
+  {
+    "year": "113",
+    "num": 7,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "考試時間：90分鐘。"
+  },
+  {
+    "year": "113",
+    "num": 8,
+    "domain": "系統軟硬體",
+    "sub": "系統軟體/OS",
+    "difficulty": 2,
+    "content": "行程(Process)若沒有配置足夠的實體記憶體頁框(Frames)時，將因分頁錯誤率高而產生大量記 憶體分頁切換，此現象稱為下列何者？ (A) Thrashing (B) Starvation (C) Memory Leak (D) Deadlock"
+  },
+  {
+    "year": "113",
+    "num": 9,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "關於死結(Deadlock)發生的必要條件，下列何者有誤？ (A)互斥 (B)占用並等候 (C)程式發生不可預期的錯誤 (D)不可強奪"
+  },
+  {
+    "year": "113",
+    "num": 10,
+    "domain": "系統軟硬體",
+    "sub": "系統軟體/OS",
+    "difficulty": 2,
+    "content": "關於記憶體管理方式中的分頁法(Paging)，下列何者有誤？ (A)會有內部碎裂 (B)會有外部碎裂 (C)區塊大小為固定 (D)允許1個程式載入不連續的記憶體空間"
+  },
+  {
+    "year": "113",
+    "num": 11,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列何種檔案配置法，對於增加或刪除檔案最不具彈性？ (A)連結配置法 (B)隨機配置法 (C)索引配置法 (D)連續配置法"
+  },
+  {
+    "year": "113",
+    "num": 12,
+    "domain": "資通安全",
+    "sub": "PKI與數位簽章",
+    "difficulty": 2,
+    "content": "下列何者是世界上第一個被正式採用，並流傳至今的高階程式語言？ (A) BASIC (B) COBOL (C)FORTRAN (D) PASCAL"
+  },
+  {
+    "year": "113",
+    "num": 13,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "關於伺服器端動態網頁之敘述，下列何者有誤？ (A)用戶端安全性佳 (B)使用系統資源較少 (C)通常只能下載HTML程式碼 (D)網頁在用戶端的呈現結果一致"
+  },
+  {
+    "year": "113",
+    "num": 14,
+    "domain": "資料結構與演算法",
+    "sub": "基本資料結構",
+    "difficulty": 2,
+    "content": "關於巨集(Macro)之敘述，下列何者有誤？ (A)執行速度快 (B)被呼叫多次時需要的記憶體空間較少 (C)編譯器會以巨集取代程式原來的敘述 (D)可不需花費時間在堆疊的push與pop動作"
+  },
+  {
+    "year": "113",
+    "num": 15,
+    "domain": "系統軟硬體",
+    "sub": "系統軟體/OS",
+    "difficulty": 2,
+    "content": "關於遞迴(Recursive)程式之敘述，下列何者正確？ (A)通常用在各個擊破法的問題上 (B)程式可讀性較差 (C)節省記憶體空間 (D)節省執行時間"
+  },
+  {
+    "year": "113",
+    "num": 16,
+    "domain": "資訊管理與軟體工程",
+    "sub": "軟體工程與測試",
+    "difficulty": 2,
+    "content": "下列何種測試不適合以黑箱(Black-box)測試運作？ (A)單元測試 (B)系統測試 (C)整合測試 (D)壓力測試"
+  },
+  {
+    "year": "113",
+    "num": 17,
+    "domain": "系統軟硬體",
+    "sub": "數位邏輯與數值系統",
+    "difficulty": 2,
+    "content": "執行下列C語言程式，輸出的值為何？ int i = 0, n = 1, sum = 0; for(n = 2; n <= 7; n++){ i = n / 2; sum *= i; } printf(\"%d\\n\", sum); (A) 12 (B) 36 (C)72 (D) 5040"
+  },
+  {
+    "year": "113",
+    "num": 18,
+    "domain": "系統軟硬體",
+    "sub": "數位邏輯與數值系統",
+    "difficulty": 2,
+    "content": "在C語言中，下列何種運算子的運算優先順位最高？ (A)加法 (B)位元OR運算 (C)等式比較 (D)取指標指向的值"
+  },
+  {
+    "year": "113",
+    "num": 19,
+    "domain": "資訊管理與軟體工程",
+    "sub": "資料庫設計",
+    "difficulty": 2,
+    "content": "下列何者非屬關聯式資料庫？ (A) Microsoft Access (B) dBase (C)PostgreSQL (D) MongoDB"
+  },
+  {
+    "year": "113",
+    "num": 20,
+    "domain": "資訊管理與軟體工程",
+    "sub": "物件導向概念",
+    "difficulty": 2,
+    "content": "下列何種資料庫類型的技術門檻最高？ (A)階層式資料庫 (B)網狀式資料庫 (C)物件導向式資料庫 (D)關聯式資料庫"
+  },
+  {
+    "year": "113",
+    "num": 21,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "關於評估演算法之優劣，下列何者時間複雜度最高？ (A) O(n!) (B) O(2n) (C)O(n3) (D) O(log n)"
+  },
+  {
+    "year": "113",
+    "num": 22,
+    "domain": "資料結構與演算法",
+    "sub": "排序與搜尋",
+    "difficulty": 2,
+    "content": "下列何種排序法屬於穩定排序(Stable Sorting)？ (A)快速排序法 (B)氣泡排序法 (C)選擇排序法 (D)堆積排序法"
+  },
+  {
+    "year": "113",
+    "num": 23,
+    "domain": "資料結構與演算法",
+    "sub": "基本資料結構",
+    "difficulty": 2,
+    "content": "關於鏈結串列(Linked List)的特點，下列何者正確？ (A)實作簡單 (B)插入資料速度快 (C)利用索引存取資料 (D)存取資料的時間固定"
+  },
+  {
+    "year": "113",
+    "num": 24,
+    "domain": "資料結構與演算法",
+    "sub": "排序與搜尋",
+    "difficulty": 2,
+    "content": "下列何種演算法屬於動態規劃法(Dynamic Programming)？ (A) Prim演算法 (B) Kruskal演算法 (C) Dijkstra演算法 (D)快速排序"
+  },
+  {
+    "year": "113",
+    "num": 25,
+    "domain": "資通安全",
+    "sub": "雜湊與完整性",
+    "difficulty": 2,
+    "content": "關於雜湊法(Hashing)之敘述，下列何者有誤？ (A)資料需排序過 (B)具保密性 (C)可資料壓縮 (D)無碰撞或溢位的情形下只需讀取1次"
+  },
+  {
+    "year": "113",
+    "num": 26,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "關於HTTP之敘述，下列何者有誤？ (A) HTTP是無狀態的協定 (B) HTTP傳輸過程中的資料是加密的 (C) HTTP使用TCP進行資料傳輸 (D) HTTP預設使用的連接埠為80"
+  },
+  {
+    "year": "113",
+    "num": 27,
+    "domain": "網路通訊",
+    "sub": "LAN/無線技術",
+    "difficulty": 2,
+    "content": "下列何者為區域網路(LAN)常使用的標準？ (A) Ethernet (B) Bluetooth (C)LTE (D) ADSL"
+  },
+  {
+    "year": "113",
+    "num": 28,
+    "domain": "資通安全",
+    "sub": "PKI與數位簽章",
+    "difficulty": 2,
+    "content": "下列何者為SSL(Secure Socket Layer)使用的通訊埠？ (A) 441 (B) 442 (C)443 (D) 444"
+  },
+  {
+    "year": "113",
+    "num": 29,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "對於網路安全，下列何種措施可以有效防止未授權的設備接入網路？ (A)使用防火牆 (B)使用NAT (C)使用端口安全 (D)使用加密"
+  },
+  {
+    "year": "113",
+    "num": 30,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "關於多重協定標籤交換(MPLS)之敘述，下列何者正確？ (A) MPLS主要依賴目標IP位址來轉發封包 (B) MPLS可以基於標籤進行資料轉發 (C) MPLS無法與現有的IP網路共存 (D) MPLS只適用於區域網路"
+  },
+  {
+    "year": "113",
+    "num": 31,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "下列何種網路攻擊主要利用TCP協定的三向交握機制耗盡伺服器資源？ (A) DDoS攻擊 (B) SYN Flood攻擊 (C) Man-in-the-Middle攻擊 (D) ARP Spoofing"
+  },
+  {
+    "year": "113",
+    "num": 32,
+    "domain": "網路通訊",
+    "sub": "LAN/無線技術",
+    "difficulty": 2,
+    "content": "關於Ethernet之敘述，下列何者有誤？ (A) Ethernet使用CSMA/CD進行碰撞偵測 (B)以太網中常見的速率包含100 Mbps和1 Gbps (C)以太網標準規範包含多種物理層技術 (D)在現代以太網中，CSMA/CD機制仍然廣泛使用於所有網路環境"
+  },
+  {
+    "year": "113",
+    "num": 33,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "在TCP協定中，若接收方的窗口大小為0，發送方會採取何種行為？ (A)停止傳送資料直到窗口更新 (B)持續傳送資料直到接收方滿載 (C)自動關閉連線 (D)重設連線並重新發送資料"
+  },
+  {
+    "year": "113",
+    "num": 34,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "下列何種技術能有效防禦DDoS攻擊？ (A)防火牆 (B) IPS/IDS (C) NAT (D)安裝防毒軟體"
+  },
+  {
+    "year": "113",
+    "num": 35,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "下列何種協定係用於網路設備遠程管理？ (A) FTP (B) NAT (C)SMTP (D) SNMP"
+  },
+  {
+    "year": "113",
+    "num": 36,
+    "domain": "資料結構與演算法",
+    "sub": "樹與圖演算法",
+    "difficulty": 3,
+    "content": "下列何種技術可以實現以太網中的循環避免，防止數據包無限重複傳輸？ (A) ARP (B) VLAN Trunking Protocol (VTP) (C) Spanning Tree Protocol (STP) (D) MPLS"
+  },
+  {
+    "year": "113",
+    "num": 37,
+    "domain": "資通安全",
+    "sub": "加密技術",
+    "difficulty": 2,
+    "content": "在IPsec中，ESP(Encapsulating Security Payload)除了加密封包內容，另可提供下列何種功能？ (A)認證與完整性保護 (B)路徑選擇 (C)壓縮數據 (D)負載均衡"
+  },
+  {
+    "year": "113",
+    "num": 38,
+    "domain": "網路通訊",
+    "sub": "LAN/無線技術",
+    "difficulty": 2,
+    "content": "在無線網路中，下列何種技術用來避免碰撞並允許多個設備共享同一無線頻譜？ (A) CSMA/CD (B) CSMA/CA (C) STP (D) VLAN"
+  },
+  {
+    "year": "113",
+    "num": 39,
+    "domain": "網路通訊",
+    "sub": "應用層協定",
+    "difficulty": 2,
+    "content": "若瀏覽某網站發現其URL出現https，表示該網站可能出現下列何種狀況？ (A)該網站在黑名單之列 (B)伺服器連線異常 (C)該網站的SSL憑證未獲得認證 (D)該網站拒絕client使用https連線"
+  },
+  {
+    "year": "113",
+    "num": 40,
+    "domain": "資通安全",
+    "sub": "雜湊與完整性",
+    "difficulty": 2,
+    "content": "某網站開發者會在密文裡額外添加一串隨機字串，這種防範攻擊的方式稱為下列何者？ (A) Password salting (B) Password hashing (C) Key hashing (D) Password vinegar"
+  },
+  {
+    "year": "113",
+    "num": 41,
+    "domain": "網路通訊",
+    "sub": "網路層/網路設備",
+    "difficulty": 3,
+    "content": "下列 Javascript 的程式片段將造成什麼樣的風險？ var user = getUrlParameter('user'); document.write(\"<h1>Hi, \" + user + \" !</h1> \"); (A) XSS (B) CSRF (C) Html Scripting (D) Broken Access Control"
+  },
+  {
+    "year": "113",
+    "num": 42,
+    "domain": "網路通訊",
+    "sub": "應用層協定",
+    "difficulty": 2,
+    "content": "關於如何安全使用SSH連線之敘述，以OpenSSH為例，下列何者有誤？ (A)正確使用憑證登入，會比高強度密碼，安全性更高 (B)為避免遭到暴力登入嘗試，可安裝fail2ban來協助建立自動阻擋機制 (C)為避免登入後再切換root帳號造成不易追蹤來源，ssh config中的PermitRootLogin應設為yes (D)若需使用sftp上傳檔案，應另外建立專用帳號並在ssh config中設定ChrootDirectory限制可存 取的目錄範圍"
+  },
+  {
+    "year": "113",
+    "num": 43,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "路由器中的一個介面ip位址為192.168.192.10/27，請問連接到此介面的區域網路，最多能提供 幾個ip位址讓該區域網路之電腦使用？ (A) 13 (B) 29 (C) 30 (D) 31"
+  },
+  {
+    "year": "113",
+    "num": 44,
+    "domain": "網路通訊",
+    "sub": "WAN/VPN技術",
+    "difficulty": 3,
+    "content": "在電子商務中，企業與上下游廠商之間使用的網路為下列何者？ (A) VPN (B) Internet (C) Intranet (D) Extranet"
+  },
+  {
+    "year": "113",
+    "num": 45,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "管理網路內的流量及處理網路壅塞，係指下列何者？ (A)組態管理 (B)安全管理 (C)錯誤管理 (D)效能管理"
+  },
+  {
+    "year": "113",
+    "num": 46,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "UTP依EIA/TIA-568B定義，腳位排列順序為下列何者？ (A)藍白 藍 綠白 綠 橙白 橙 棕白 棕 (B)棕白 棕 藍白 藍 綠白 綠 橙白 橙 (C)橙白 橙 綠白 綠 藍白 藍 棕白 棕 (D)橙白 橙 綠白 藍 藍白 綠 棕白 棕"
+  },
+  {
+    "year": "113",
+    "num": 47,
+    "domain": "網路通訊",
+    "sub": "應用層協定",
+    "difficulty": 2,
+    "content": "關於ftp協定之敘述，下列何者正確？ (A)預設使用port 20作資料連線及控制連線 (B)預設使用port 21作資料連線及控制連線 (C)預設使用port 21作資料連線，port 20作控制連線 (D)預設使用port 21作控制連線，port 20作資料連線"
+  },
+  {
+    "year": "113",
+    "num": 48,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "執行「ping 192.168.1.1 -t」指令，其中的 -t 係指下列何者？ (A)持續ping (B)將位址解析為主機名稱 (C)在封包中設定timeout旗標 (D)路由區間識別碼"
+  },
+  {
+    "year": "113",
+    "num": 49,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列何者非屬ICMP錯誤報告訊息？ (A)轉址 (B)無法到達目的地 (C)時間超過 (D)暫停回應要求"
+  },
+  {
+    "year": "113",
+    "num": 50,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "VPN不具有下列何種特點？ (A)保密 (B)認證 (C) IPSec安全協定屬TCP/UDP協定層級 (D)保持封包傳送之完整性"
+  },
+  {
+    "year": "114",
+    "num": 1,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "本試題共4頁(A3紙1張)。"
+  },
+  {
+    "year": "114",
+    "num": 2,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "禁止使用電子計算器。"
+  },
+  {
+    "year": "114",
+    "num": 3,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "本試題為單選題共 50題，每題 2分，共 100分，須用 2B鉛筆在答案卡畫記作答，於本 注 試題或其他紙張作答者不予計分。 意 4.請就各題選項中選出最適當者為答案，答錯不倒扣；畫記多於 1 個選項或未作答者，該 事 題不予計分。 項 5.本試題採雙面印刷，請注意正、背面試題。"
+  },
+  {
+    "year": "114",
+    "num": 4,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "在CRC錯誤偵測中，已知原始資料為1101，生成多項式為G(x )=X3+X1，發送端應傳送的完整 資料(原始資料+CRC碼)為何？ (A) 1101001 (B) 1101011 (C) 1101100 (D) 1101111"
+  },
+  {
+    "year": "114",
+    "num": 5,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "在使用偶校驗的漢明碼(Hamming Code)中，已知原始資料為1011，發送端應傳送的完整資料 (原始資料+校驗位)為何？ (A) 0011011 (B) 0110011 (C) 0110110 (D) 1110011"
+  },
+  {
+    "year": "114",
+    "num": 6,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "考試結束前離場者，試題須隨答案卡繳回，俟本節考試結束後，始得至原試場或適當處 所索取。"
+  },
+  {
+    "year": "114",
+    "num": 7,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "考試時間：90分鐘。"
+  },
+  {
+    "year": "114",
+    "num": 8,
+    "domain": "資料結構與演算法",
+    "sub": "樹與圖演算法",
+    "difficulty": 3,
+    "content": "給定一棵有6個節點的二元樹，前序走訪(Preorder)為A,B,D,E,C,F，中序走訪(Inorder)為 D,B,E,A,C,F，其後序走訪(Postorder)為下列何者？ (A) A,B,D,E,C,F (B) D,B,E,F,C,A (C) D,E,B,F,C,A (D) F,C,A,E,B,D"
+  },
+  {
+    "year": "114",
+    "num": 9,
+    "domain": "資料結構與演算法",
+    "sub": "演算法複雜度",
+    "difficulty": 3,
+    "content": "桶子排序(Bucket Sort)的時間複雜度在下列何種情況下達到O(n)？ (A)元素均勻分佈在所有桶中 (B)所有元素相同 (C)桶數量=n2 (D)僅一個桶"
+  },
+  {
+    "year": "114",
+    "num": 10,
+    "domain": "資料結構與演算法",
+    "sub": "演算法複雜度",
+    "difficulty": 3,
+    "content": "在排序演算法中，下列何者屬於「穩定排序」？ (A)排序後陣列不變 (B)時間複雜度穩定 (C)空間複雜度固定 (D)相等的元素排序後保持原始相對順序"
+  },
+  {
+    "year": "114",
+    "num": 11,
+    "domain": "系統軟硬體",
+    "sub": "系統軟體/OS",
+    "difficulty": 2,
+    "content": "在記憶體層次結構(Memory Hierarchy)中，由「最快」到「最慢」的順序為何？ (A)暫存器、快取、主記憶體、硬碟 (B)硬碟、主記憶體、快取、暫存器 (C)記憶體、快取、暫存器、SSD (D)快取、暫存器、DRAM、Flash"
+  },
+  {
+    "year": "114",
+    "num": 12,
+    "domain": "網路通訊",
+    "sub": "網路層/網路設備",
+    "difficulty": 3,
+    "content": "下列哪種語言必須使用介面(Interface)才能模擬「多重繼承」？ (A) C++ (B) Java (C) JavaScript (D) Python"
+  },
+  {
+    "year": "114",
+    "num": 13,
+    "domain": "網路通訊",
+    "sub": "網路層/網路設備",
+    "difficulty": 3,
+    "content": "下列哪種語言是「強型別」及「動態型別」？ (A) Java (B) JavaScript (C) Python (D) VB"
+  },
+  {
+    "year": "114",
+    "num": 14,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "執行下列C語言程式，輸出的值為何？ #include <stdio.h> void func(int p) { p = p*p;} int main() { int a=3; func(a); printf(\"%d\\n\",a); } (A) 0 (B) 3 (C) 9 (D)編譯錯誤"
+  },
+  {
+    "year": "114",
+    "num": 15,
+    "domain": "資料結構與演算法",
+    "sub": "樹與圖演算法",
+    "difficulty": 3,
+    "content": "AVL樹是二元搜尋樹(BST)的一種，其與一般BST的差別為何？ (A)允許重複鍵值 (B) -1≤平衡因子≤1 (C)支援多父節點 (D)父節點與子節點值相差不超過1"
+  },
+  {
+    "year": "114",
+    "num": 16,
+    "domain": "系統軟硬體",
+    "sub": "數位邏輯與數值系統",
+    "difficulty": 2,
+    "content": "在2的補數加法器中，XOR閘常適用於下列何種功能？ (A)產生進位 (B)檢測溢位 (C)儲存符號位 (D)計算每位的「和」(不含進位)"
+  },
+  {
+    "year": "114",
+    "num": 17,
+    "domain": "資訊管理與軟體工程",
+    "sub": "資料庫設計",
+    "difficulty": 2,
+    "content": "在關聯式資料庫中，當交易的隔離層級為READ UNCOMMITTED時，有機會發生Dirty Read ，請問Dirty Read是指下列何種問題？ (A)後提交的交易結果覆蓋先提交的交易結果 (B)重複讀取相同的資料卻拿到不一樣的值 (C)讀取到已修改但未提交的數據 (D)讀取到交易發生前的數據"
+  },
+  {
+    "year": "114",
+    "num": 18,
+    "domain": "資訊管理與軟體工程",
+    "sub": "資料庫設計",
+    "difficulty": 2,
+    "content": "有關正規化的敘述，下列何者有誤？ (A)第一正規化是為了消除重複資料 (B)第二正規化必須消除傳遞函數依賴 (C)第三正規化非主鍵屬性不得依賴其他非主鍵屬性 (D) BCNF中主鍵中的各欄位不可以相依於其他非主鍵的欄位"
+  },
+  {
+    "year": "114",
+    "num": 19,
+    "domain": "資訊管理與軟體工程",
+    "sub": "物件導向概念",
+    "difficulty": 2,
+    "content": "「柯里化(Currying)」是指程式設計的下列何種特性？ (A)物件導向 (B)程序式 (C)函數式 (D)邏輯式"
+  },
+  {
+    "year": "114",
+    "num": 20,
+    "domain": "資料結構與演算法",
+    "sub": "樹與圖演算法",
+    "difficulty": 3,
+    "content": "紅黑樹插入新節點時，預設顏色為何？ (A)黑色 (B)紅色 (C)隨機 (D)與父節點相同"
+  },
+  {
+    "year": "114",
+    "num": 21,
+    "domain": "系統軟硬體",
+    "sub": "系統軟體/OS",
+    "difficulty": 2,
+    "content": "下列何者為CPU工作排程中使用FCFS演算法的優點？ (A)簡單易懂、容易實作且公平 (B)平均等待時間最短 (C)適合互動式系統 (D) CPU使用效率高"
+  },
+  {
+    "year": "114",
+    "num": 22,
+    "domain": "系統軟硬體",
+    "sub": "數位邏輯與數值系統",
+    "difficulty": 2,
+    "content": "採用全彩(True Color)模式來處理數位影像時，每個像素的色彩組成以紅(R)、綠(G)、藍(B)依 不同比例產生。請問R(0)、G(0)、B(0)所產生的顏色為何？ (A)透明 (B)白色 (C)灰色 (D)黑色"
+  },
+  {
+    "year": "114",
+    "num": 23,
+    "domain": "資訊管理與軟體工程",
+    "sub": "軟體工程與測試",
+    "difficulty": 2,
+    "content": "對於機器學習中的過擬合(Overfitting)問題，下列敘述何者正確？ (A)訓練資料與測試資料的誤差皆低 (B)增加訓練資料量一定會導致過擬合 (C)模型對噪音資料完全忽略 (D)訓練資料誤差低，但測試資料誤差高"
+  },
+  {
+    "year": "114",
+    "num": 24,
+    "domain": "系統軟硬體",
+    "sub": "系統軟體/OS",
+    "difficulty": 2,
+    "content": "關於SMP多重處理器系統的敘述，下列何者有誤？ (A) CPU與CPU之間共用記憶體 (B)當CPU數量過多時，記憶體存取可能成為效能瓶頸 (C)當任一CPU故障通常會導致整個系統故障或停擺 (D)透過利用多個處理器並行處理任務，大幅提高系統的處理能力"
+  },
+  {
+    "year": "114",
+    "num": 25,
+    "domain": "系統軟硬體",
+    "sub": "系統軟體/OS",
+    "difficulty": 2,
+    "content": "下列何者非屬CPU的組成元件？ (A) ALU (B) control unit (C) Register (D) SRAM"
+  },
+  {
+    "year": "114",
+    "num": 26,
+    "domain": "網路通訊",
+    "sub": "訊號與編碼",
+    "difficulty": 3,
+    "content": "在相同符號率(baud)下，16-QAM的資料率相對QPSK的倍數為何？ (A) 0.5倍 (B) 1倍 (C) 2倍 (D) 4倍"
+  },
+  {
+    "year": "114",
+    "num": 27,
+    "domain": "網路通訊",
+    "sub": "網路層/網路設備",
+    "difficulty": 3,
+    "content": "有關路由表聚合，57.6.96.0/21、57.6.104.0/21、57.6.112.0/21、57.6.120.0/21聚合結果為何？ (A) 57.6.96.0/19 (B) 57.6.96.0/18 (C) 57.6.0.0/17 (D) 57.6.96.0/16"
+  },
+  {
+    "year": "114",
+    "num": 28,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "TCP的「流量控制」主要為避免下列何種情況？ (A)擁塞崩潰 (B)連線飢餓 (C) RTT上升 (D)接收端緩衝溢位"
+  },
+  {
+    "year": "114",
+    "num": 29,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "無線Power Saving的典型做法(以Wi-Fi為例)，未涉及下列何者？ (A) STP BPDU省電 (B)以TIM/Beacon引導喚醒接收 (C)以ARP抑制睡眠 (D) TWT(Target Wake Time)或Legacy PS(PS-Poll)"
+  },
+  {
+    "year": "114",
+    "num": 30,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "MTU=1500B、IP Header=20B，若發送2300B負載，會產生幾個IP片段？ (A) 2 (B) 3 (C) 4 (D) 5"
+  },
+  {
+    "year": "114",
+    "num": 31,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "若設定DF=1而路徑MTU低於封包大小，PMTUD的關鍵回饋機制為何？ (A) TCP RST (B)路由器回 ICMP Time Exceeded (C)路由器回ICMP Fragmentation Needed (D) ARP"
+  },
+  {
+    "year": "114",
+    "num": 32,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "有關ping與traceroute的主要差異，下列何者正確？ (A)前者測路徑、後者測延遲 (B)前者測可達性，後者推路徑節點 (C)前者用 TCP，後者用 UDP (D)前者應用層，後者傳輸層"
+  },
+  {
+    "year": "114",
+    "num": 33,
+    "domain": "網路通訊",
+    "sub": "LAN/無線技術",
+    "difficulty": 2,
+    "content": "乙太網路CSMA/CD在碰撞後避免再次碰撞的機制為何？ (A)二元指數退避 (B)令牌傳遞 (C) TDMA (D) RTS/CTS"
+  },
+  {
+    "year": "114",
+    "num": 34,
+    "domain": "網路通訊",
+    "sub": "LAN/無線技術",
+    "difficulty": 2,
+    "content": "以交換器(switch)全雙工連線的乙太網路，網卡傳送時是否仍會線上碰撞？ (A)會 (B)不會(全雙工/點對點消除碰撞域) (C)只在半雙工會 (D)只在VLAN間會"
+  },
+  {
+    "year": "114",
+    "num": 35,
+    "domain": "網路通訊",
+    "sub": "LAN/無線技術",
+    "difficulty": 2,
+    "content": "Wi-Fi隱藏節點問題常用下列何種流程緩解？ (A) RTS/CTS/ACK (B) CSMA/CD (C)令牌環 (D) MIMO"
+  },
+  {
+    "year": "114",
+    "num": 36,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "HTTP為「無狀態」，若需維持使用者狀態，常用下列何種方法？ (A) ARP Cache (B) Cookies (C) NAT (D) STP"
+  },
+  {
+    "year": "114",
+    "num": 37,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "有關DNS iterative query的敘述，下列何者正確？ (A)由根伺服器遞迴解到底 (B)回應永遠權威 (C)使用TCP 53 (D)由客戶端逐層查詢，伺服器回應「下一位詢問誰」資訊"
+  },
+  {
+    "year": "114",
+    "num": 38,
+    "domain": "網路通訊",
+    "sub": "應用層協定",
+    "difficulty": 2,
+    "content": "下列何者非屬DNS Open Resolver弱點的風險？ (A)被濫用為DDoS放大器 (B)洩漏內部解析紀錄 (C)導致HTTPS中間人攻擊自動成功 (D)被用於偵測內部名稱"
+  },
+  {
+    "year": "114",
+    "num": 39,
+    "domain": "資通安全",
+    "sub": "加密技術",
+    "difficulty": 2,
+    "content": "常見DDoS防護中，「黑洞/水坑(Blackholing/Sinkholing)」的主要目的為何？ (A)加密流量 (B)將惡意流量導走/收容解析 (C)建立零信任 (D)啟用多因素驗證"
+  },
+  {
+    "year": "114",
+    "num": 40,
+    "domain": "資通安全",
+    "sub": "PKI與數位簽章",
+    "difficulty": 2,
+    "content": "下列何者為負載平衡Round Robin與Weighted Round Robin的差異？ (A)是否考量伺服器權重 (B)是否支援SSL終結 (C)是否支援L7規則 (D)是否支援健康檢查"
+  },
+  {
+    "year": "114",
+    "num": 41,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "為避免使用者會話在多台伺服器間漂移造成異常，下列何者為常見作法？ (A) HSTS (B) HPKP (C) OCSP Stapling (D) Session Stickiness"
+  },
+  {
+    "year": "114",
+    "num": 42,
+    "domain": "資通安全",
+    "sub": "PKI與數位簽章",
+    "difficulty": 2,
+    "content": "SQL Injection防護中，下列何者為預備語句(Prepared Statements)的關鍵？ (A)將變數轉成16進位 (B)全局Try/Catch (C)對輸入做Base64 (D) SQL與資料綁定分離、參數化"
+  },
+  {
+    "year": "114",
+    "num": 43,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "相較於4G，下列何者非屬5G常見特性？ (A)覆蓋率下降 (B)頻譜效率提升 (C)延遲顯著降低 (D)大量裝置連結"
+  },
+  {
+    "year": "114",
+    "num": 44,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "有關IAM與RBAC的關係，下列敘述何者正確？ (A) IAM ⊂ RBAC (B) RBAC ⊂ IAM(RBAC是授權方式之一) (C)無關 (D) RBAC=IAM"
+  },
+  {
+    "year": "114",
+    "num": 45,
+    "domain": "資通安全",
+    "sub": "PKI與數位簽章",
+    "difficulty": 2,
+    "content": "兩步驟驗證(Two-Step Verification)主要提升下列哪個面向？ (A)可用性 (B)完整性 (C)不可否認性 (D)機密性與認證強度"
+  },
+  {
+    "year": "114",
+    "num": 46,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "IDPS偵測技術中，下列何者對「未知攻擊」一般表現最佳？ (A)特徵偵測(Signature) (B)自動掃描(Auto Scanning) (C)狀態協定分析(Stateful Protocol) (D)異常行為(Anomaly)"
+  },
+  {
+    "year": "114",
+    "num": 47,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "下列何者非屬Session Hijacking 常見取得會話的手段？ (A) MITM (B) Sniffing (C) UDP 檔案傳輸 (D) XSS"
+  },
+  {
+    "year": "114",
+    "num": 48,
+    "domain": "資通安全",
+    "sub": "PKI與數位簽章",
+    "difficulty": 2,
+    "content": "下列何者為WAF與傳統封包過濾式防火牆的主要差異？ (A) WAF僅看第2層 (B) WAF檢視與過濾應用層內容/命令 (C) WAF不做代理 (D) WAF不支援 SSL"
+  },
+  {
+    "year": "114",
+    "num": 49,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "多因子認證不包含下列何種要素？ (A)所知之事 (B)所持之物 (C)所在之處 (D)所表之徵"
+  },
+  {
+    "year": "114",
+    "num": 50,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "下列何者非屬TCP/IP網路中之網路層通訊協定？ (A) ICMP (B) IGMP (C) OSPF (D) UDP"
+  },
+  {
+    "year": "102",
+    "num": 1,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "本試題共4頁(含A3紙1張)。"
+  },
+  {
+    "year": "102",
+    "num": 2,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "禁止使用電子計算器。"
+  },
+  {
+    "year": "102",
+    "num": 3,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "本試題為單選題共60題，前40題每題各1.5分、其餘20題每題2分，共100分，須用2B鉛筆 注 在答案卡畫記作答，於本試題或其他紙張作答者不予計分。 意"
+  },
+  {
+    "year": "102",
+    "num": 4,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "請就各題選項中選出最適當者為答案，各題答對得該題所配分數，答錯或畫記多於1個 事 選項者，倒扣該題所配分數3分之1，倒扣至本科之實得分數為零為止；未作答者，不給 項 分亦不扣分。"
+  },
+  {
+    "year": "102",
+    "num": 5,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "本試題採雙面印刷，請注意正、背面試題。"
+  },
+  {
+    "year": "102",
+    "num": 6,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "考試結束前離場者，試題須隨答案卡繳回，俟該節考試結束後，始得至原試場索取。"
+  },
+  {
+    "year": "102",
+    "num": 7,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "考試時間：90分鐘。"
+  },
+  {
+    "year": "102",
+    "num": 8,
+    "domain": "系統軟硬體",
+    "sub": "數位邏輯與數值系統",
+    "difficulty": 2,
+    "content": "下列何者不是UNIX作業系統使用的指令介面(shell)？ (A) Bourne shell (B) C shell (C) Korn shell (D) Wizard shell"
+  },
+  {
+    "year": "102",
+    "num": 9,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "處於下列哪一種狀態的行程，可以移到就續、等待、終止等3種狀態中的任意1種狀態？ (A)保留 (B)執行 (C)建立 (D)同步"
+  },
+  {
+    "year": "102",
+    "num": 10,
+    "domain": "資通安全",
+    "sub": "PKI與數位簽章",
+    "difficulty": 2,
+    "content": "使用 SSL(Secure Sockets Layer)的方式與網站進行安全性連線時，使用下列哪一項資訊進行網 站身分識別？ (A)數位憑證 (B)電子郵件帳號 (C)電腦名稱 (D) IP 位址"
+  },
+  {
+    "year": "102",
+    "num": 11,
+    "domain": "資訊管理與軟體工程",
+    "sub": "物件導向概念",
+    "difficulty": 2,
+    "content": "下列哪一種程式語言是屬於物件導向程式語言？ (A) LISP (B) POLOG (C) Scheme (D) Smalltalk"
+  },
+  {
+    "year": "102",
+    "num": 12,
+    "domain": "網路通訊",
+    "sub": "網路層/網路設備",
+    "difficulty": 3,
+    "content": "下列何者屬於動態網頁的伺服器端技術？ (A) JSP (B) Java Applet (C) JavaScript (D) Flash 計算機原理、網路概論 第 1 頁，共 4 頁 【請翻頁繼續作答】"
+  },
+  {
+    "year": "102",
+    "num": 13,
+    "domain": "資通安全",
+    "sub": "攻擊手法",
+    "difficulty": 2,
+    "content": "泛指未經使用者同意的情況下，進行廣告、收集私人資訊或修改電腦設定的網路攻擊手法， 屬於下列哪一種網路攻擊？ (A)服務阻斷 (B)邏輯炸彈 (C)間諜軟體 (D)主機掃描"
+  },
+  {
+    "year": "102",
+    "num": 14,
+    "domain": "資通安全",
+    "sub": "雜湊與完整性",
+    "difficulty": 2,
+    "content": "下列哪一種雜湊法不會產生碰撞的情況？ (A)直接(direct) (B)取餘數除法(division remainder) (C)模數除法(modulo division) (D)數字抽取(digit extraction)"
+  },
+  {
+    "year": "102",
+    "num": 15,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "在關聯式資料庫關聯運算中，下列哪一種屬於一元運算(被應用於1個單獨的關聯)？ (A)差異(difference) (B)交集(intersection) (C)映射(project) (D)聯集(union)"
+  },
+  {
+    "year": "102",
+    "num": 16,
+    "domain": "資料結構與演算法",
+    "sub": "排序與搜尋",
+    "difficulty": 2,
+    "content": "下列排序法中，何者具有最小的平均時間複雜度？ (A)插入 (B)選擇 (C)氣泡 (D)基數(radix)"
+  },
+  {
+    "year": "102",
+    "num": 17,
+    "domain": "資料結構與演算法",
+    "sub": "樹與圖演算法",
+    "difficulty": 3,
+    "content": "二元樹拜訪順序中，根節點一定要在子樹之前被拜訪的是下列哪一種拜訪法？ (A)隨意法 (B)前序法 (C)中序法 (D)後序法"
+  },
+  {
+    "year": "102",
+    "num": 18,
+    "domain": "資通安全",
+    "sub": "攻擊手法",
+    "difficulty": 2,
+    "content": "下列哪一種攻擊手法主要目的是威脅可用性？ (A)欺騙 (B)否認 (C)修改 (D)服務阻斷 19智慧型手機及個人數位助理(PDA)使用的作業系統，屬於下列哪一種作業系統？ (A)即時性 (B)分散式 (C)手持式 (D)分時"
+  },
+  {
+    "year": "102",
+    "num": 20,
+    "domain": "系統軟硬體",
+    "sub": "系統軟體/OS",
+    "difficulty": 2,
+    "content": "下列何者是使用電容的電壓來儲存資料的記憶體？ (A) DRAM (B) ROM (C) SRAM (D)快閃(flash)記憶體"
+  },
+  {
+    "year": "102",
+    "num": 21,
+    "domain": "網路通訊",
+    "sub": "訊號與編碼",
+    "difficulty": 3,
+    "content": "下列哪一種網路設備主要是用來克服訊號衰減導致網路線長度上限的問題？ (A)中繼器(repeater) (B)橋接器(bridge) (C)路由器(router) (D)交換器(switch)"
+  },
+  {
+    "year": "102",
+    "num": 22,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列何者屬於第四代行動通訊標準？ (A) GSM (B) WCDMA (C) LTE (D) GPRS"
+  },
+  {
+    "year": "102",
+    "num": 23,
+    "domain": "資通安全",
+    "sub": "加密技術",
+    "difficulty": 2,
+    "content": "下列何者不是加強網路安全機密性的演算法？ (A) DES (B) RSA (C) AES (D) SHA-1"
+  },
+  {
+    "year": "102",
+    "num": 24,
+    "domain": "網路通訊",
+    "sub": "訊號與編碼",
+    "difficulty": 3,
+    "content": "下列導引式傳輸媒體中，何者具有「重量輕且訊號衰減率較低」的特性？ (A)雙絞線 (B)同軸電纜 (C)光纖 (D)電力線"
+  },
+  {
+    "year": "102",
+    "num": 25,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "下列何者不屬於TCP/IP協定組合(TCP/IP Protocol Suite)所定義的5層級範圍？ (A)資料鏈結層 (B)表達層 (C)實體層 (D)應用層"
+  },
+  {
+    "year": "102",
+    "num": 26,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "網路設備收到IP位址後，一般會先找出其等級再套用標準遮罩。請問當收到位址 「(11000001 10000011 00011011 11111111) 」時，以分級定址而言屬於哪一等級？ 2 (A) A級 (B) B級 (C) C級 (D) D級"
+  },
+  {
+    "year": "102",
+    "num": 27,
+    "domain": "網路通訊",
+    "sub": "訊號與編碼",
+    "difficulty": 3,
+    "content": "下列何種訊號傳輸模式的特性為「線路上的訊號可以做雙向傳送，但無法同時進行傳送」？ (A) 半雙工 (B) 全雙工 (C) 多工 (D) 單工"
+  },
+  {
+    "year": "102",
+    "num": 28,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列演算法何者不具備錯誤修正能力？ (A)漢明碼 (B)二元迴旋碼 (C)低密度同位元檢查 (D)循環冗餘檢查"
+  },
+  {
+    "year": "102",
+    "num": 29,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "下列何者屬於5層級TCP/IP協定組合之網路層的功能？ (A)壓縮 (B)邏輯定址 (C)分段與重組 (D)連線控制"
+  },
+  {
+    "year": "102",
+    "num": 30,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "下列哪一種伺服器提供網域名稱與IP位址的對照服務？ (A) DNS (B) DHCP (C) SMTP (D) NAT 計算機原理、網路概論 第 2 頁，共 4 頁"
+  },
+  {
+    "year": "102",
+    "num": 31,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "5層級TCP/IP協定組合之網路層通訊協定中，下列哪一項可用來檢查並回報錯誤？ (A) IP (B) ARP (C) IGMP (D) ICMP"
+  },
+  {
+    "year": "102",
+    "num": 32,
+    "domain": "網路通訊",
+    "sub": "訊號與編碼",
+    "difficulty": 3,
+    "content": "下列何者為類比多工(Multiplexing)技術，常見於AM及FM廣播？ (A)分時多工(TDM) (B)分碼多工(CDM) (C)博碼調變(PCM) (D)分頻多工(FDM)"
+  },
+  {
+    "year": "102",
+    "num": 33,
+    "domain": "網路通訊",
+    "sub": "應用層協定",
+    "difficulty": 2,
+    "content": "HTTPS使用下列哪一個預設埠號？ (A) 443 (B) 80 (C) 53 (D) 21"
+  },
+  {
+    "year": "102",
+    "num": 34,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "自動取得IP的DHCP使用下列哪一個通訊協定？ (A) TCP (B) UDP (C) HTTP (D) FTP"
+  },
+  {
+    "year": "102",
+    "num": 35,
+    "domain": "資通安全",
+    "sub": "加密技術",
+    "difficulty": 2,
+    "content": "在非對稱式加密技術中，如某甲傳送資料給某乙時，其操作程序為「取得乙的公開金鑰(cid:198)加 密資料並傳送(cid:198)乙用自己的私密金鑰解密」，在沒有其它資料(如訊息摘要等)處理前提下，下 列何者正確？ (A)無風險 (B)有完整性風險 (C)有可用性風險 (D)有機密性風險"
+  },
+  {
+    "year": "102",
+    "num": 36,
+    "domain": "資料結構與演算法",
+    "sub": "基本資料結構",
+    "difficulty": 2,
+    "content": "有關橋接器的特性下列何者有誤? (A)可連接不同網路區段 (B)屬於資料鏈結層設備 (C)有訊框篩選功能 (D)轉送時會改變封包的實體位址"
+  },
+  {
+    "year": "102",
+    "num": 37,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "網路雙絞線兩兩對絞的主要目的為何? (A)易於辨識 (B)防止斷裂 (C)防止電磁干擾 (D)延長傳輸距離"
+  },
+  {
+    "year": "102",
+    "num": 38,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "5層級TCP/IP協定組合中，負責實體定址並以訊框(frame)為處理單位的為下列何者？ (A)網路層 (B)實體層 (C)資料鏈結層 (D)傳輸層"
+  },
+  {
+    "year": "102",
+    "num": 39,
+    "domain": "網路通訊",
+    "sub": "網路層/網路設備",
+    "difficulty": 3,
+    "content": "下列哪一項協定能讓不同路由器自治系統(AS)皆能彼此認知並提供資訊？ (A) BGP (B) RIP (C) OSPF (D) IGRP"
+  },
+  {
+    "year": "102",
+    "num": 40,
+    "domain": "網路通訊",
+    "sub": "LAN/無線技術",
+    "difficulty": 2,
+    "content": "有關媒介存取控制，假設主機 X 要傳輸資料給主機 Y，觀察其行為是「偵測媒體後，發現媒 體閒置，經随機訊框間隔時間後送出 RTS訊號，等待主機 Y回傳 CTS訊號後，再經過短訊框 間隔時間才開始傳輸。」，請問使用下列哪一種協定？ (A) ALOHA (B) CSMA (C) CSMA/CD (D) CSMA/CA"
+  },
+  {
+    "year": "102",
+    "num": 41,
+    "domain": "資料結構與演算法",
+    "sub": "演算法複雜度",
+    "difficulty": 3,
+    "content": "演算法的時間複雜度表示法中，下列何者代表理論下界(lower bound)符號？ (A) O(big-O) (B) Ω(omega) (C) Τ(tera) (D) θ(theta)"
+  },
+  {
+    "year": "102",
+    "num": 42,
+    "domain": "網路通訊",
+    "sub": "訊號與編碼",
+    "difficulty": 3,
+    "content": "使用較短的代碼來表示出現頻率較高的符號，而用較長的代碼來表示出現頻率較低的符號， 請問是下列哪一種資料壓縮編碼方法？ (A)霍夫曼(Huffman) (B) Lempel Ziv (C) MP3 (D)重複次數(run-length)"
+  },
+  {
+    "year": "102",
+    "num": 43,
+    "domain": "系統軟硬體",
+    "sub": "系統軟體/OS",
+    "difficulty": 2,
+    "content": "作業系統使用下列哪一種元件，來保護系統監督程式使用的記憶體空間？ (A)指令暫存器 (B)資料暫存器 (C)限制(limit)暫存器 (D)程式計數器"
+  },
+  {
+    "year": "102",
+    "num": 44,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "電腦時脈速度(clock rate)為 100 MHz，執行 108個指令需要 2.5 秒，則此電腦執行每個指令需 要多少時脈週期(clock cycle)？ (A) 25 (B) 2.5 (C) 0.25 (D) 0.025"
+  },
+  {
+    "year": "102",
+    "num": 45,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列哪一種資訊安全服務類別要求系統必須保護資料不被竊聽及不被監控流量？ (A)機密性 (B)認證 (C)存取控制 (D)完整性"
+  },
+  {
+    "year": "102",
+    "num": 46,
+    "domain": "系統軟硬體",
+    "sub": "系統軟體/OS",
+    "difficulty": 2,
+    "content": "在行程排程時，如果造成有許多程式必須等待某個大程式執行完成後，才能繼續工作的現象 ，此現象稱為下列哪一種效應？ (A)蝴蝶效應 (B)護送(convoy)效應 (C)變老(aging)效應 (D)漣漪效應 計算機原理、網路概論 第 3 頁，共 4 頁 【 請翻頁繼續作答】"
+  },
+  {
+    "year": "102",
+    "num": 47,
+    "domain": "系統軟硬體",
+    "sub": "數位邏輯與數值系統",
+    "difficulty": 2,
+    "content": "使用演算法解決問題時，在反覆的過程中，不斷取用最大值或最小值來進行處理的技巧，是 屬於下列哪一種技巧？ (A)貪婪法(greedy method) (B)個個擊破法(divide and conquer) (C)動態規劃法(dynamic programming) (D)回溯法(backtracking)"
+  },
+  {
+    "year": "102",
+    "num": 48,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "軟體系統模組化設計時，有關模組的耦合性與凝聚性，下列何者是正確追求的目標？ (A)耦合高、凝聚小 (B)耦合低、凝聚小 (C)耦合高、凝聚大 (D)耦合低、凝聚大"
+  },
+  {
+    "year": "102",
+    "num": 49,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "演算法的時間複雜度O(n!)、O(n2)、O(nlog n)、O(2n)中，何者效率最佳？ 2 (A) O(n!) (B) O(n2) (C) O(nlog n) (D) O(2n) 2"
+  },
+  {
+    "year": "102",
+    "num": 50,
+    "domain": "資通安全",
+    "sub": "加密技術",
+    "difficulty": 2,
+    "content": "使用對稱式金鑰密碼加密法，n個人彼此間要互相聯絡，總共需要協商多少密鑰(secret key)？ (A) n (B) 2n (C) n (n – 1) (D) n (n – 1) / 2"
+  },
+  {
+    "year": "102",
+    "num": 51,
+    "domain": "網路通訊",
+    "sub": "訊號與編碼",
+    "difficulty": 3,
+    "content": "一個二進位值為(10101111) 的 8-bit 位元組，以偶數同位的漢明碼予以編碼，以下何者為正確 2 的編碼後二進位值? (A) (101011111000) (B) (101001001111) (C) (001101011111) (D) (011101001111) 2 2 2 2"
+  },
+  {
+    "year": "102",
+    "num": 52,
+    "domain": "網路通訊",
+    "sub": "LAN/無線技術",
+    "difficulty": 2,
+    "content": "下列何者使用反向散射(backscatter)技術？ (A)藍芽 (B) RFID (C) WiFi (D) GPRS"
+  },
+  {
+    "year": "102",
+    "num": 53,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "5層級TCP/IP協定組合中，下列何者不屬於傳輸層TCP協定的錯誤控制機制？ (A)逾時機制 (B)滑動視窗 (C)接收回應 (D)區段檢查碼"
+  },
+  {
+    "year": "102",
+    "num": 54,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "5 層級 TCP/IP 協定組合之傳輸層中，以四向交握建立傳送/接收兩端關聯(Association)的通訊 協定為下列何者? (A) TCP (B) UDP (C) SCTP (D) ARP"
+  },
+  {
+    "year": "102",
+    "num": 55,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "假設某一區域網路使用的 CRC函數為 X4+X3+X+1，若傳輸的原始資料為(11001011) ，則下列 2 何者可正確通過接收端的循環冗餘檢查(CRC)驗證？ (A) (110010111001) (B) (110010110101) (C) (110010111010) (D) (110010110010) 2 2 2 2"
+  },
+  {
+    "year": "102",
+    "num": 56,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "以無級定址(CIDR)而言，某組織被分配位址區塊 130.34.12.64/26，如想要分為四個子網路， 且每個子網路有相同數量主機，請問下列子網路遮罩設定何者正確？ (A) 27 (B) 28 (C) 29 (D) 30"
+  },
+  {
+    "year": "102",
+    "num": 57,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "在傳輸影視串流封包時，可能會因網路延遲而發生「抖動(jitter)」問題，下列何者不是即時傳 輸通訊協定(RTP)設計來改善本問題的方法？ (A)加入時間戳記 (B)加入播放緩衝區 (C)封包皆進行編號 (D)以TCP協定來傳輸"
+  },
+  {
+    "year": "102",
+    "num": 58,
+    "domain": "資通安全",
+    "sub": "防護機制",
+    "difficulty": 2,
+    "content": "IP Security(IPSec)除可運作於傳輸模式(transport mode)外，尚可運作於下列何種模式？ (A)密碼回饋模式 (B)密碼區塊鏈結模式 (C)串流密碼模式 (D)通道模式(tunnel mode)"
+  },
+  {
+    "year": "102",
+    "num": 59,
+    "domain": "網路通訊",
+    "sub": "LAN/無線技術",
+    "difficulty": 2,
+    "content": "WiFi網路沒有利用存取點(Access point)介接有線和無線網路時，為下列哪一種連線方式？ (A) ring (B) ad hoc (C) PPP (D) infrastructure"
+  },
+  {
+    "year": "102",
+    "num": 60,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "下列何者不是簡易網路管理通訊協定(SNMP)的特性？ (A)屬於應用層協定 (B)區分為管理者(manager)和代理者(agent)兩種角色 (C)以TCP為下層傳輸協定 (D)搭配MIB協定為每個主體建立並定義一群物件，以及在主體內彼此的關係 計算機原理、網路概論 第 4 頁，共 4 頁"
+  },
+  {
+    "year": "104",
+    "num": 1,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "本試題共4頁(A3紙1張)。"
+  },
+  {
+    "year": "104",
+    "num": 2,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "禁止使用電子計算器。"
+  },
+  {
+    "year": "104",
+    "num": 3,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "本試題為單選題共50題，前25題每題各1.5分、其餘25題每題2.5分，共100分，須用2B 注 鉛筆在答案卡畫記作答，於本試題或其他紙張作答者不予計分。"
+  },
+  {
+    "year": "104",
+    "num": 4,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "請就各題選項中選出最適當者為答案，各題答對得該題所配分數，答錯或畫記多於1個 意 選項者，倒扣該題所配分數3分之1，倒扣至本科之實得分數為零為止；未作答者，不給 事 分亦不扣分。 項"
+  },
+  {
+    "year": "104",
+    "num": 5,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "本試題採雙面印刷，請注意正、背面試題。"
+  },
+  {
+    "year": "104",
+    "num": 6,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "考試結束前離場者，試題須隨答案卡繳回，俟本節考試結束後，始得至原試場或適當處 所索取。"
+  },
+  {
+    "year": "104",
+    "num": 7,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "考試時間：90分鐘。"
+  },
+  {
+    "year": "104",
+    "num": 8,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列何者不是電腦內部傳遞資料的匯流排？ (A)位址匯流排 (B)控制匯流排 (C)資料匯流排 (D)電源匯流排"
+  },
+  {
+    "year": "104",
+    "num": 9,
+    "domain": "系統軟硬體",
+    "sub": "系統軟體/OS",
+    "difficulty": 2,
+    "content": "一台電腦的位址匯流排有 16 條線，則其記憶體的定址空間最大為何？ (A) 64 KB (B) 16 KB (C) 16 GB (D) 64 GB"
+  },
+  {
+    "year": "104",
+    "num": 10,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "硬碟存取時間為下列哪 3 種時間的加總？ (A)磁碟重整時間 + 磁頭安置時間 + 資料傳輸時間 (B)磁軌找尋時間 + 磁片旋轉時間 + 資料傳輸時間 (C)磁碟重整時間 + 磁片旋轉時間 + 資料傳輸時間 (D)磁軌找尋時間 + 磁片旋轉時間 + 磁頭安置時間"
+  },
+  {
+    "year": "104",
+    "num": 11,
+    "domain": "網路通訊",
+    "sub": "訊號與編碼",
+    "difficulty": 3,
+    "content": "下列何者不是常用的中文電腦編碼系統？ (A) Big 5碼 (B) CP950碼 (C) CNS11643碼 (D) IS08859碼"
+  },
+  {
+    "year": "104",
+    "num": 12,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "以 2 的補數(2’s Complement)表示法來表示 (cid:3398)126，下列何者正確？ (A) 11111110 (B) 10000001 (C) 10000010 (D) 01111110"
+  },
+  {
+    "year": "104",
+    "num": 13,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列何者傳輸速率最快？ (A) OC-192 (B) DS3 (C) 802.11a (D) STM-1"
+  },
+  {
+    "year": "104",
+    "num": 14,
+    "domain": "網路通訊",
+    "sub": "LAN/無線技術",
+    "difficulty": 2,
+    "content": "每張乙太網路卡(Ethernet)都有一個唯一的位址，其名稱為何？其長度為何(bits)？ (A) MAC位址，32 (B) MAC位址，48 (C) IP位置，53 (D) IP位置，32"
+  },
+  {
+    "year": "104",
+    "num": 15,
+    "domain": "網路通訊",
+    "sub": "OSI模型",
+    "difficulty": 2,
+    "content": "下列何者非國際標準組織(ISO, International Standard Organization)定義之OSI(Open Systems Interconnection Reference Model)模型？ (A)網際網路層(Internet Layer) (B)網路層(Network Layer) (C)傳輸層(Transport Layer) (D)資料連結層(Data Link Layer)"
+  },
+  {
+    "year": "104",
+    "num": 16,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "請問臺灣地區IP發放由哪個機構負責？ (A) ISO (B) TWNIC (C)資策會 (D) InterNIC"
+  },
+  {
+    "year": "104",
+    "num": 17,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "下列協定何者提供「位址解析」功能？ (A) ICMP (B) SNMP (C) ARP (D) UDP"
+  },
+  {
+    "year": "104",
+    "num": 18,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "當發生網路不通時，若想知道目的地主機是否存在，無法使用下列何種指令來進行查測？ (A) nslookup (B) Ping (C) tracert (D) ipconfig"
+  },
+  {
+    "year": "104",
+    "num": 19,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列何者非行動通訊中，使用於傳輸之標準協定？ (A) TD-SCDMA (B) W-CDMA (C) CDMA 2000 (D) WAP"
+  },
+  {
+    "year": "104",
+    "num": 20,
+    "domain": "網路通訊",
+    "sub": "LAN/無線技術",
+    "difficulty": 2,
+    "content": "目前無線網路(WiFi)使用之通訊協定之一是？ (A) HSDPA (B) LTE (C) 802.16 (D) 802.11a"
+  },
+  {
+    "year": "104",
+    "num": 21,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "在IPv4中，IP位置由網路識別碼(Net ID)與主機識別碼(Host ID)組合而成，請問若在Class B級 網路中切割為 8個子網路，則Net ID會佔幾個位元？ (A) 13 (B) 17 (C) 18 (D) 19"
+  },
+  {
+    "year": "104",
+    "num": 22,
+    "domain": "網路通訊",
+    "sub": "應用層協定",
+    "difficulty": 2,
+    "content": "下列何者為社交工程網路滲透行為最常用的攻擊起點？ (A) 網路芳鄰 (B) 電子郵件 (C) FTP (D) Firewall Port Scan"
+  },
+  {
+    "year": "104",
+    "num": 23,
+    "domain": "網路通訊",
+    "sub": "應用層協定",
+    "difficulty": 2,
+    "content": "下列常用網路服務與埠(Port)對映何者有誤？ (A) DHCP 使用67 Port (B) DNS 使用53 Port (C) SMTP 使用25 Port (D) SNMP使用20 Port"
+  },
+  {
+    "year": "104",
+    "num": 24,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "下列何者非IP不足的解決方法？ (A) IPv6 (B) DHCP (C) NAT (D) DMZ"
+  },
+  {
+    "year": "104",
+    "num": 25,
+    "domain": "網路通訊",
+    "sub": "LAN/無線技術",
+    "difficulty": 2,
+    "content": "下列何者無法提升無線網路(WiFi)的安全性？ (A) 隱藏SSID廣播 (B) 使用WPA2 (C)MIMO (D) MAC存取管理"
+  },
+  {
+    "year": "104",
+    "num": 26,
+    "domain": "系統軟硬體",
+    "sub": "數位邏輯與數值系統",
+    "difficulty": 2,
+    "content": "下列何者是市面上行動裝置內建的應用程式市集之一？ (A) PC Home (B) eBay (C) Amazon (D) App Store"
+  },
+  {
+    "year": "104",
+    "num": 27,
+    "domain": "網路通訊",
+    "sub": "LAN/無線技術",
+    "difficulty": 2,
+    "content": "下列何者不是行動裝置所採用的無線通訊方式？ (A)光纖 (B) WiFi (C) LTE (D)藍芽(Bluetooth)"
+  },
+  {
+    "year": "104",
+    "num": 28,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "1 張 800(cid:3400)600 且標準RGB全彩影像的資料量(未經壓縮)約為下列何者？ (A) 2.8 MB (B) 1.4 MB (C) 4.2 MB (D) 1 MB"
+  },
+  {
+    "year": "104",
+    "num": 29,
+    "domain": "系統軟硬體",
+    "sub": "系統軟體/OS",
+    "difficulty": 2,
+    "content": "程式直譯器(Interpreter)和程式編譯器(Compiler)的說明和比較，下列何者有誤？ (A)直譯器不產生目的程式 (B)編譯器佔用記憶體較大 (C) C程式語言是用直譯器逐句翻譯並即時執行 (D)編譯器編譯全部程式為可執行檔目的程式，但不執行"
+  },
+  {
+    "year": "104",
+    "num": 30,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "將目的程式檔(obj)及所呼叫到的函數庫(Lib)連結在一起，處理並解決目的程式和函數庫彼此 間變數之參考的系統程式為下列何者？ (A) Loader (B) Assembler (C) Linker (D) Interpreter"
+  },
+  {
+    "year": "104",
+    "num": 31,
+    "domain": "系統軟硬體",
+    "sub": "系統軟體/OS",
+    "difficulty": 2,
+    "content": "下列對虛擬記憶體(Virtual Memory)的說明，何者有誤？ (A)分頁(Paging)和分段(Segmentation)都是虛擬記憶體常用的設計方式 (B)虛擬記憶體將磁碟模擬成記憶體，程式不再受到實體記憶體可用空間的限制 (C)分頁方式不須利用連續記憶體，仍可順利執行程式 (D)分段方式能掌握分段內程式之存取權，但會產生「內部碎片」現象"
+  },
+  {
+    "year": "104",
+    "num": 32,
+    "domain": "資通安全",
+    "sub": "PKI與數位簽章",
+    "difficulty": 2,
+    "content": "下列對於堆疊(Stack)的特性描述，何者有誤？ (A)一種先進先出(FIFO)的資料結構 (B)堆疊中的資料有次序性 (C)對於堆疊中資料的處置動作，都只發生在堆疊的頂端 (D)電腦系統中處理函式呼叫(Function call)時，以堆疊記下程式的位址及傳遞參數"
+  },
+  {
+    "year": "104",
+    "num": 33,
+    "domain": "系統軟硬體",
+    "sub": "系統軟體/OS",
+    "difficulty": 2,
+    "content": "在CPU行程(process)協調運作時，當有死結(Deadlock)發生，不會有以下哪種情形？ (A)互斥(Mutual Exclusion) (B)搶先(Preemption) (C)循環式等候(Circular Wait) (D)佔用與等候(Hold and Wait)"
+  },
+  {
+    "year": "104",
+    "num": 34,
+    "domain": "系統軟硬體",
+    "sub": "系統軟體/OS",
+    "difficulty": 2,
+    "content": "CPU排班(Scheduling)時，轉換CPU至另一項行程且將舊行程之狀態儲存起來，然後再載入新 行程之儲存狀態以便執行，此項工作稱為以下何者？ (A)死結預防(Deadlock Prevention) (B)磁碟排班(Disk Scheduling) (C)分頁管理(Paging Management) (D)內容轉換(Context Switch)"
+  },
+  {
+    "year": "104",
+    "num": 35,
+    "domain": "系統軟硬體",
+    "sub": "系統軟體/OS",
+    "difficulty": 2,
+    "content": "行程(process)執行時會改變狀態(state)，一個循序行程不會處於下列何種狀態？ (A)執行狀態(Running) (B)就緒狀態(Ready) (C)置換狀態(Exchange) (D)等待狀態(Waiting)"
+  },
+  {
+    "year": "104",
+    "num": 36,
+    "domain": "資通安全",
+    "sub": "加密技術",
+    "difficulty": 2,
+    "content": "下列何者無法提升磁碟效能之最佳化？ (A)清除不必要之檔案 (B)掃描並修復磁碟錯誤 (C)磁碟加密 (D)磁碟重組"
+  },
+  {
+    "year": "104",
+    "num": 37,
+    "domain": "資通安全",
+    "sub": "加密技術",
+    "difficulty": 2,
+    "content": "設計程式(Program Design)決定如何去撰寫程式，使程式能解決特定問題之方法，稱為演算法 (Algorithm)。下列對常見演算法之描述何者正確？ (A)循序搜尋法又稱非線性搜尋法，是一種最簡單之搜尋法 (B)如果要搜尋的資料已經事先排序好，可以使用二分搜尋法進行搜尋 (C) 5 個元素之氣泡排序法，必須執行 5 次掃描，第 1 次掃描須比較 4 次 (D)就較費時的資料對調動作而言，通常氣泡排序法比快速排序法效能較高"
+  },
+  {
+    "year": "104",
+    "num": 38,
+    "domain": "網路通訊",
+    "sub": "WAN/VPN技術",
+    "difficulty": 3,
+    "content": "電子錢包符合哪一種安全電子交易標準？ (A) SET (B) RSA (C) SSL (D) VPN"
+  },
+  {
+    "year": "104",
+    "num": 39,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "使用27位元(bit)的子網路遮罩切割C級網路196.16.24.0，請問196.16.24.64/27這個子網路之廣 播位置為何？ (A) 196.16.24.64 (B) 196.16.24.95 (C) 196.16.24.128 (D) 196.16.24.31"
+  },
+  {
+    "year": "104",
+    "num": 40,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "以下IPv6位置格式說明何者有誤？ (A)長度為128Bits (B)分6段呈現，10進位表示 (C)每個IP位置僅能有1個【：：】 (D)連續為0的欄位可用【：：】表示"
+  },
+  {
+    "year": "104",
+    "num": 41,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "下列IPv4標頭(Header)欄位說明，何者有誤？ (A)延續時間( TTL, Time to Live )，每經過1台路由器TTL值會加1 (B)總長(Total Length)，指IP表頭和有效資料負載總和，最大65,535位元組 (C)版本(Version)，用來表示IP所使用的版本 (D)標記(Flags)與分割定位(Fragment Offset)用來呈現分割與重新組合封包資訊"
+  },
+  {
+    "year": "104",
+    "num": 42,
+    "domain": "資通安全",
+    "sub": "防護機制",
+    "difficulty": 2,
+    "content": "下列何者不是現代防火牆的主要功能？ (A)DMZ區段設置 (B) SQL Injection阻擋 (C) 存取控制 (D) 負載平衡"
+  },
+  {
+    "year": "104",
+    "num": 43,
+    "domain": "網路通訊",
+    "sub": "LAN/無線技術",
+    "difficulty": 2,
+    "content": "下列何者是有線乙太網路避免碰撞的機制？ (A) MIMO (B) CSMA/CD (C) CSMA/CE (D) CSMA/CB"
+  },
+  {
+    "year": "104",
+    "num": 44,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "為得到IP位址所對應的網路位置，請問IP位址需與「網路遮罩」進行下列那種運算？ (A) XOR (B) AND (C) OR (D) NOR"
+  },
+  {
+    "year": "104",
+    "num": 45,
+    "domain": "網路通訊",
+    "sub": "應用層協定",
+    "difficulty": 2,
+    "content": "下列HTTP封包回應資訊，下列何者有誤？ (A) 200：表示回應成功 (B) 400：表示有錯誤請求 (C) 404：請求的網頁尚未被修改 (D) 500：表示伺服器內部錯誤"
+  },
+  {
+    "year": "104",
+    "num": 46,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "有關DNS，下列何者有誤？ (A)基於TCP協定工作 (B)封包格式：僅有查詢與回答2種封包格式 (C)查詢方式：提供遞迴查詢及反覆運算查詢等方式 (D) DNS伺服器中，MX Record表示與郵件交換有關"
+  },
+  {
+    "year": "104",
+    "num": 47,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "有關ICMP(Internet Control Message Protocol)協定，下列何者有誤？ (A)提供傳輸錯誤報告資訊 (B) ICMP封包需等於16 KB (C)通常使用Ping指令協助查測異常 (D)提供來源抑制訊息，可要求主機降低傳送速率"
+  },
+  {
+    "year": "104",
+    "num": 48,
+    "domain": "資通安全",
+    "sub": "PKI與數位簽章",
+    "difficulty": 2,
+    "content": "下列網路傳輸線材說明，何者有誤？ (A) Category 6 UTP雙絞線，最高傳輸速率2.4Gbps (B) EIA/TIA 568B 標準，RJ45接頭線路編號1為白橙，線路編號5為白藍 (C) Category 6 STP雙絞線，抵抗電磁干擾較差 (D)單模光纖較適合長距離傳輸，多模光纖較適合短距離傳輸"
+  },
+  {
+    "year": "104",
+    "num": 49,
+    "domain": "網路通訊",
+    "sub": "網路層/網路設備",
+    "difficulty": 3,
+    "content": "Router 設定上常見的管理距離(administrative distance)，何者錯誤？ (A) Static：1 (B) OSPF：110 (C) RIP：120 (D) Connected：2"
+  },
+  {
+    "year": "104",
+    "num": 50,
+    "domain": "網路通訊",
+    "sub": "網路層/網路設備",
+    "difficulty": 3,
+    "content": "下列何者不是路由協定(Routing Protocol)？ (A) BGP (B) IS-IS (C) EIGRP (D) H.264"
+  },
+  {
+    "year": "103",
+    "num": 1,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "本試題共 4 頁(A3紙 1 張)。"
+  },
+  {
+    "year": "103",
+    "num": 2,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "禁止使用電子計算器。"
+  },
+  {
+    "year": "103",
+    "num": 3,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "本試題為單選題40題，前20題每題各2分、其餘20題每題3分，共100分，須用2B鉛筆在 注 答案卡畫記作答，於本試題或其他紙張作答者不予計分。 意"
+  },
+  {
+    "year": "103",
+    "num": 4,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "請就各題選項中選出最適當者為答案，各題答對得該題所配分數，答錯或畫記多於1個 事 選項者，倒扣該題所配分數3分之1，倒扣至本科之實得分數為零為止；未作答者，不給 項 分亦不扣分。"
+  },
+  {
+    "year": "103",
+    "num": 5,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "本試題採雙面印刷，請注意正、背面試題。"
+  },
+  {
+    "year": "103",
+    "num": 6,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "試題須隨答案卷(卡)繳回。"
+  },
+  {
+    "year": "103",
+    "num": 7,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "考試時間：90分鐘。"
+  },
+  {
+    "year": "103",
+    "num": 8,
+    "domain": "資料結構與演算法",
+    "sub": "排序與搜尋",
+    "difficulty": 2,
+    "content": "下列數字26、5、33、17、2、8，利用氣泡排序法由小至大排列，其第二次結果為何？ (A) 5、26、17、33、2、8 (B) 5、26、17、2、8、33 (C) 5、17、2、8、26、33 (D) 5、2、8、17、26、33"
+  },
+  {
+    "year": "103",
+    "num": 9,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列何者可提供資訊安全領域，有關電腦系統弱點及漏洞相關資訊？ (A) CVE (B) RFC (C) ISO (D) SCP"
+  },
+  {
+    "year": "103",
+    "num": 10,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "作業系統在輸入及輸出管理的方式，依其效率由低而高排列，下列何者正確？ (A) Programmed I/O、DMA、Interrupt-driven I/O (B) Programmed I/O、Interrupt-driven I/O、DMA (C) DMA、Interrupt-driven I/O、Programmed I/O (D) Interrupt-driven I/O、Programmed I/O、DMA 計算機原理、網路概論 第 1 頁，共 4 頁 【請翻頁繼續作答】"
+  },
+  {
+    "year": "103",
+    "num": 11,
+    "domain": "資通安全",
+    "sub": "PKI與數位簽章",
+    "difficulty": 2,
+    "content": "近期資通安全領域發現的重大資安漏洞Heartbleed，是屬於下列何者的問題？ (A) OpenSSL (B) BASH (C) SSLv3 (D) Secure Channel"
+  },
+  {
+    "year": "103",
+    "num": 12,
+    "domain": "網路通訊",
+    "sub": "訊號與編碼",
+    "difficulty": 3,
+    "content": "Line APP的搖一搖功能，是屬於下列何種訊號的轉換方式？ (A)類比訊號轉類比訊號 (B)類比訊號轉數位訊號 (C)數位訊號轉數位訊號 (D)數位訊號轉類比訊號"
+  },
+  {
+    "year": "103",
+    "num": 13,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "一般俗稱的T3專線，其傳輸速率約為多少？ (A) 1.54 Mbps (B) 2.048 Mbps (C) 34.368 Mbps (D) 44.7 Mbps"
+  },
+  {
+    "year": "103",
+    "num": 14,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列關於網路流量控制(flow control)的描述，何者有誤？ (A)與傳送端和接收端之間的點對點流量有關 (B)工作是確保傳送端的傳輸速率，不能比接收端慢 (C)以回饋為基礎的流量控制(feedback-based flow control)，接收端會送回資訊給傳送端 (D)以速率為基礎的流量控制(rate-based flow control)，具有內建機制可限制傳送端的速率"
+  },
+  {
+    "year": "103",
+    "num": 15,
+    "domain": "網路通訊",
+    "sub": "WAN/VPN技術",
+    "difficulty": 3,
+    "content": "下列何者是利用有線電視的頻道做為資料傳輸的媒介？ (A) Cable Modem (B) ADSL (C) ATM (D) ISDN"
+  },
+  {
+    "year": "103",
+    "num": 16,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "以下接收到的資料何者會被檢測為偶同位元錯誤？ (A) 11111111 (B) 11110001 (C) 00110011 (D) 00100111"
+  },
+  {
+    "year": "103",
+    "num": 17,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "目前在許多公共場所提供的iTaiwan網路服務，民眾可以透過何種方式連線使用？ (A) Wi-Fi (B) Bluetooth (C) 3G (D) WiMAX"
+  },
+  {
+    "year": "103",
+    "num": 18,
+    "domain": "網路通訊",
+    "sub": "應用層協定",
+    "difficulty": 2,
+    "content": "在網際網路上負責將電腦的時鐘與網際網路時間同步的伺服器為何？ (A) NTP Server (B) SMTP Server (C) IMAP Server (D) DNS Server"
+  },
+  {
+    "year": "103",
+    "num": 19,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "於Google 瀏覽器(Browser)登入Gmail 信箱時，使用的通訊埠號為下列何者？ (A) 21 (B) 23 (C) 25 (D) 80"
+  },
+  {
+    "year": "103",
+    "num": 20,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列關於行動電話系統的演進，請排出正確的時間先後順序？ (cid:99)GSM (cid:100)GPRS (cid:101)AMPS (cid:102)4G (A) (cid:99)(cid:100)(cid:101)(cid:102) (B) (cid:101)(cid:100)(cid:102)(cid:99) (C) (cid:101)(cid:99)(cid:100)(cid:102) (D) (cid:101)(cid:102)(cid:100)(cid:99)"
+  },
+  {
+    "year": "103",
+    "num": 21,
+    "domain": "資訊管理與軟體工程",
+    "sub": "資料庫設計",
+    "difficulty": 2,
+    "content": "一位打字人員每分鐘輸入40組英文字串，平均每分鐘按下 200次鍵盤按鍵，在一部處理器時 脈為3 GHz的個人電腦上，假設每個指令須執行3個時脈週期(clock cycle)，則在該打字人員按 下一個按鍵的時間裡，可以執行多少個指令？ (A) 3×108 (B) 3.3×108 (C) 1×109 (D) 1×108"
+  },
+  {
+    "year": "103",
+    "num": 22,
+    "domain": "資通安全",
+    "sub": "PKI與數位簽章",
+    "difficulty": 2,
+    "content": "若一棵二元樹之前序尋訪結果為 /+-a+xy*+b*ca，中序尋訪結果為 -a+x+y/+b*c*a，則其後序 尋訪結果為何？ (A) a-xy+b+ca*+*/ (B) a-xy++b+ca**/ (C) ca*b+*xy+a-+/ (D) ac*b+*yx+a-+/"
+  },
+  {
+    "year": "103",
+    "num": 23,
+    "domain": "資料結構與演算法",
+    "sub": "樹與圖演算法",
+    "difficulty": 3,
+    "content": "使用演算法解決問題時，先定義問題的所有可能解，再產生解空間樹，最後利用深度優先法 搜索該樹並利用界限函數避免搜索不可能產生解的子樹，此為何種技巧？ (A)貪婪法(greedy method) (B)各個擊破法(divide and conquer) (C)動態規劃法(dynamic programming) (D)回溯追蹤法(backtracking)"
+  },
+  {
+    "year": "103",
+    "num": 24,
+    "domain": "系統軟硬體",
+    "sub": "數位邏輯與數值系統",
+    "difficulty": 2,
+    "content": "關於UNIX/Linux檔案系統所使用的i-node(inode)敘述，下列何者有誤？ (A)包含檔案權限及擁有者資訊 (B) i-node耗盡後，即使磁碟仍有空間，亦無法再新增檔案 (C)目錄(directory)不佔用i-node (D)包含檔案最後存取及修改時間"
+  },
+  {
+    "year": "103",
+    "num": 25,
+    "domain": "資通安全",
+    "sub": "PKI與數位簽章",
+    "difficulty": 2,
+    "content": "在建立關連式資料庫時，所使用的ER圖(entity-relationship diagram)中，不會有下列哪一項？ (A) Attributes (B) Primary Key (C) Cardinality Ratios (D) Data Type 計算機原理、網路概論 第 2 頁，共 4 頁"
+  },
+  {
+    "year": "103",
+    "num": 26,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "關於觸發(Trigger)的敘述，下列何者正確？ (A)是一種特別的檢視(View) (B)可以使用回復交易(Rollback Tran) (C)只能在資料新增(Insert)前自動執行 (D)無法自訂變數"
+  },
+  {
+    "year": "103",
+    "num": 27,
+    "domain": "系統軟硬體",
+    "sub": "數位邏輯與數值系統",
+    "difficulty": 2,
+    "content": "下列何者不是採用NAS(Network-attached storage)的優點？ (A)有標準協定，支援多種平台 (B)透過網路連接，配置距離彈性較大 (C)各式應用之伺服器不需額外處理資料存取管理作業 (D)不具備檔案系統，效能較高"
+  },
+  {
+    "year": "103",
+    "num": 28,
+    "domain": "網路通訊",
+    "sub": "網路層/網路設備",
+    "difficulty": 3,
+    "content": "在HTML5中，下列何者為利用JavaScript API以成對的Key和Value達到資料儲存的機制？ (A) Indexed Database API (B) Web Storage (C) File API (D) ApplicationCache"
+  },
+  {
+    "year": "103",
+    "num": 29,
+    "domain": "資通安全",
+    "sub": "加密技術",
+    "difficulty": 2,
+    "content": "下列何者不是ISO27001:2013及ISO27001:2005的差異？ (A)新增「密碼學」(Cryptography)，提供加密與安全基礎管理 (B)「通訊與作業管理」(Communications & Operations Management)，拆成「操作安全」 (Operations security)和「通訊安全」(Communications security)，並納入行動裝置的控管 (C)新增「供應商關係」(Supplier Relationships)，要求了解供應商所提供之"
+  },
+  {
+    "year": "103",
+    "num": 30,
+    "domain": "資通安全",
+    "sub": "PKI與數位簽章",
+    "difficulty": 2,
+    "content": "資料倉儲的典型代表就是OLAP(On-Line Analytical Processing)系統，下列何者非OLAP系統特性？ (A)資料偏重彙總或是統計資訊 (B)不採用正規化設計 (C)使用關連式資料庫架構儲存資料 (D)歷史性的資料，異動機會少"
+  },
+  {
+    "year": "103",
+    "num": 31,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "某路由器的路由表具備下列(CIDR)內容： 位址/遮罩 下一站 140.11.56.0/22 介面0 140.11.60.0/22 介面1 150.22.40.0/23 路由1 預設 路由2 如果目的位址為 150.22.56.1 的封包送達，下列何者是路由器的下一站？ (A)介面0 (B)介面1 (C)路由1 (D)路由2"
+  },
+  {
+    "year": "103",
+    "num": 32,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "IPv6的位址寫法，下列何者有誤？ (A) 8000:0000:0000:0000:0123:4567:89AB:CDEF (B) 8000::0123:4567:89AB:CDEF (C) 8000::0123:4567::CDEF (D) 8000:0123:4567::89AB:CDEF"
+  },
+  {
+    "year": "103",
+    "num": 33,
+    "domain": "資通安全",
+    "sub": "加密技術",
+    "difficulty": 2,
+    "content": "關於對稱式與非對稱式加密系統之敘述，下列何者正確？ (A)非對稱式加密系統於加、解密時需使用不同金鑰 (B)非對稱式加密系統無法確認傳送方身分 (C)對稱式加密系統具有數位簽章功能 (D)對稱式加密系統的金鑰屬於公開金鑰(Public Key)"
+  },
+  {
+    "year": "103",
+    "num": 34,
+    "domain": "資料結構與演算法",
+    "sub": "樹與圖演算法",
+    "difficulty": 3,
+    "content": "請參考對照表，以單一字母代換法(mono alphabetic substitution)轉譯明文字串 cipher，輸出密 文應為下列何者？ 明文：a b c d e f g h i j k l m n o p q r s t u v w x y z 密文：A W B C X Y Z I J K L M D E O P Q F R G S T H U V N (A) BJPIFX (B) CIPHER (C) BJPIXF (D) JPIXFB 計算機原理、網路概論 第 3 頁，共 4 頁 【"
+  },
+  {
+    "year": "103",
+    "num": 35,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "若從192.192.0.0開始有一大段連續IP位址可供使用，假設有4個單位A，B，C，D依次分配 4044，2100，4044，及2100個IP位址，請問下列何者為分配給單位C的IP起始位址/網路遮罩 位元數？ (A) 192.192.12.0/20 (B) 192.192.24.0/20 (C) 192.192.25.0/20 (D) 192.192.32.0/20"
+  },
+  {
+    "year": "103",
+    "num": 36,
+    "domain": "資通安全",
+    "sub": "加密技術",
+    "difficulty": 2,
+    "content": "Kerberos協定主要使用於下列何種目的？ (A)資料傳輸 (B)驗證登錄的使用者 (C)郵件傳輸加密 (D)動態分配位址"
+  },
+  {
+    "year": "103",
+    "num": 37,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列何者為VoIP(voice over IP)使用的標準名稱？ (A) A.323 (B) K.323 (C) F.323 (D) H.323"
+  },
+  {
+    "year": "103",
+    "num": 38,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "請於下列三組選項中，選出屬於私有IP位址(Private IP Address)的正確組合。 (cid:99)10.168.13.168 (cid:100)172.10.13.168 (cid:101)192.168.50.1 (A) (cid:99)(cid:100)(cid:101) (B) (cid:99)(cid:100) (C) (cid:99)(cid:101) (D) (cid:100)(cid:101)"
+  },
+  {
+    "year": "103",
+    "num": 39,
+    "domain": "資料結構與演算法",
+    "sub": "樹與圖演算法",
+    "difficulty": 3,
+    "content": "假設右圖為某石油公司輸送網 路圖，A、B、C、D代表輸送控 制站，圓點和圓點之間箭頭代 表流向，其上數字代表容量， 每個輸送控制站的輸入量等於 輸出量，請問從北部到中部可 輸送的最大流量為下列何者？ (A) 14 (B) 15 (C) 17 (D) 19"
+  },
+  {
+    "year": "103",
+    "num": 40,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "網際網路上一個子網路遮罩為255.255.240.0，在不考慮網路及廣播位址下，請問該子網路所 能處理的最大主機數量為下列何者？ (A) 1024 (B) 2048 (C) 4096 (D) 8192 計算機原理、網路概論 第 4 頁，共 4 頁"
+  },
+  {
+    "year": "109",
+    "num": 1,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "本試題共4頁(A3紙1張)。"
+  },
+  {
+    "year": "109",
+    "num": 2,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "禁止使用電子計算器。"
+  },
+  {
+    "year": "109",
+    "num": 3,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "本試題為單選題共 50題，每題 2分，共 100分，須用 2B鉛筆在答案卡畫記作答，於本 注 試題或其他紙張作答者不予計分。"
+  },
+  {
+    "year": "109",
+    "num": 4,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "請就各題選項中選出最適當者為答案，各題答對得該題所配分數，答錯或畫記多於 1 個 意 選項者，倒扣該題所配分數 3 分之 1，倒扣至本科之實得分數為零為止；未作答者，不 事 給分亦不扣分。 項"
+  },
+  {
+    "year": "109",
+    "num": 5,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "本試題採雙面印刷，請注意正、背面試題。"
+  },
+  {
+    "year": "109",
+    "num": 6,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "考試結束前離場者，試題須隨答案卡繳回，俟本節考試結束後，始得至原試場或適當處 所索取。"
+  },
+  {
+    "year": "109",
+    "num": 7,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "考試時間：90分鐘。"
+  },
+  {
+    "year": "109",
+    "num": 8,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "若以直接存取(direct access)方式進行檔案資料讀寫，下列何者有誤？ (A)適用大量資訊即時存取 (B)將檔案分成有編號區段 (C)循序一筆一筆讀寫資料 (D)允許讀寫任意區段"
+  },
+  {
+    "year": "109",
+    "num": 9,
+    "domain": "系統軟硬體",
+    "sub": "系統軟體/OS",
+    "difficulty": 2,
+    "content": "CPU排程中以行程(process)所需CPU週期長短為依據，若使用固定CPU執行時間，超過此段 時間則被迫捨棄，等待下次循環的排程方法為下列何者？ (A) SJF (B) FCFS (C) Priority (D) Round Robin"
+  },
+  {
+    "year": "109",
+    "num": 10,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "若假設(365) = (731) ，則下列何者正確？ 10 R (A) R = 4 (B) R = 5 (C) R = 6 (D) R = 7"
+  },
+  {
+    "year": "109",
+    "num": 11,
+    "domain": "系統軟硬體",
+    "sub": "系統軟體/OS",
+    "difficulty": 2,
+    "content": "依CPU與I/O溝通方式(輪詢、中斷、直接記憶體存取DMA)比較CPU利用率排名，下列何者正 確？ (A)輪詢最差 (B)中斷最差 (C)直接記憶體存取最差 (D)中斷最佳"
+  },
+  {
+    "year": "109",
+    "num": 12,
+    "domain": "系統軟硬體",
+    "sub": "系統軟體/OS",
+    "difficulty": 2,
+    "content": "一個CPU行程如果沒有配置足夠的實體記憶體空間(frames)時，將產生極高的分頁錯誤率，導 致高頻率分頁置出/置入(swap-in/swap-out)切換活動，此為下列何者？ (A)週期盜取(Cycle Stealing) (B)輾轉現象(Thrashing) (C)貝勒地異常(Belady’s Anomaly) (D)內部碎裂(Internal fragmentation)"
+  },
+  {
+    "year": "109",
+    "num": 13,
+    "domain": "資通安全",
+    "sub": "PKI與數位簽章",
+    "difficulty": 2,
+    "content": "下列何種電腦元件的存取速度最快？ (A)暫存器(register) (B)固態硬碟(SSD) (C) DRAM (D)快取記憶體(cache)"
+  },
+  {
+    "year": "109",
+    "num": 14,
+    "domain": "資通安全",
+    "sub": "PKI與數位簽章",
+    "difficulty": 2,
+    "content": "下列何者不是系統呼叫(system call)的特性？ (A)進入監督模式(monitor mode)執行 (B)有內容切換(context switch)發生 (C)不引起中斷(interrupt) (D)從一個行程轉換到另一個行程"
+  },
+  {
+    "year": "109",
+    "num": 15,
+    "domain": "系統軟硬體",
+    "sub": "系統軟體/OS",
+    "difficulty": 2,
+    "content": "行程(process)在執行時會依據目前需求而有不同的狀態，下列何者並非狀態之一？ (A)等待(wait) (B)就緒(ready) (C)執行(running) (D)輸出(output)"
+  },
+  {
+    "year": "109",
+    "num": 16,
+    "domain": "資通安全",
+    "sub": "PKI與數位簽章",
+    "difficulty": 2,
+    "content": "合作行程(cooperating process)可用臨界區間(Critical Section)來達成行程溝通(process communication) ，下列何者並非臨界區間需具備的性質？ (A)可進行性(progress) (B)跨平台(cross platform) (C)有限性等待(bounded waiting) (D)互斥(mutual exclusion)"
+  },
+  {
+    "year": "109",
+    "num": 17,
+    "domain": "系統軟硬體",
+    "sub": "系統軟體/OS",
+    "difficulty": 2,
+    "content": "允許很多使用者同時共用一部電腦，同時執行多個程式並分配固定長度CPU時間，採用輪流 執行法則(round robin scheduling)，此為下列何種作業系統？ (A)嵌入式系統 (B)平行系統 (C)分散式系統 (D)分時系統"
+  },
+  {
+    "year": "109",
+    "num": 18,
+    "domain": "系統軟硬體",
+    "sub": "系統軟體/OS",
+    "difficulty": 2,
+    "content": "某電腦系統支援分頁虛擬記憶體，目前記憶體有4個分頁框(page frames)，若採用最近較少使 用(Least-Recently-Used)分頁替換演算法，請問下列頁碼參考之串列，總共會發生多少次分頁 錯誤(page faults)？串列[1, 2, 3, 4, 2, 1, 5, 6, 2, 1, 2, 3, 7, 6, 3, 2, 1, 2, 3, 6] (A) 7 (B) 8 (C) 10 (D) 12"
+  },
+  {
+    "year": "109",
+    "num": 19,
+    "domain": "資通安全",
+    "sub": "加密技術",
+    "difficulty": 2,
+    "content": "下列何者並非入侵偵測系統(IDS)具有的主要功能？ (A)蒐集目前網路系統狀態 (B)預警通知管理者 (C)備份資料加密 (D)判斷是否有入侵行為發生"
+  },
+  {
+    "year": "109",
+    "num": 20,
+    "domain": "資料結構與演算法",
+    "sub": "演算法複雜度",
+    "difficulty": 3,
+    "content": "演算法的時間複雜度表示法中，下列何者表示指數時間(exponential time)複雜度？ (A) Ο(1) (B) Ο(n2) (C) Ο(2n) (D) Ο(n!)"
+  },
+  {
+    "year": "109",
+    "num": 21,
+    "domain": "資通安全",
+    "sub": "雜湊與完整性",
+    "difficulty": 2,
+    "content": "下列演算法的描述，何者正確？ (A)循序搜尋法之資料須先排序過 (B)二分搜尋法適用於動態資料 (C)雜湊法不具保密性 (D)二分搜尋法之資料須先排序過"
+  },
+  {
+    "year": "109",
+    "num": 22,
+    "domain": "系統軟硬體",
+    "sub": "系統軟體/OS",
+    "difficulty": 2,
+    "content": "CPU控制單元實作分為硬體接線法(hardwired control)和微程式設計(MicroProgramming)，下列 描述何者正確？ (A)微程式設計執行速度較快 (B)微程式設計製作軔體(firmware) (C)硬體接線法設計較簡單 (D)硬體接線法成本較低"
+  },
+  {
+    "year": "109",
+    "num": 23,
+    "domain": "網路通訊",
+    "sub": "網路層/網路設備",
+    "difficulty": 3,
+    "content": "下列何者屬於編譯式程式語言？ (A) UNIX shell (B) Javascript (C) Perl (D) COBOL"
+  },
+  {
+    "year": "109",
+    "num": 24,
+    "domain": "資料結構與演算法",
+    "sub": "樹與圖演算法",
+    "difficulty": 3,
+    "content": "利用卡諾圖(Karnaugh map)化簡布林函數 ，下列何者正確？ (A) (B) (C) (D) F(X,Y) = X’+XY X’+Y’ X+Y X’+Y X+Y’"
+  },
+  {
+    "year": "109",
+    "num": 25,
+    "domain": "資料結構與演算法",
+    "sub": "樹與圖演算法",
+    "difficulty": 3,
+    "content": "如右圖二元樹，下列前序、中序、後序追蹤順序何者正確？ (A)前序 - 1245376 (B)中序 - 4251637 (C)前序 - 1254367 (D)後序 - 4526713"
+  },
+  {
+    "year": "109",
+    "num": 26,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "TCP/IP協定中不同層有不同的位址名稱，下列敘述何者有誤？ (A) MAC位址(address)用於實體層(Physical Layer) (B) IP位址用於網路層(Network Layer) (C) Port編號用於傳輸層(Transport Layer) (D)電子郵件位址用於應用層(Application Layer)"
+  },
+  {
+    "year": "109",
+    "num": 27,
+    "domain": "網路通訊",
+    "sub": "訊號與編碼",
+    "difficulty": 3,
+    "content": "關於網路設備之敘述，下列何者有誤？ (A)中繼器(repeater)用於增強纜線上之訊號，使網路訊號傳送更遠 (B)橋接器(bridge)可決定讓資料通過，連結至同網路的不同區段 (C)閘道器(gateway)無法連接不同通信協定的異質網路 (D)路由器(router)可連接不同的區域網路或廣域網路"
+  },
+  {
+    "year": "109",
+    "num": 28,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "下列何項服務用來查詢IP位址所對應之MAC位址？ (A) FTP (B) NNTP (C) DNS (D) ARP"
+  },
+  {
+    "year": "109",
+    "num": 29,
+    "domain": "資料結構與演算法",
+    "sub": "基本資料結構",
+    "difficulty": 2,
+    "content": "物聯網(Internet of Things)於設計上可分成3層之架構，下列何項不屬於其架構成員？ (A)網路層 (B)鏈結層 (C)應用層 (D)感知層"
+  },
+  {
+    "year": "109",
+    "num": 30,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "於手機上之某APP(應用程式)可感應信用卡之資料內容並呈現於螢幕，它是一種點對點的通 訊技術，以13.56 MHz頻率在20 公分距離內運作，此項技術為下列何者？ (A) NFC (B) Bluetooth (C) Wi-Fi (D) WiMAX"
+  },
+  {
+    "year": "109",
+    "num": 31,
+    "domain": "網路通訊",
+    "sub": "網路拓樸",
+    "difficulty": 1,
+    "content": "下列何項網路的連接拓樸(topology)，可能會有隱藏節點(hidden node)的狀況發生？ (A) Ring network (B) Star network (C) Ad hoc network (D) Bus network"
+  },
+  {
+    "year": "109",
+    "num": 32,
+    "domain": "系統軟硬體",
+    "sub": "數位邏輯與數值系統",
+    "difficulty": 2,
+    "content": "超級(super)Wi-Fi 也就是wireless regional area network(WRAN)的概念，其採用下列何項規範？ (A) 802.16 (B) 802.22 (C) 802.11ac (D) 802.11n"
+  },
+  {
+    "year": "109",
+    "num": 33,
+    "domain": "網路通訊",
+    "sub": "網路層/網路設備",
+    "difficulty": 3,
+    "content": "行動電話本身是可移動性，於通話過程中從目前使用的基地台頻道，轉換到鄰近基地台的另 一個可使用之頻道，以維持通話持續，此項動作稱為下列何者？ (A)交換(switch) (B)路由(routing) (C)追蹤(tracking) (D)交遞(handoff)"
+  },
+  {
+    "year": "109",
+    "num": 34,
+    "domain": "網路通訊",
+    "sub": "OSI模型",
+    "difficulty": 2,
+    "content": "國際標準組織(ISO)訂定的OSI七層網路通訊模型，何層負責建立、維護與切斷連線、對話控 制等工作？ (A)網路層(Network Layer) (B)資料鏈結層(Data Link Layer) (C)會談層(Session Layer) (D)傳輸層(Transport Layer)"
+  },
+  {
+    "year": "109",
+    "num": 35,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列何項無線通訊協定的傳輸速度最快？ (A) 802.11a (B) 802.11ac (C) 802.11b (D) 802.11n"
+  },
+  {
+    "year": "109",
+    "num": 36,
+    "domain": "網路通訊",
+    "sub": "OSI模型",
+    "difficulty": 2,
+    "content": "OSI 七層網路通訊模型，資料由上層往下層傳遞之封裝順序，下列何者正確？①資料(data) ②位元(bit) ③區段(segment) ④封包(packet) ⑤訊框(frame) (A)①③④⑤② (B)①②④③⑤ (C)①④③⑤② (D)①⑤②④③"
+  },
+  {
+    "year": "109",
+    "num": 37,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列何者為一個半雙工傳輸之網路系統特性？ (A)單向傳輸 (B)單向傳輸，但可以同時進行 (C)雙向傳輸，且可同時進行 (D)雙向傳輸，但不可同時進行"
+  },
+  {
+    "year": "109",
+    "num": 38,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "某路由器已建立下列路由表： 位址 子網路遮罩 下一站(Next hop) 128.96.39.0 255.255.255.128 介面m0 128.96.39.128 255.255.255.128 介面m1 128.96.40.0 255.255.255.128 R2 192.4.153.0 255.255.255.192 R3 * (默認) - R4 如果目的位址為128.96.40.12之封包到達路由器，請問此封包之下一站為何？ (A)介面m0 (B)介面m1 (C) R2 (D) R3"
+  },
+  {
+    "year": "109",
+    "num": 39,
+    "domain": "資通安全",
+    "sub": "PKI與數位簽章",
+    "difficulty": 2,
+    "content": "有4個CIDR (Classless InterDomain Routing)位址： 212.56.132.0/24 212.56.133.0/24 212.56.134.0/24 212.56.135.0/24 如進行最大可能的聚合為一組CIDR位址，下列何項正確？ (A) 212.56.133.0/23 (B) 212.56.132.0/23 (C) 212.56.134.0/22 (D) 212.56.132.0/22"
+  },
+  {
+    "year": "109",
+    "num": 40,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "下列何者並非TCP封包表頭當中的欄位資訊？ (A)循序(sequence)編號 (B)目的IP位址(destination IP address) (C)來源連接埠編號(source port) (D)流量視窗大小(window size)"
+  },
+  {
+    "year": "109",
+    "num": 41,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列何者為傳輸快且不受電路干擾(具保密性)之電腦網路通訊傳輸媒體？ (A)光纖 (B)電話線 (C)微波 (D)無線電"
+  },
+  {
+    "year": "109",
+    "num": 42,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列何項電腦網路傳輸媒介，收訊端必須對準發射端且誤差不得超過收訊角度？ (A)無線電 (B)微波 (C)紅外線 (D)雙絞線"
+  },
+  {
+    "year": "109",
+    "num": 43,
+    "domain": "網路通訊",
+    "sub": "OSI模型",
+    "difficulty": 2,
+    "content": "個人無線網路之藍芽(Bluetooth)，其RF(radio frequency)是屬於OSI參考模型的何項？ (A)應用層 (B)實體層 (C)傳輸層 (D)網路層"
+  },
+  {
+    "year": "109",
+    "num": 44,
+    "domain": "網路通訊",
+    "sub": "訊號與編碼",
+    "difficulty": 3,
+    "content": "下列何項設備具有將數位訊號轉換為類比訊號之功能？ (A)交換器(switch) (B)路由器(router) (C)數據機(modem) (D)集線器(hub)"
+  },
+  {
+    "year": "109",
+    "num": 45,
+    "domain": "網路通訊",
+    "sub": "網路拓樸",
+    "difficulty": 1,
+    "content": "將所有網路節點放在一條纜線上的網路拓樸為下列何者？ (A)廣域網路 (B)環狀網路 (C)匯流排網路 (D)星形網路"
+  },
+  {
+    "year": "109",
+    "num": 46,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "於IPv4網路中，IP位址為142.50.140.22，若子網路遮罩為255.255.224.0/19，則其子網路位址 (netid)為下列何者？ (A) 142.50.128.0 (B) 142.50.130.0 (C) 142.50.132.0 (D) 142.50.136.0"
+  },
+  {
+    "year": "109",
+    "num": 47,
+    "domain": "網路通訊",
+    "sub": "應用層協定",
+    "difficulty": 2,
+    "content": "下列何項通訊協定不屬於應用層(Application Layer)之協定？ (A) HTTP (B) POP3 (C) FTP (D) ARP"
+  },
+  {
+    "year": "109",
+    "num": 48,
+    "domain": "網路通訊",
+    "sub": "應用層協定",
+    "difficulty": 2,
+    "content": "下列何項網路設備負責遞減封包存活期(time to live, TTL)之數值？ (A)交換器 (B)路由器 (C) DNS伺服器 (D)橋接器"
+  },
+  {
+    "year": "109",
+    "num": 49,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "數位用戶專線(digital subscriber line)為下列何項多工技術的結合應用？ (A) AM與FM (B) AM與TDM (C) FDM與TDM (D) FDM與FM"
+  },
+  {
+    "year": "109",
+    "num": 50,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "於VPN網路環境中，PPTP(point-to-point tunnel protocol)的運作，使用下列何者為預設TCP連接 埠號？ (A) 1723 (B) 2146 (C) 3306 (D) 3389"
+  },
+  {
+    "year": "110",
+    "num": 1,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "本試題共4頁(A3紙1張)。"
+  },
+  {
+    "year": "110",
+    "num": 2,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "禁止使用電子計算器。"
+  },
+  {
+    "year": "110",
+    "num": 3,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "本試題為單選題共 50題，每題 2分，共 100分，須用 2B鉛筆在答案卡畫記作答，於本 注 試題或其他紙張作答者不予計分。 意 4.請就各題選項中選出最適當者為答案，答錯不倒扣；畫記多於 1 個選項或未作答者，該 事 題不予計分。 項 5.本試題採雙面印刷，請注意正、背面試題。"
+  },
+  {
+    "year": "110",
+    "num": 4,
+    "domain": "網路通訊",
+    "sub": "網路拓樸",
+    "difficulty": 1,
+    "content": "下列有關IEEE 1394連接埠的敘述，何者有誤？ = × (A)又稱為火線埠 (B)為高速並列匯流排介面 (C)具備熱插拔功能 (D)適用於消費性電子產品"
+  },
+  {
+    "year": "110",
+    "num": 5,
+    "domain": "系統軟硬體",
+    "sub": "系統軟體/OS",
+    "difficulty": 2,
+    "content": "下列記憶體中何者的pin腳數最少？ (A) DDR SDRAM (B) DDR2 SDRAM (C) DRDRAM (D) SDRAM"
+  },
+  {
+    "year": "110",
+    "num": 6,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "考試結束前離場者，試題須隨答案卡繳回，俟本節考試結束後，始得至原試場或適當處 所索取。"
+  },
+  {
+    "year": "110",
+    "num": 7,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "考試時間：90分鐘。"
+  },
+  {
+    "year": "110",
+    "num": 8,
+    "domain": "系統軟硬體",
+    "sub": "系統軟體/OS",
+    "difficulty": 2,
+    "content": "下列何者屬「搶奪式」(Preemptive)工作排程？ (A) FCFS (B) PS (C) SJF (D) SRTF"
+  },
+  {
+    "year": "110",
+    "num": 9,
+    "domain": "系統軟硬體",
+    "sub": "數位邏輯與數值系統",
+    "difficulty": 2,
+    "content": "代數函數 為下列何種邏輯閘(Gate)？ (A) NAND (B) NOR (C) XNOR (D) XOR X= A� �B+AB"
+  },
+  {
+    "year": "110",
+    "num": 10,
+    "domain": "資訊管理與軟體工程",
+    "sub": "物件導向概念",
+    "difficulty": 2,
+    "content": "介面AGP、IDE、IEEE 1394、PCI、PS/2、SATA、SCSI中，有幾種為一般的硬碟傳輸介面？ (A) 2 (B) 3 (C) 4 (D) 5"
+  },
+  {
+    "year": "110",
+    "num": 11,
+    "domain": "系統軟硬體",
+    "sub": "數位邏輯與數值系統",
+    "difficulty": 2,
+    "content": "下列何者為布林函數 簡化之結果？ (A) 1 (B) (C) (D) ABC+A�BC+ABC� +A�BC� +B�"
+  },
+  {
+    "year": "110",
+    "num": 12,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列有關色彩模式的敘述，何者有誤？ A�C+B B C (A)灰階模式為不同層次深淺的灰色變化 (B) CMYK模式係指4種印刷油墨的顏色，分別為青色、洋紅色、黃色與藍色 (C) HSB模式係指色相、飽和度與亮度 (D) RGB模式係指光的三原色，分別為紅色、綠色與藍色"
+  },
+  {
+    "year": "110",
+    "num": 13,
+    "domain": "資料結構與演算法",
+    "sub": "樹與圖演算法",
+    "difficulty": 3,
+    "content": "圖檔格式BMP、JPEG、PCX、PNG與TIF中，有幾種為「非破壞性壓縮模式」？ (A) 1 (B) 2 (C) 3 (D) 4"
+  },
+  {
+    "year": "110",
+    "num": 14,
+    "domain": "系統軟硬體",
+    "sub": "系統軟體/OS",
+    "difficulty": 2,
+    "content": "有關作業系統之硬體保護，下列敘述何者有誤？ (A) I/O保護為將所有I/O指令均納入使用者模式 (B)記憶體保護以基底暫存器與限制暫存器來鎖定記憶體之使用範圍 (C) CPU保護採限制CPU之使用時間 (D)保護的對象為I/O系統、記憶體與CPU"
+  },
+  {
+    "year": "110",
+    "num": 15,
+    "domain": "系統軟硬體",
+    "sub": "數位邏輯與數值系統",
+    "difficulty": 2,
+    "content": "下列何種儲存架構採用光纖傳輸並建立專用區域網路做資料存取？ (A) DAS (B) Host Attached Storage (C) NAS (D) SAN"
+  },
+  {
+    "year": "110",
+    "num": 16,
+    "domain": "系統軟硬體",
+    "sub": "系統軟體/OS",
+    "difficulty": 2,
+    "content": "下列行程狀態(Process State)的轉換中，何者非屬直接轉換？ (A) Running轉為Ready (B) Running轉為Waiting (C) Waiting轉為Running (D) Waiting轉為Ready"
+  },
+  {
+    "year": "110",
+    "num": 17,
+    "domain": "資通安全",
+    "sub": "PKI與數位簽章",
+    "difficulty": 2,
+    "content": "下列何者非避免輾轉混亂現象(Thrashing)的方法？ (A) Global Replacement (B) Local Replacement (C) Page Fault Frequency (D) Working Set Model"
+  },
+  {
+    "year": "110",
+    "num": 18,
+    "domain": "網路通訊",
+    "sub": "網路拓樸",
+    "difficulty": 1,
+    "content": "下列何種匯流排架構屬於高速匯流排連接高速傳輸裝置，低速匯流排連接低速傳輸裝置？ (A) Daisy Chaining (B) Independent Requesting (C) Pulling (D) Separating"
+  },
+  {
+    "year": "110",
+    "num": 19,
+    "domain": "網路通訊",
+    "sub": "訊號與編碼",
+    "difficulty": 3,
+    "content": "某Hamming Code編碼方式之最小漢明距離為5，則其最大可偵錯與最大自動更正的位元數分 別為多少？ (A) 4與3 (B) 3與3 (C) 4與2 (D) 3與2"
+  },
+  {
+    "year": "110",
+    "num": 20,
+    "domain": "資通安全",
+    "sub": "PKI與數位簽章",
+    "difficulty": 2,
+    "content": "下列何種磁碟排程可能造成餓死(Starvation)的問題？ (A) C-Look Scheduling (B) C-Scan Scheduling (C) Scan Scheduling (D) SSTF Scheduling"
+  },
+  {
+    "year": "110",
+    "num": 21,
+    "domain": "資通安全",
+    "sub": "加密技術",
+    "difficulty": 2,
+    "content": "下列何種硬碟陣列採用漢明偵錯碼(Hamming Codes)並在可能的範圍內自動修補錯誤？ (A) RAID 2 (B) RAID 3 (C) RAID 4 (D) RAID 5"
+  },
+  {
+    "year": "110",
+    "num": 22,
+    "domain": "資通安全",
+    "sub": "加密技術",
+    "difficulty": 2,
+    "content": "有關分散式系統事件執行之先後關係式的偏序(Partial Order)中，下列何者非其需滿足的條件？ (A)反對稱律(Anti-Symmetric) (B)反身律(Reflexive) (C)遞移律(Transitive) (D)單一律(Unity)"
+  },
+  {
+    "year": "110",
+    "num": 23,
+    "domain": "系統軟硬體",
+    "sub": "數位邏輯與數值系統",
+    "difficulty": 2,
+    "content": "分散式系統之時間戳記優先演算法(Timestamp Priority Algorithm)為下列何種死結處理？ (A) Deadlock Detection (B) Deadlock Distribution (C) Deadlock Prevention (D) Recovery From Deadlock"
+  },
+  {
+    "year": "110",
+    "num": 24,
+    "domain": "資通安全",
+    "sub": "PKI與數位簽章",
+    "difficulty": 2,
+    "content": "下列何者不是雲端運算產業的類層？ (A) CaaS (B) IaaS (C) PaaS (D) SaaS"
+  },
+  {
+    "year": "110",
+    "num": 25,
+    "domain": "資通安全",
+    "sub": "PKI與數位簽章",
+    "difficulty": 2,
+    "content": "下列何者不是系統呼叫(System Call)之參數傳遞方式？ (A) By Address (B) By Queue (C) By Register (D) By Stack"
+  },
+  {
+    "year": "110",
+    "num": 26,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "下列有關IPv4及IPv6的差異敘述，何者有誤？ (A) IP位址的長度，IPv4是32位元，IPv6是128位元 (B)和IPv4相同，IPv6的IP表頭(Header)中亦有Checksum欄位 (C)不同於IPv4，IPv6內建加密機制，具有更好的安全與保密性 (D)兩者IP表頭(Header)中，IPv4之欄位Time to Live與IPv6之欄位Hop Limit意義相同"
+  },
+  {
+    "year": "110",
+    "num": 27,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "下列有關IPv6位址表示法，何者有誤？ (A) 2004:1:25A4:886F::1 (B) 8293:5:9A:918::586D:99BA (C) 21DA:00D3:0000:2F3B:02AA:00FF:FE28:9C5A (D) 2001:0000:130F::099A::12A"
+  },
+  {
+    "year": "110",
+    "num": 28,
+    "domain": "網路通訊",
+    "sub": "應用層協定",
+    "difficulty": 2,
+    "content": "下列何種傳輸協定在傳輸過程中會將傳輸資料加密保護？ (A) HTTP (B) FTP (C) SSH (D) SMTP"
+  },
+  {
+    "year": "110",
+    "num": 29,
+    "domain": "網路通訊",
+    "sub": "應用層協定",
+    "difficulty": 2,
+    "content": "外寄郵件伺服器採用下列何種通訊協定？ (A) SNMP (B) SMTP (C) POP3 (D) IMAP"
+  },
+  {
+    "year": "110",
+    "num": 30,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "下列有關路由器(router)的敘述，何者有誤？ (A)負責轉寄不同網段之間的封包 (B) routing路徑可手動建立或採動態方式決定 (C)屬於TCP/IP協定的網路層 (D)不可連接內部網路(LAN)和外部網路(WAN)"
+  },
+  {
+    "year": "110",
+    "num": 31,
+    "domain": "網路通訊",
+    "sub": "網路層/網路設備",
+    "difficulty": 3,
+    "content": "路由器透過「動態路由設定」建立路由表，下列何者並非路由(routing)協定？ (A) PPTP(Point to Point Tunneling Protocol) (B) BGP(Border Gateway Protocol) (C) OSPF(Open Shortest Path First) (D) RIP(Routing Information Protocol)"
+  },
+  {
+    "year": "110",
+    "num": 32,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "下列有關TCP通訊協定之敘述，何者有誤？ (A)在傳送資料前須先建立連線 (B)當發送端未收到確認(ACK)封包將重送封包 (C)使用滑動窗口(Sliding Window)進行流量管控 (D)採用三次交握(Three Way Handshake)機制中斷連線"
+  },
+  {
+    "year": "110",
+    "num": 33,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "下列何種通訊協定為可動態設定IP組態(含IP位址、子網路遮罩、預設閘道及DNS等)？ (A) SNMP (B) DHCP (C) ARP (D) SMTP"
+  },
+  {
+    "year": "110",
+    "num": 34,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "IPv4的網路中，有一主機之IP位址為149.84.63.17，子網路遮罩為255.255.224.0，下列何者之 IP位址與該主機不在同一子網路中？ (A) 149.84.55.49 (B) 149.84.39.59 (C) 149.84.30.62 (D) 149.84.42.66"
+  },
+  {
+    "year": "110",
+    "num": 35,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "IPsec網路協定運作於DoD(TCP/IP)網路四層模型中的哪一層？ (A)網路層(Network Layer) (B)應用層(Application Layer) (C)實體層(Physical Layer) (D)傳輸層(Transport Layer)"
+  },
+  {
+    "year": "110",
+    "num": 36,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "ICMP網路協定運作於DoD(TCP/IP)網路四層模型中的網路層，其功能為何？ (A)通知路由器有關路徑改變的訊息 (B)將IP位址轉換成MAC位址 (C)確認IP封包成功遞送 (D)提供IP封包傳送的過程資訊"
+  },
+  {
+    "year": "110",
+    "num": 37,
+    "domain": "網路通訊",
+    "sub": "LAN/無線技術",
+    "difficulty": 2,
+    "content": "Wifi無線網路需採用傳輸加密技術來確保資料傳輸安全，下列何者非屬無線網路加密技術？ (A) WPA2 (B) WPA (C) WEP (D) WPS"
+  },
+  {
+    "year": "110",
+    "num": 38,
+    "domain": "資通安全",
+    "sub": "攻擊手法",
+    "difficulty": 2,
+    "content": "下列何者為利用尚未被發現或公開的軟體安全漏洞，進行植入惡意程式的攻擊手法？ (A)網路釣魚 (B)零時差攻擊 (C)入侵網路 (D)殭屍網路"
+  },
+  {
+    "year": "110",
+    "num": 39,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "有關TCP/IP常用的應用服務所對應之傳輸協定及其預設連接埠號，下列何者有誤？ (A) SMTP使用TCP連接埠25 (B) SNMP使用UDP連接埠161 (C) Telnet使用UDP連接埠23 (D) POP3使用TCP連接埠110"
+  },
+  {
+    "year": "110",
+    "num": 40,
+    "domain": "資通安全",
+    "sub": "防護機制",
+    "difficulty": 2,
+    "content": "企業建置防火牆主要是防護下列何者之安全措施？ (A)網路 (B)實體 (C)原始碼 (D)人員"
+  },
+  {
+    "year": "110",
+    "num": 41,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列有關行動裝置安全的敘述，何者非屬保護之面向？ (A)機密性 (B)擴充性 (C)完整性 (D)可用性"
+  },
+  {
+    "year": "110",
+    "num": 42,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列有關VLAN的特點敘述，何者有誤？ (A)隔離廣播封包 (B)不受實體限制 (C)提高安全性 (D)提升傳輸速率"
+  },
+  {
+    "year": "110",
+    "num": 43,
+    "domain": "網路通訊",
+    "sub": "LAN/無線技術",
+    "difficulty": 2,
+    "content": "因應新型冠狀病毒肺炎疫情，有關採取遠距辦公的網路安全，下列敘述何者有誤？ (A)避免使用公用Wifi連接公司網路 (B)電子郵件之附件加密 (C)可使用公用電腦登入公司系統 (D)離開電腦立刻鎖定電腦或切斷連線"
+  },
+  {
+    "year": "110",
+    "num": 44,
+    "domain": "資通安全",
+    "sub": "加密技術",
+    "difficulty": 2,
+    "content": "下列有關加密技術之敘述，何者有誤？ (A)數位簽章是收件者使用寄件者的公鑰解密 (B)數位簽章是用寄件者的公鑰加密 (C)對稱式加密是雙方都使用同一把金鑰 (D)不可否認性是使用寄件者的私鑰加密"
+  },
+  {
+    "year": "110",
+    "num": 45,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列有關物聯網層級架構由下而上的順序，何者正確？ (A)感知層網路層應用層 (B)網路層感知層應用層 (C)應用層網路層感知層 (D)網路層應用層感知層"
+  },
+  {
+    "year": "110",
+    "num": 46,
+    "domain": "網路通訊",
+    "sub": "應用層協定",
+    "difficulty": 2,
+    "content": "下列有關使用HTTP Cookie的敘述，何者正確？ (A)防禦XSS攻擊 (B)作為瀏覽器的組態設定檔 (C)在瀏覽器中儲存資訊(如使用者帳密) (D)防禦SQL Injection攻擊"
+  },
+  {
+    "year": "110",
+    "num": 47,
+    "domain": "網路通訊",
+    "sub": "應用層協定",
+    "difficulty": 2,
+    "content": "下列何種指令可用來測試主機是否回應？ (A) ipconfig (B) netstat (C) telnet (D) ping"
+  },
+  {
+    "year": "110",
+    "num": 48,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列有關1000 Base TX的特性敘述，何者有誤？ (A)傳輸速率為1 Gbps (B)每對絞線皆可傳送及接收資料 (C)同時使用4對絞線傳輸資料 (D)使用2對絞線專門傳輸資料"
+  },
+  {
+    "year": "110",
+    "num": 49,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "下列有關TCP與UDP通訊協定的敘述，何者正確？ (A) UDP為可靠式傳輸 (B) TCP為安全式傳輸 (C) TCP為可靠式傳輸 (D) UDP為安全式傳輸"
+  },
+  {
+    "year": "110",
+    "num": 50,
+    "domain": "資通安全",
+    "sub": "攻擊手法",
+    "difficulty": 2,
+    "content": "下列有關Syn Flooding網路阻斷服務攻擊的敘述，何者有誤？ (A)伺服器端回傳ACK到用戶端 (B)用戶端不發送ACK到伺服器端 (C)伺服器端回傳SYN-ACK到用戶端 (D)用戶端發送SYN到伺服器端"
+  },
+  {
+    "year": "111",
+    "num": 1,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "本試題共4頁(A3紙1張)。"
+  },
+  {
+    "year": "111",
+    "num": 2,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "禁止使用電子計算器。"
+  },
+  {
+    "year": "111",
+    "num": 3,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "本試題為單選題共 50題，每題 2分，共 100分，須用 2B鉛筆在答案卡畫記作答，於本 注 試題或其他紙張作答者不予計分。 意 4.請就各題選項中選出最適當者為答案，答錯不倒扣；畫記多於 1 個選項或未作答者，該 事 題不予計分。 項 5.本試題採雙面印刷，請注意正、背面試題。"
+  },
+  {
+    "year": "111",
+    "num": 4,
+    "domain": "資通安全",
+    "sub": "雜湊與完整性",
+    "difficulty": 2,
+    "content": "下列有關雜湊搜尋法(Hashing Search)之敘述，何者有誤？ (A)資料須先進行排序 (B)搜尋速度與資料量大小無關 (C)程式設計比較複雜 (D)保密性較高"
+  },
+  {
+    "year": "111",
+    "num": 5,
+    "domain": "資料結構與演算法",
+    "sub": "排序與搜尋",
+    "difficulty": 2,
+    "content": "使用二分搜尋法(Binary Search)自216個資料中尋找特定的一個資料時，最多要進行多少次比 對? (A) 7 (B) 8 (C) 16 (D) 108"
+  },
+  {
+    "year": "111",
+    "num": 6,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "考試結束前離場者，試題須隨答案卡繳回，俟本節考試結束後，始得至原試場或適當處 所索取。"
+  },
+  {
+    "year": "111",
+    "num": 7,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "考試時間：90分鐘。"
+  },
+  {
+    "year": "111",
+    "num": 8,
+    "domain": "系統軟硬體",
+    "sub": "數位邏輯與數值系統",
+    "difficulty": 2,
+    "content": "某一邏輯電路有2個輸入，分別為data和control，當control為0時，輸出data的值；當control為1 時，輸出data的補數，請問此電路為下列何者？ (A) AND (B) NAND (C)OR (D) XOR"
+  },
+  {
+    "year": "111",
+    "num": 9,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "(101100) 的2補數(2’s complement)為下列哪一項? 2 (A) 010001 (B) 010011 (C) 010101 (D) 010100"
+  },
+  {
+    "year": "111",
+    "num": 10,
+    "domain": "資料結構與演算法",
+    "sub": "排序與搜尋",
+    "difficulty": 2,
+    "content": "下列哪一種排序演算法，在最差的情況下排序n筆資料，其時間複雜度為O(n log n)？ (A)氣泡排序法(Bubble Sort) (B)合併排序法(Merge Sort) (C)快速排序法(Quick Sort) (D)基數排序法(Radix Sort)"
+  },
+  {
+    "year": "111",
+    "num": 11,
+    "domain": "資料結構與演算法",
+    "sub": "樹與圖演算法",
+    "difficulty": 3,
+    "content": "下列Java片段程式碼中的2個add方法是運用了物件導向程式設計中的何種概念？ Class Sub { int add () {…..} int add(int x,int y) {…..} } (A)繼承(Inheritance) (B)抽象化(Abstraction) (C)覆寫(Override) (D)重載(Overload)"
+  },
+  {
+    "year": "111",
+    "num": 12,
+    "domain": "資通安全",
+    "sub": "PKI與數位簽章",
+    "difficulty": 2,
+    "content": "將一組陣列(Array)的值由主程式傳遞給副程式，使用哪一種呼叫方式會使資料的傳遞速度較 快？ (A)傳名呼叫(Call by Name) (B)傳值呼叫(Call by Value) (C)傳址呼叫(Call by Reference) (D)一樣快"
+  },
+  {
+    "year": "111",
+    "num": 13,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列C語言片段程式碼之執行結果為何？ int i=0 printf(“%d”,i++); printf(“%d”,++i); printf(“%d”,++i); (A) 0 1 2 (B) 0 2 2 (C)0 2 3 (D) 1 2 3"
+  },
+  {
+    "year": "111",
+    "num": 14,
+    "domain": "系統軟硬體",
+    "sub": "數位邏輯與數值系統",
+    "difficulty": 2,
+    "content": "下列Java程式語言中共有8種基本資料型態，依位元長度大到小排列，何者正確？ (A) double  short  int  byte (B) long  int  char  byte (C) double  float  byte  char (D)long char int boolean"
+  },
+  {
+    "year": "111",
+    "num": 15,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列Java片段程式碼，何者正確？ byte a=100; byte b=200; byte c=(byte)(a+b); system.out.print(c); (A)執行時顯示300 (B)執行時顯示127 (C)執行時出現錯誤 (D)編譯失敗"
+  },
+  {
+    "year": "111",
+    "num": 16,
+    "domain": "資料結構與演算法",
+    "sub": "基本資料結構",
+    "difficulty": 2,
+    "content": "在堆疊(Stack)結構上，依序存取資料如下： push(‘A’)push(‘B’)pop()pop()push(‘C’)push(‘D’)pop()pop() 請問最後1次pop()所得之內容為何？ (A) ‘A’ (B) ‘B’ (C) ‘C’ (D) ‘D’"
+  },
+  {
+    "year": "111",
+    "num": 17,
+    "domain": "系統軟硬體",
+    "sub": "數位邏輯與數值系統",
+    "difficulty": 2,
+    "content": "將十進位數528.75，轉換為二進位數表示，下列何者正確？ (A) 1000011000.101 (B) 1000010000.101 (C)1000011000.11 (D) 1000010000.11"
+  },
+  {
+    "year": "111",
+    "num": 18,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "請問Amazon EC2是屬於哪一種雲端運算的服務？ (A) IaaS (B) PaaS (C)SaaS (D) AssS"
+  },
+  {
+    "year": "111",
+    "num": 19,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列在Java語言中，當陣列(Array)的索引值(Index)超過宣告範圍時，何者正確？ (A) 編譯器會編譯程式，但程式執行時會產生例外(Exception) (B) 編譯器會編譯程式，但程式執行時結果可能錯誤 (C) 編譯器在編譯程式時產生錯誤並停止編譯程式 (D) 編譯器在編譯程式時產生警告訊息，但仍會編譯程式"
+  },
+  {
+    "year": "111",
+    "num": 20,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "在C語言中宣告陣列int arrary[4][2][2]={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}，請問array[2][1][1]的 值為何？ (A) 8 (B) 10 (C)12 (D) 14"
+  },
+  {
+    "year": "111",
+    "num": 21,
+    "domain": "資通安全",
+    "sub": "PKI與數位簽章",
+    "difficulty": 2,
+    "content": "下列Python程式碼執行完成後，產生之值為何？ def calnum (n) return 1 if (n==1 or n==0) else n * calnum (n-1); print(calnum(5)) (A) 24 (B) 25 (C)120 (D) 125"
+  },
+  {
+    "year": "111",
+    "num": 22,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "關聯式資料庫中之檢視表(View)，下列何者有誤？ (A)使用 View 可以隱藏過濾敏感資料，提高安全性 (B) View 是唯讀的，外部使用者無法直接透過 View 去修改內部資料 (C) View 之資料來源可以是其他資料的運算結果 (D) View 本身有儲存資料"
+  },
+  {
+    "year": "111",
+    "num": 23,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列C語言程式片段中，若a=36，b=45，執行結果為何？ main () { int a,b,r; while(b!=0) { r=a%b; a=b; b=r; } Printf(“result=%d\\n”,a); } (A) 6 (B) 7 (C)8 (D) 9"
+  },
+  {
+    "year": "111",
+    "num": 24,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列有關編譯式語言與直譯式語言，何者有誤？ (A)直譯式語言在執行時會逐行將程式碼讀取並執行 (B)相同程式邏輯條件下，直譯式語言在執行期的執行速度，比編譯式語言來得快 (C) Python屬於直譯式語言 (D) C++屬於編譯式語言"
+  },
+  {
+    "year": "111",
+    "num": 25,
+    "domain": "資通安全",
+    "sub": "防護機制",
+    "difficulty": 2,
+    "content": "下列何者非屬精簡指令(RISC)架構？ (A) MIPS (B) ARM (C)x86 (D) RISC-V"
+  },
+  {
+    "year": "111",
+    "num": 26,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "下列哪一種網際網路通訊協定，是以廣播(Broadcast)方式來進行？ (A) ARP (B) IPv6 (C) DNS (D) BGP"
+  },
+  {
+    "year": "111",
+    "num": 27,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "下列有關IPv6之敘述，何者有誤？ (A)支援自動組態設定 (B)表頭設計不支援QoS機制 (C)內建加密機制 (D)書寫時各組數字之間以冒號「：」隔開"
+  },
+  {
+    "year": "111",
+    "num": 28,
+    "domain": "網路通訊",
+    "sub": "LAN/無線技術",
+    "difficulty": 2,
+    "content": "下列有關乙太網路與光纖網路之敘述，何者有誤？ (A)光纖類型的乙太網路可分為長距離傳輸的多模光纖與短距離傳輸的單模光纖 (B) 100Gbps乙太網路目前使用附加標準IEEE 802.3ba (C)光纖網路主要用於連接網路儲存設備 (D)光纖網路協定大部分邏輯運行於獨立的硬體晶片而不是在作業系統中"
+  },
+  {
+    "year": "111",
+    "num": 29,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "CIDR(Classless Inter-Domain Routing)是一種用來合併數個C級位址的規劃方式。如分配到的網 路是192.168.240.0到192.168.247.0共8個連續的C級位址，則其子網路遮罩為何？ (A) 255.255.192.0 (B) 255.255.224.0 (C) 255.255.240.0 (D) 255.255.248.0"
+  },
+  {
+    "year": "111",
+    "num": 30,
+    "domain": "資通安全",
+    "sub": "PKI與數位簽章",
+    "difficulty": 2,
+    "content": "依開放網路基金會(Open Networking Foundation)有關軟體定義網路(Software Define Network)的 架構說明，不包含下列哪一層？ (A)應用層(Application Layer) (B)控制層(Control Layer) (C)基礎設備層(Infrastructure Layer) (D)網路層(Network Layer)"
+  },
+  {
+    "year": "111",
+    "num": 31,
+    "domain": "網路通訊",
+    "sub": "LAN/無線技術",
+    "difficulty": 2,
+    "content": "無線通訊技術中，個人化的短距離無線網路(Wireless Personal Area Network)使用下列哪一種 通訊標準？ (A) IEEE 802.11 (B) IEEE 802.13 (C) IEEE 802.15 (D) IEEE 802.16"
+  },
+  {
+    "year": "111",
+    "num": 32,
+    "domain": "網路通訊",
+    "sub": "網路層/網路設備",
+    "difficulty": 3,
+    "content": "下列哪一種設備，可以處理不同格式的資料封包，並進行通訊協定轉換、錯誤偵測及網路路 徑控制與位址轉換等？ (A)交換器 (B)橋接器 (C)閘道器 (D)路由器"
+  },
+  {
+    "year": "111",
+    "num": 33,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "傳輸層安全性協定(TLS)中，下列哪一種金鑰交換方法因易受中間人攻擊，已很少使用？ (A) TLS_DH_ANON (B) TLS_DHE (C) TLS_ECDHE (D) TLS_RSA"
+  },
+  {
+    "year": "111",
+    "num": 34,
+    "domain": "網路通訊",
+    "sub": "OSI模型",
+    "difficulty": 2,
+    "content": "OSI參考模型中，哪一層提供資料壓縮、加密及解密服務？ (A)應用層(Application Layer) (B)呈現層(Presentation Layer) (C)會談層(Session Layer) (D)傳輸層(Transport Layer)"
+  },
+  {
+    "year": "111",
+    "num": 35,
+    "domain": "網路通訊",
+    "sub": "網路層/網路設備",
+    "difficulty": 3,
+    "content": "下列哪一個動態路由協定，屬於鏈路狀態(Link-State)路由協定？ (A)邊界閘道通訊協定(BGP) (B)開放式最短路徑優先(OSPF)協定 (C)路由資訊協定(RIP) (D)Enhanced企業網路閘道路由協定(EIGRP)"
+  },
+  {
+    "year": "111",
+    "num": 36,
+    "domain": "網路通訊",
+    "sub": "WAN/VPN技術",
+    "difficulty": 3,
+    "content": "下列哪一種虛擬私人網路(VPN)通信協定，所使用的演算法未採用256-bit加密？ (A) L2TP/IPsec (B) Openvpn (C)PPTP (D) SSTP"
+  },
+  {
+    "year": "111",
+    "num": 37,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "IPv4位址在設計時區分為5個等級，其中198.x.y.z屬於哪一個等級？ (A) B級 (B) C級 (C) D級 (D) E級"
+  },
+  {
+    "year": "111",
+    "num": 38,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "下列有關路由器之敘述，何者有誤？ (A)具備路由表 (B)通常具有兩個以上網路介面 (C)具有解讀IP封包的能力 (D)運作於TCP/IP模型的傳輸層以上"
+  },
+  {
+    "year": "111",
+    "num": 39,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "IP 封包之協定欄，主要是記載該封包資料所使用的協定。例如 TCP、UDP、IGMP、ICMP， 下列哪一項屬於傳輸層的通訊協定？ (A) TCP與UDP (B) IGMP與UDP (C) IGMP與TCP (D) IGMP與ICMP"
+  },
+  {
+    "year": "111",
+    "num": 40,
+    "domain": "系統軟硬體",
+    "sub": "數位邏輯與數值系統",
+    "difficulty": 2,
+    "content": "物聯網的發展，使低功耗廣域網路(Low Power Wide Area Network)應用需求大增，下列哪一項 技術不屬於長距離通訊？ (A) LoRa (B) NB-IoT (C) Sigfox (D) Zigbee"
+  },
+  {
+    "year": "111",
+    "num": 41,
+    "domain": "資通安全",
+    "sub": "防護機制",
+    "difficulty": 2,
+    "content": "下列有關防火牆(Firewall)之敘述，何者有誤？ (A)無法過濾內部網路封包 (B)可以阻擋病毒攻擊 (C)可以阻擋外界對內部網路所發動的攻擊 (D)主要分為網路層及應用層防火牆"
+  },
+  {
+    "year": "111",
+    "num": 42,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "下列何者非使用TCP/IP協定中的UDP做為通訊服務的基礎？ (A)簡單網路管理協定(SNMP) (B)網路時間協定(NTP) (C)網際網路控制訊息協定(ICMP) (D)動態主機組態協定(DHCP)"
+  },
+  {
+    "year": "111",
+    "num": 43,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "STRIDE是一種識別弱點與威脅的簡單作法，其名稱來自6個威脅類型的英文字首縮寫，下列 何者有誤？ (A)偽冒(Spoofing) (B)否認(Repudiation) (C)拒絕存取服務(Denial of Service) (D)入侵(Intrusion)"
+  },
+  {
+    "year": "111",
+    "num": 44,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "ISO27001：2013版，計有幾個領域與幾個控制目標？ (A) 11 與 35 (B) 11 與 39 (C) 14 與35 (D) 14 與 39"
+  },
+  {
+    "year": "111",
+    "num": 45,
+    "domain": "資通安全",
+    "sub": "防護機制",
+    "difficulty": 2,
+    "content": "下列有關傳統入侵偵測防禦系統(IDPS)之敘述，何者有誤？ (A)可以防止蠕蟲由外部入侵至組織網路內部 (B)可以使用packet-based做為檢查流量內容 (C)可以破解駭客閃躲(Evasion)手法 (D)可以將防火牆存取控制清單(ACL)之功能包含在內"
+  },
+  {
+    "year": "111",
+    "num": 46,
+    "domain": "網路通訊",
+    "sub": "應用層協定",
+    "difficulty": 2,
+    "content": "下列常見的電子郵件存取協定，哪一種是送出協定(Push Protocol)？ (A) SMTP (B) HTTP (C) POP (D) IMAP"
+  },
+  {
+    "year": "111",
+    "num": 47,
+    "domain": "網路通訊",
+    "sub": "LAN/無線技術",
+    "difficulty": 2,
+    "content": "無線區域網路的標準為IEEE 802.11系列，請問俗稱第五代Wi-Fi是哪一個標準？ (A) 802.11ac (B) 802.11ax (C)802.11g (D) 802.11n"
+  },
+  {
+    "year": "111",
+    "num": 48,
+    "domain": "資通安全",
+    "sub": "加密技術",
+    "difficulty": 2,
+    "content": "現行3個主要的無線區域網路安全性機制是：WEP、WPA及WPA2，下列哪一項非其所使用之 安全防護技術？ (A) TKIP (B) AES (C) CCMP (D) DES"
+  },
+  {
+    "year": "111",
+    "num": 49,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列哪一項非屬ISO制定7498-4號標準文件中所提到之網路管理功能? (A)故障管理 (B)組態管理 (C)安全管理 (D)事件管理"
+  },
+  {
+    "year": "111",
+    "num": 50,
+    "domain": "資通安全",
+    "sub": "加密技術",
+    "difficulty": 2,
+    "content": "下列有關加密系統與數位簽章之敘述，何者正確？ ○1對稱性加密法加密速度快，適合長度較長與大量的資料 ○2目前普遍使用的非對稱性加密法為IDEA ○3非對稱性加密公開金鑰必須由憑證管理中心簽發 ○4數位簽章的運作方式是以公開金鑰與雜湊函數互相搭配使用 (A) ○1○2○3 (B) ○1○2○4 (C)○1○3○4 (D) ○2○3○4"
+  },
+  {
+    "year": "112",
+    "num": 1,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "本試題共4頁(A3紙1張)。"
+  },
+  {
+    "year": "112",
+    "num": 2,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "禁止使用電子計算器。"
+  },
+  {
+    "year": "112",
+    "num": 3,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "本試題為單選題共 50題，每題 2分，共 100分，須用 2B鉛筆在答案卡畫記作答，於本 注 試題或其他紙張作答者不予計分。 意 4.請就各題選項中選出最適當者為答案，答錯不倒扣；畫記多於 1 個選項或未作答者，該 事 題不予計分。 項 5.本試題採雙面印刷，請注意正、背面試題。"
+  },
+  {
+    "year": "112",
+    "num": 4,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列分數何者無法以二進制精確表示(或存入電腦會有誤差)？ (A) 3 / 24 (B) 7 / 16 (C)5 / 12 (D) 13 / 32"
+  },
+  {
+    "year": "112",
+    "num": 5,
+    "domain": "網路通訊",
+    "sub": "訊號與編碼",
+    "difficulty": 3,
+    "content": "有關 BCD 編碼，下列何者有誤？ (A) 100110000111 (B) 000110000000 (C)01110100 (D) 010100101100"
+  },
+  {
+    "year": "112",
+    "num": 6,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "考試結束前離場者，試題須隨答案卡繳回，俟本節考試結束後，始得至原試場或適當處 所索取。"
+  },
+  {
+    "year": "112",
+    "num": 7,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "考試時間：90分鐘。"
+  },
+  {
+    "year": "112",
+    "num": 8,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "有關資料儲存單位的大小排列，下列何者正確？ (A) ZB > EB > PB > TB (B) ZB > TB > PB > EB (C) TB > EB > PB > ZB (D)PB > EB > ZB > TB"
+  },
+  {
+    "year": "112",
+    "num": 9,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "有關邏輯運算式，下列何者有誤？ (A) X • X = X (B) Y + 1 = Y (C)Y • 0 = 0 (D) X + XY = X"
+  },
+  {
+    "year": "112",
+    "num": 10,
+    "domain": "資料結構與演算法",
+    "sub": "樹與圖演算法",
+    "difficulty": 3,
+    "content": "有關最小成本擴張樹演算法，下列何者可以任意挑選起始節點？ (A) Prim (B) Bellman-Ford (C)Dijkstra (D) Kruskal"
+  },
+  {
+    "year": "112",
+    "num": 11,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "在單一處理器中執行一個程式，其執行時間 25 %是循序的，75 %可用多核心平行處理，若欲以 多個同樣的處理器加速執行，將總執行時間減至原本的一半，依據阿姆達爾定律(Amdahl's Law) 至少需要使用多少個處理器？ (A) 2 (B) 3 (C)4 (D) 5"
+  },
+  {
+    "year": "112",
+    "num": 12,
+    "domain": "系統軟硬體",
+    "sub": "系統軟體/OS",
+    "difficulty": 2,
+    "content": "有關作業系統對於記憶體管理之方式，包括 7 種分頁替換演算法(Page Replacement Algorithm)，分 別為 FIFO(First In First Out)、OPT(Optimal)、LRU(Least Recently Used)、LFU(Least Frequently Used) 、MFU(Most Frequently Used)、Second Chance及Enhanced Second Chance，請問前述有幾種會遭遇布 雷第異常現象(Belady’s Anom"
+  },
+  {
+    "year": "112",
+    "num": 13,
+    "domain": "資料結構與演算法",
+    "sub": "排序與搜尋",
+    "difficulty": 2,
+    "content": "有關排序演算法，下列何者在最差情況下的時間複雜度相對最佳？ (A)選擇排序 (B)快速排序 (C)合併排序 (D)插入排序"
+  },
+  {
+    "year": "112",
+    "num": 14,
+    "domain": "資料結構與演算法",
+    "sub": "基本資料結構",
+    "difficulty": 2,
+    "content": "下列 7 項中有幾項非屬程序控制區塊 PCB(Process Control Block)組成內容？ ○1 CPU Register ○2 Memory Management Information ○3 Programming Counter ○4 Bit Map ○5 Process State ○6 CPU Scheduling Information ○7 I/O Device Queue (A) 1 (B) 2 (C)3 (D) 4"
+  },
+  {
+    "year": "112",
+    "num": 15,
+    "domain": "資通安全",
+    "sub": "PKI與數位簽章",
+    "difficulty": 2,
+    "content": "下列何種程式語言有垃圾收集(Garbage Collection)之機制？ (A) Java (B) Pascal (C)C (D) C++"
+  },
+  {
+    "year": "112",
+    "num": 16,
+    "domain": "資通安全",
+    "sub": "雜湊與完整性",
+    "difficulty": 2,
+    "content": "有關雜湊(Hash)函數之敘述，下列何者有誤？ (A)固定長度 (B)正常情況下雜湊結果為唯一值 (C)常用於驗證資料的完整性 (D)可以解密"
+  },
+  {
+    "year": "112",
+    "num": 17,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "有關人工智慧之敘述，下列何者有誤？ (A)主成分分析是一種降維手段，需要標籤信息進行運算 (B)在訓練樣本不足時，增加模型的複雜度仍舊可能得到更高的訓練準確度 (C)循環神經網路常會出現梯度消失或梯度爆炸的現象，是因為參數與層數較多 (D) LISP 為早期人工智慧專案常使用的程式語言"
+  },
+  {
+    "year": "112",
+    "num": 18,
+    "domain": "系統軟硬體",
+    "sub": "數位邏輯與數值系統",
+    "difficulty": 2,
+    "content": "有關資料庫正規化(Normalization)之敘述，下列何者正確？ ○1正規化的程度越高，資料的重複性會降低 ○2正規化的程度越高，資料存取效能亦會越高 ○3正規化的程度越高，資料表格的數量亦會增多 ○4正規化程序可避免更新異常 (A) ○1○2○3 (B) ○1○2○4 (C) ○1○3○4 (D) ○2○3○4"
+  },
+  {
+    "year": "112",
+    "num": 19,
+    "domain": "資通安全",
+    "sub": "PKI與數位簽章",
+    "difficulty": 2,
+    "content": "有關虛擬記憶體的設計，下列何者屬於用來儲存尚未執行完之程式碼的磁碟空間？ (A) Page Table (B) Task Looking Forward Table (C) Swap Space (D)Virtual Cache"
+  },
+  {
+    "year": "112",
+    "num": 20,
+    "domain": "資料結構與演算法",
+    "sub": "基本資料結構",
+    "difficulty": 2,
+    "content": "阿華在設計一個程式，需要一種資料結構，可以一邊新增資料，一邊取出資料，且每次取出 的資料都是現有資料中的最大值。您建議阿華使用下列何種資料結構？ (A) Array (B) Linked List (C)Queue (D) Heap"
+  },
+  {
+    "year": "112",
+    "num": 21,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列何種磁碟陣列不具有容錯能力？ (A) RAID 1 (B) RAID 3 (C)RAID 5 (D) RAID 1 + 0"
+  },
+  {
+    "year": "112",
+    "num": 22,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "將一組陣列的值由主程式傳遞給副程式時，使用下列何種呼叫方法使資料傳遞速度最快？ (A)傳址呼叫 (B)傳名呼叫 (C)傳值呼叫 (D)傳結果呼叫"
+  },
+  {
+    "year": "112",
+    "num": 23,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "現有資料碼 1010111 及 0011001，若採用奇同位元(Odd Parity)檢查，其同位元值分別為何？ (A) 0及0 (B) 0及1 (C) 1及0 (D) 1及1"
+  },
+  {
+    "year": "112",
+    "num": 24,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "有關自然語言處理之敘述，下列何者有誤？ (A)自然語言處理中越來越多使用機器自動學習的方法來獲取語言知識 (B)自然語言處理可以將英文文章翻譯成中文文章 (C)自然語言處理以單詞出現的次數來衡量單詞重要性 (D)自然語言處理需要將文字轉化成向量以進行後續處理及篩選"
+  },
+  {
+    "year": "112",
+    "num": 25,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列何種影像格式可將顏色儲存為透明？ (A) BMP (B) TIFF (C)JPG (D) GIF"
+  },
+  {
+    "year": "112",
+    "num": 26,
+    "domain": "網路通訊",
+    "sub": "OSI模型",
+    "difficulty": 2,
+    "content": "有關 OSI 模型(Open System Interconnection Model)中傳輸層之協議數據單元(Protocol Data Unit, PDU)， 下列何者正確？ (A) Frame (B) Packet (C)Segment (D) Bit"
+  },
+  {
+    "year": "112",
+    "num": 27,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "如果您採取手動設定方式想讓個人電腦能經由區域網路正確連上網際網路，除了 IP 位址外， 下列何者非屬必要設定？ (A)子網路遮罩 (B)預設閘道器 (C)名稱伺服器 (D)防火牆"
+  },
+  {
+    "year": "112",
+    "num": 28,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "針對 IPv4 位址不足的問題，下列何者非屬解決之技術？ (A) SNMP (B) DHCP (C) IPv6 (D) NAT"
+  },
+  {
+    "year": "112",
+    "num": 29,
+    "domain": "資通安全",
+    "sub": "PKI與數位簽章",
+    "difficulty": 2,
+    "content": "依據 OWASP(Open Web Application Security Project)提出之 10 大安全漏洞(最新版本為2021版) ，下列何者非屬前 3 名？ (A) Injection (B) Broken Authentication (C) Cryptographic Failures (D)Broken Access Control"
+  },
+  {
+    "year": "112",
+    "num": 30,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "下列何者為員工居家上班時可以透過 Internet 安全連線到公司內網的技術？ (A) VLAN (B) NAT (C) PPP (D) VPN"
+  },
+  {
+    "year": "112",
+    "num": 31,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "有關 IPv4 的表頭欄位值，下列何者會隨著路由器的轉送而變動？ (A)封包總長(TL) (B)存活時間(TTL) (C)標頭檢驗值(HC) (D)標頭長度(IHL)"
+  },
+  {
+    "year": "112",
+    "num": 32,
+    "domain": "網路通訊",
+    "sub": "訊號與編碼",
+    "difficulty": 3,
+    "content": "有關網路設備之敘述，下列何者正確？ (A)路由器可分割碰撞網域 (B)集線器可用來加強纜線上的訊號 (C)橋接器可分割廣播網域 (D)交換器可將數位轉換為類比訊號"
+  },
+  {
+    "year": "112",
+    "num": 33,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "有關物聯網(Internet of Things)網路層主要功能之敘述，下列何者正確？ (A)負責監控感測器的網路狀態 (B)負責上傳感知層收集到的資料至應用層 (C)負責感測與辨識感測器的信號 (D)負責將感測及辨識後的資料進行分類"
+  },
+  {
+    "year": "112",
+    "num": 34,
+    "domain": "網路通訊",
+    "sub": "OSI模型",
+    "difficulty": 2,
+    "content": "有關 OSI 模型(Open System Interconnection Model)中各層之敘述，下列何者有誤？ (A)網路層：ARP 及 FTP 均屬於網路層的協定 (B)實體層：負責將資料轉成電子訊號後再傳送出去 (C)應用層：負責規範各項網路服務的使用者介面 (D)傳輸層：UDP 屬於傳輸層的協定"
+  },
+  {
+    "year": "112",
+    "num": 35,
+    "domain": "資通安全",
+    "sub": "加密技術",
+    "difficulty": 2,
+    "content": "有關對稱式加密與非對稱式加密之敘述，下列何者有誤？ (A)對稱式代表加密與解密均為相同密鑰，非對稱式則需公、私鑰各一把 (B)對稱式使用上解密較快速，非對稱式使用上則較為安全 (C) DES、3DES 及 AES 均為對稱式加密算法 (D) DSA、IDEA 及 RSA 均為非對稱式加密算法"
+  },
+  {
+    "year": "112",
+    "num": 36,
+    "domain": "資通安全",
+    "sub": "攻擊手法",
+    "difficulty": 2,
+    "content": "為預防遭受勒索軟體(Ransomware)之攻擊，定期備份重要檔案並採用「3-2-1原則」備份方案 是防護措施之一，有關「3-2-1原則」之敘述，下列何者正確？ (A) 3：以 3 種不同形式媒體儲存備份 (B) 2：重要資料至少備份 2 份 (C) 1：其中 1 份備份要存放異地 (D) 3：每月至少進行 3 次備份"
+  },
+  {
+    "year": "112",
+    "num": 37,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "有關網際網路通訊協定第 4 版(IPv4)和第 6 版(IPv6)之比較敘述，下列何者有誤？ (A) IPv6 位址格式設有省略規則，IPv4 則無 (B) IPv6 位址數量比 IPv4 多 (C) IPv6 表頭長度可以變動，IPv4 則為固定 (D) IPv6 表頭欄位比 IPv4 少"
+  },
+  {
+    "year": "112",
+    "num": 38,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列哪一個 IP 位址與 172.16.28.252 / 20 非屬同一個子網路中？ (A) 172.16.33.18 (B) 172.16.29.166 (C) 172.16.27.39 (D) 172.16.17.122"
+  },
+  {
+    "year": "112",
+    "num": 39,
+    "domain": "資通安全",
+    "sub": "加密技術",
+    "difficulty": 2,
+    "content": "SSL 和 TLS 都是基於加密的網路安全協定，下列何者有誤？ (A) SSL 交握程序的步驟比 TLS 程序多 (B) SSL 使用雜湊訊息驗證碼(HMAC) (C) TLS 是 SSL 的升級版本 (D) TLS 提醒訊息已加密"
+  },
+  {
+    "year": "112",
+    "num": 40,
+    "domain": "資通安全",
+    "sub": "防護機制",
+    "difficulty": 2,
+    "content": "有關入侵偵測系統(Intrusion-Detection System, IDS)之敘述，下列何者有誤？ (A)可監控網絡或系統中的異常或可疑行為 (B)異常行為偵測需先定義正常行為 (C)具有主動防禦的能力 (D)網路型 IDS 可安裝於任何地方，屬獨立系統"
+  },
+  {
+    "year": "112",
+    "num": 41,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "有關 TCP 協定之流量控制(Flow Control)功能之敘述，下列何者正確？ (A)避免流量超過發送端傳送的能力 (B)避免流量超過接收端接收的能力 (C)避免流量超過路由器轉送的能力 (D)避免流量超過交換器轉址的能力"
+  },
+  {
+    "year": "112",
+    "num": 42,
+    "domain": "網路通訊",
+    "sub": "OSI模型",
+    "difficulty": 2,
+    "content": "下列何者非針對 OSI 模型(Open System Interconnection Model)中應用層的攻擊手法？ (A) DNS Cache Poisoning (B) HTTP Flood (C) SYN Flood (D)SQL Injection"
+  },
+  {
+    "year": "112",
+    "num": 43,
+    "domain": "網路通訊",
+    "sub": "傳輸層協定",
+    "difficulty": 2,
+    "content": "有關 FTP 傳輸時使用 2 個連接埠來建立連線通道之敘述，下列何者正確？ (A)控制連線用 TCP 連接埠 20 (B)控制連線用 UDP 連接埠 20 (C)資料連線用 TCP 連接埠 20 (D)資料連線用 UDP 連接埠 20"
+  },
+  {
+    "year": "112",
+    "num": 44,
+    "domain": "資訊管理與軟體工程",
+    "sub": "軟體工程與測試",
+    "difficulty": 2,
+    "content": "檢測系統安全與否一般會採用弱點掃描(簡稱弱掃)和滲透測試(簡稱滲透)，有關兩者差異比較 之敘述，下列何者有誤？ (A)弱掃較滲透更能發現未知漏洞 (B)弱掃採自動化工具，滲透採人工檢測 (C)執行弱掃之成本通常較滲透低 (D)執行弱掃之時機通常較滲透頻繁"
+  },
+  {
+    "year": "112",
+    "num": 45,
+    "domain": "網路通訊",
+    "sub": "訊號與編碼",
+    "difficulty": 3,
+    "content": "有關 Distance Vector(簡稱DV)與 Link State(簡稱LS)路由演算法兩者差異之敘述，下列何者有誤？ (A) DV 定期更新路由資訊，但 LS 則否 (B) RIPv2 路由協定採取 DV，OSPF 則採取 LS (C) LS 之路由資訊收斂較 DV 快 (D) DV 運行較 LS 需更大頻寬"
+  },
+  {
+    "year": "112",
+    "num": 46,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "有關路由器和第 3 層交換器(簡稱L3SW)之差異敘述，下列何者有誤？ (A)路由器的路由表規模較 L3SW 大 (B)兩者都支援 NAT and Tunneling (C)路由器支援 VPN，L3 Switch 則不支援 (D)路由器由軟體執行路由，L3SW 則由硬體執行"
+  },
+  {
+    "year": "112",
+    "num": 47,
+    "domain": "網路通訊",
+    "sub": "IP定址",
+    "difficulty": 2,
+    "content": "CIDR(Classless Inter-Domain Routing)是一種 IP 地址分配方法，下列敘述何者有誤？ (A) CIDR 標記 172.16.0.0 / 12 是 IPv4 Class B 的私有 IP 範圍 (B) CIDR 可提高網際網路上的資料路由效率 (C) CIDR 標記 192.168.1.1 / 25 的子網路遮罩是 255.255.255.192 (D) CIDR 可減少 IP 位址浪費"
+  },
+  {
+    "year": "112",
+    "num": 48,
+    "domain": "計算機概論(其他)",
+    "sub": "綜合概念",
+    "difficulty": 2,
+    "content": "下列何者為輕量型目錄存取通訊協定(LDAP)預設使用之連接埠？ (A) 290 (B) 289 (C)390 (D) 389"
+  },
+  {
+    "year": "112",
+    "num": 49,
+    "domain": "網路通訊",
+    "sub": "應用層協定",
+    "difficulty": 2,
+    "content": "tracert 或 traceroute 指令常利用於網路診斷，下列何者為前述指令採用之協定？ (A) ICMP (B) SNMP (C)SMTP (D) DHCP"
+  },
+  {
+    "year": "112",
+    "num": 50,
+    "domain": "網路通訊",
+    "sub": "LAN/無線技術",
+    "difficulty": 2,
+    "content": "ZigBee 與 Bluetooth 皆屬近距離的無線網路技術，下列敘述何者正確？ (A)兩者都是基於 IEEE 802.15.4 標準 (B) ZigBee 的傳輸速率較 Bluetooth 快 (C) ZigBee 的成本較 Bluetooth 高 (D) ZigBee 的功耗較 Bluetooth 低"
+  }
+]
