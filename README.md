@@ -124,6 +124,29 @@ antigravity/
 
 ---
 
+## 🧠 專案決策與分類邏輯 (Project Decisions & Usage Logic)
+
+為保持專案結構清晰，所有的額外紀錄、分類決策與統計報告依循以下**使用邏輯**：
+
+1. **決策文件**：維持依附在各科目的資源資料夾下，不動搖原始結構。
+2. **分析與統計報告**（包含**關鍵字提取報告**）：統一集中放置於各科目專屬的 `exam_resources/analysis_reports/` 資料夾內。
+3. **本機紀錄**：與 AI 的對話紀錄及暫存筆記（位於 `local_only/` 資料夾）已寫入 `.gitignore`，不會推送到遠端 Git 儲存庫，暫時保留不動。
+
+### 📌 核心決策文件 (Classification Proposals)
+*記錄了考題分類的邏輯與跨考科調整原因（例如資管的資安題挪到網路安全）*
+- 📖 [資訊安全分類提案](information_security/exam_resources/classification_proposal.md) (定義了 8 大資安分類)
+- 📖 [資料結構分類提案](data_structure/exam_resources/classification_proposal.md)
+- 📖 [資料庫應用分類報告](database_application/essay_guides/classification_report.md)
+
+### 📊 各科分析、統計與關鍵字報告資料夾 (Analysis & Keyword Reports)
+*各科的綜合分析、趨勢統計以及 jieba 關鍵字報告皆統一收錄於此*
+- 📂 [資訊管理 - 分析與關鍵字報告區](information_management/exam_resources/analysis_reports/)
+- 📂 [資通網路與安全 - 分析報告區](information_security/exam_resources/analysis_reports/)
+- 📂 [資料庫應用 - 分析與關鍵字報告區](database_application/exam_resources/analysis_reports/)
+- 📂 [資料結構 - 分析與統計報告區](data_structure/exam_resources/analysis_reports/)
+
+---
+
 ## 🔧 共用資源
 
 ### 工具腳本
